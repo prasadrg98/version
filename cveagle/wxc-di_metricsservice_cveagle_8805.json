@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-metrics-service",
-    "generatedAt": "2026-01-20T21:01:53+0530",
+    "generatedAt": "2026-02-13T18:39:34+0530",
     "depsGraphName": "wxc-di_metricsservice_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -8,434 +8,6 @@
         "https://plugins.gradle.org/m2/"
     ],
     "dependenciesByName": {
-        "jackson-annotations": [
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-annotations",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
-                "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
-                ],
-                "topLevelParents": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6"
-                ],
-                "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-annotations:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-annotations",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.17.2"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.17.2"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    ":ucmgmt-metrics-service-webapp"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-annotations",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
-                "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
-                ],
-                "topLevelParents": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6"
-                ],
-                "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-annotations:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-annotations",
-                "version": "2.9.10",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.9.10",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8 -> com.fasterxml.jackson.core:jackson-annotations:2.9.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-annotations",
-                "version": "2.9.10",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.9.10",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8 -> com.fasterxml.jackson.core:jackson-annotations:2.9.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "jackson-core": [
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-core",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.17.2",
-                "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
-                ],
-                "topLevelParents": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6"
-                ],
-                "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-core:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-core",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.17.2",
-                "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
-                ],
-                "topLevelParents": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6"
-                ],
-                "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-core:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-core",
-                "version": "2.9.10",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.9.10",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8 -> com.fasterxml.jackson.core:jackson-core:2.9.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-core",
-                "version": "2.9.10",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.9.10",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8 -> com.fasterxml.jackson.core:jackson-core:2.9.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "jackson-databind": [
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-databind",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
-                "parents": [
-                    "com.datastax.oss:java-driver-core:4.14.1"
-                ],
-                "topLevelParents": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6"
-                ],
-                "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-databind",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.17.2"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.17.2"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    ":ucmgmt-metrics-service-webapp"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-databind",
-                "version": "2.17.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
-                "parents": [
-                    "com.datastax.oss:java-driver-core:4.14.1"
-                ],
-                "topLevelParents": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6"
-                ],
-                "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-databind",
-                "version": "2.9.10.8",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.9.10.8",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-databind",
-                "version": "2.9.10.8",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.9.10.8",
-                "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "declaredDirectProjects": [
-                    ":org_registration_library"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "name": "jackson-databind",
-                "version": "2.9.10.8",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.9.10.8",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "slf4j-api": [
-            {
-                "group": "org.slf4j",
-                "name": "slf4j-api",
-                "version": "1.7.30",
-                "coordinates": "org.slf4j:slf4j-api:1.7.30",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.slf4j",
-                "name": "slf4j-api",
-                "version": "1.7.30",
-                "coordinates": "org.slf4j:slf4j-api:1.7.30",
-                "parents": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "declaredDirectProjects": [
-                    ":org_registration_library"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.slf4j",
-                "name": "slf4j-api",
-                "version": "1.7.30",
-                "coordinates": "org.slf4j:slf4j-api:1.7.30",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.30"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.slf4j",
-                "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
-                "parents": [
-                    "org.slf4j:jcl-over-slf4j:1.7.32"
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.32 -> org.slf4j:slf4j-api:1.7.36"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.slf4j",
-                "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
-                "parents": [
-                    "org.slf4j:slf4j-api:1.7.36"
-                ],
-                "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.36"
-                ],
-                "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.36"
-                ],
-                "declaredDirectProjects": [
-                    ":ucmgmt-metrics-service-webapp"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.slf4j",
-                "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
-                "parents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.slf4j:slf4j-api:1.7.36"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "antlr": [
             {
                 "group": "antlr",
@@ -17912,48 +17484,6 @@
                 "resolved": true
             }
         ],
-        "org_registration_library": [
-            {
-                "group": "com.cisco.collab",
-                "name": "org_registration_library",
-                "version": "1.0.0",
-                "coordinates": "com.cisco.collab:org_registration_library:1.0.0",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab:org_registration_library:1.0.0"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab:org_registration_library:1.0.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.cisco.collab",
-                "name": "org_registration_library",
-                "version": "1.0.0",
-                "coordinates": "com.cisco.collab:org_registration_library:1.0.0",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab:org_registration_library:1.0.0"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab:org_registration_library:1.0.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "java-driver-core": [
             {
                 "group": "com.datastax.oss",
@@ -18142,6 +17672,172 @@
                 "resolved": true
             }
         ],
+        "jackson-annotations": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-annotations",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-annotations:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-annotations",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.17.2"
+                ],
+                "topLevelParents": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.17.2"
+                ],
+                "hierarchies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-metrics-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-annotations",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-annotations:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "jackson-core": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-core",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-core:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-core",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.17.2 -> com.fasterxml.jackson.core:jackson-core:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "jackson-databind": [
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-databind",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
+                "parents": [
+                    "com.datastax.oss:java-driver-core:4.14.1"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-databind",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.core:jackson-databind:2.17.2"
+                ],
+                "topLevelParents": [
+                    "com.fasterxml.jackson.core:jackson-databind:2.17.2"
+                ],
+                "hierarchies": [
+                    "com.fasterxml.jackson.core:jackson-databind:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-metrics-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.core",
+                "name": "jackson-databind",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
+                "parents": [
+                    "com.datastax.oss:java-driver-core:4.14.1"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "jackson-dataformat-cbor": [
             {
                 "group": "com.fasterxml.jackson.dataformat",
@@ -18176,6 +17872,68 @@
                 ],
                 "hierarchies": [
                     "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "jackson-dataformat-yaml": [
+            {
+                "group": "com.fasterxml.jackson.dataformat",
+                "name": "jackson-dataformat-yaml",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson:jackson-bom:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.dataformat",
+                "name": "jackson-dataformat-yaml",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+                ],
+                "topLevelParents": [
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+                ],
+                "hierarchies": [
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-metrics-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.fasterxml.jackson.dataformat",
+                "name": "jackson-dataformat-yaml",
+                "version": "2.17.2",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2",
+                "parents": [
+                    "com.fasterxml.jackson:jackson-bom:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26140,6 +25898,68 @@
                 "resolved": true
             }
         ],
+        "slf4j-api": [
+            {
+                "group": "org.slf4j",
+                "name": "slf4j-api",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "parents": [
+                    "org.slf4j:jcl-over-slf4j:1.7.32"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.32 -> org.slf4j:slf4j-api:1.7.36"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.slf4j",
+                "name": "slf4j-api",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "parents": [
+                    "org.slf4j:slf4j-api:1.7.36"
+                ],
+                "topLevelParents": [
+                    "org.slf4j:slf4j-api:1.7.36"
+                ],
+                "hierarchies": [
+                    "org.slf4j:slf4j-api:1.7.36"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-metrics-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "org.slf4j",
+                "name": "slf4j-api",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "parents": [
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
+                ],
+                "topLevelParents": [
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
+                ],
+                "hierarchies": [
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.slf4j:slf4j-api:1.7.36"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "spring-data-cassandra": [
             {
                 "group": "org.springframework.data",
@@ -26944,6 +26764,48 @@
                 ],
                 "hierarchies": [
                     "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.2.3 -> org.xerial.snappy:snappy-java:1.1.8.4"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "snakeyaml": [
+            {
+                "group": "org.yaml",
+                "name": "snakeyaml",
+                "version": "2.2",
+                "coordinates": "org.yaml:snakeyaml:2.2",
+                "parents": [
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2 -> org.yaml:snakeyaml:2.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.yaml",
+                "name": "snakeyaml",
+                "version": "2.2",
+                "coordinates": "org.yaml:snakeyaml:2.2",
+                "parents": [
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6"
+                ],
+                "hierarchies": [
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.17.2 -> com.fasterxml.jackson:jackson-bom:2.17.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2 -> org.yaml:snakeyaml:2.2"
                 ],
                 "declaredDirectProjects": [
                     
