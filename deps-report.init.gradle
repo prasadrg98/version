@@ -1,0 +1,432 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+import org.gradle.api.artifacts.ExternalModuleDependency
+import org.gradle.api.artifacts.result.ResolvedDependencyResult
+
+import java.net.HttpURLConnection
+import java.net.URLEncoder
+
+// ----------------- helpers -----------------
+
+def sanitizeName(String s) {
+    if (s == null || s.trim().isEmpty()) return "unnamed"
+    // keep it S3/object-key friendly
+    return s.trim().replaceAll(/[^a-zA-Z0-9._-]/, "_")
+}
+
+def httpGetText(String urlStr, int timeoutMs = 15000) {
+    URL url = new URL(urlStr)
+    HttpURLConnection conn = (HttpURLConnection) url.openConnection()
+    conn.setRequestMethod("GET")
+    conn.setConnectTimeout(timeoutMs)
+    conn.setReadTimeout(timeoutMs)
+
+    int code = conn.responseCode
+    if (!(code >= 200 && code < 300)) {
+        String body = (conn.errorStream != null) ? conn.errorStream.getText("UTF-8") : ""
+        throw new RuntimeException("HTTP ${code} from ${urlStr}: ${body}")
+    }
+    return conn.inputStream.getText("UTF-8")
+}
+
+def httpPutFile(String putUrl, File file, String contentType = "application/json", int timeoutMs = 30000) {
+    // Helper function to try a specific HTTP method
+    def tryHttpMethod = { String method ->
+        URL url = new URL(putUrl)
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection()
+        conn.setRequestMethod(method)
+        conn.setConnectTimeout(timeoutMs)
+        conn.setReadTimeout(timeoutMs)
+        conn.setDoOutput(true)
+        conn.setRequestProperty("Content-Type", contentType)
+
+        file.withInputStream { fis ->
+            conn.outputStream.withCloseable { os ->
+                os << fis
+            }
+        }
+
+        int code = conn.responseCode
+        if (code >= 200 && code < 300) {
+            return code
+        } else {
+            String body = (conn.errorStream != null) ? conn.errorStream.getText("UTF-8") : ""
+            return [code: code, error: body, method: method]
+        }
+    }
+
+    // Try PUT first
+    def putResult = tryHttpMethod("PUT")
+    if (putResult instanceof Integer) {
+        return putResult
+    }
+
+    // If PUT failed, try POST
+    def postResult = tryHttpMethod("POST")
+    if (postResult instanceof Integer) {
+        return postResult
+    }
+
+    // Both methods failed, throw exception with details from both attempts
+    throw new RuntimeException("PUT failed HTTP ${putResult.code}: ${putResult.error}; POST failed HTTP ${postResult.code}: ${postResult.error}")
+}
+
+def httpPostFormFile(String postUrl, File file, String fieldName, int timeoutMs = 30000) {
+    def boundary = "----FormBoundary" + UUID.randomUUID().toString().replaceAll("-", "")
+    def CRLF = "\r\n"
+    
+    URL url = new URL(postUrl)
+    HttpURLConnection conn = (HttpURLConnection) url.openConnection()
+    conn.setRequestMethod("POST")
+    conn.setConnectTimeout(timeoutMs)
+    conn.setReadTimeout(timeoutMs)
+    conn.setDoOutput(true)
+    conn.setRequestProperty("Content-Type", "multipart/form-data; boundary=" + boundary)
+
+    conn.outputStream.withCloseable { os ->
+        // Write file part
+        os.write("--${boundary}${CRLF}".getBytes("UTF-8"))
+        os.write("Content-Disposition: form-data; name=\"${fieldName}\"; filename=\"${file.name}\"${CRLF}".getBytes("UTF-8"))
+        os.write("Content-Type: application/json${CRLF}".getBytes("UTF-8"))
+        os.write("${CRLF}".getBytes("UTF-8"))
+        
+        // Write file content
+        file.withInputStream { fis ->
+            byte[] buffer = new byte[8192]
+            int bytesRead
+            while ((bytesRead = fis.read(buffer)) != -1) {
+                os.write(buffer, 0, bytesRead)
+            }
+        }
+        
+        // Write closing boundary
+        os.write("${CRLF}--${boundary}--${CRLF}".getBytes("UTF-8"))
+    }
+
+    int code = conn.responseCode
+    if (!(code >= 200 && code < 300)) {
+        String body = (conn.errorStream != null) ? conn.errorStream.getText("UTF-8") : ""
+        throw new RuntimeException("POST failed HTTP ${code}: ${body}")
+    }
+    return code
+}
+
+def collectBuildscriptRepositoryUrls(rootProject) {
+    def urls = [] as Set
+    rootProject.allprojects.each { p ->
+        p.buildscript.repositories.each { repo ->
+            if (repo.hasProperty("url") && repo.url != null) {
+                urls.add(repo.url.toString())
+            }
+        }
+    }
+    return urls.toList().sort()
+}
+
+/**
+ * Hackathon stub:
+ * Calls a presign service that returns JSON like:
+ *   { "putUrl": "https://s3...." , "objectKey": "deps-graphs/.../latest.json" }
+ *
+ * You can replace this endpoint later with your real presign service.
+ */
+def getPresignedPutUrl(String presignEndpoint, String objectKey, String projectName) {
+    def respText = httpGetText(presignEndpoint)
+    def parsed = new JsonSlurper().parseText(respText)
+    if (!parsed.putUrl) {
+        throw new RuntimeException("presign response missing putUrl: ${respText}")
+    }
+    return parsed
+}
+
+// ----------------- dependency graph logic -----------------
+
+def buildFlatDependencyList(ResolvedDependencyResult dep,
+                            String parentCoordinates,
+                            String topLevelParent,
+                            String hierarchyPath,
+                            Map<String, Object> dependencyMap,
+                            Map<String, Boolean> visited,
+                            Set<String> declaredDirectGAs,
+                            String projectPath) {
+
+    def mv = dep.selected.moduleVersion
+    def coordinates = "${mv.group}:${mv.name}:${mv.version}"
+    def ga = "${mv.group}:${mv.name}"
+
+    if (hierarchyPath?.contains(coordinates)) return
+
+    def currentHierarchy = (hierarchyPath == null || hierarchyPath.isEmpty())
+            ? coordinates
+            : "${hierarchyPath} -> ${coordinates}"
+
+    def depEntry = dependencyMap.get(coordinates)
+    if (depEntry == null) {
+        depEntry = [
+                group                 : mv.group,
+                name                  : mv.name,
+                version               : mv.version,
+                coordinates           : coordinates,
+                parents               : ([] as Set),
+                topLevelParents       : ([] as Set),
+                hierarchies           : ([] as Set),
+                declaredDirectProjects: ([] as Set)
+        ]
+        dependencyMap[coordinates] = depEntry
+    }
+
+    if (parentCoordinates != null) depEntry.parents.add(parentCoordinates)
+    depEntry.topLevelParents.add(topLevelParent)
+
+    depEntry.hierarchies.add(currentHierarchy)
+
+    // Mark direct declarations
+    if (declaredDirectGAs != null && declaredDirectGAs.contains(ga)) {
+        depEntry.declaredDirectProjects.add(projectPath)
+        depEntry.parents.add("PROJECT:${projectPath}")
+        depEntry.topLevelParents.add(coordinates)
+        depEntry.hierarchies.add("PROJECT:${projectPath} -> ${coordinates}")
+    }
+
+    def uniqueKey = parentCoordinates ? "${coordinates}|${parentCoordinates}" : coordinates
+    if (visited.containsKey(uniqueKey)) return
+    visited[uniqueKey] = true
+
+    dep.selected.dependencies.each { child ->
+        if (child instanceof ResolvedDependencyResult) {
+            buildFlatDependencyList(child as ResolvedDependencyResult,
+                    coordinates, topLevelParent, currentHierarchy,
+                    dependencyMap, visited, declaredDirectGAs, projectPath)
+        }
+    }
+}
+
+def collectDeclaredDirectDependencies(cfg) {
+    def depsByGA = [:] as Map<String, ExternalModuleDependency>
+    cfg.allDependencies.each { d ->
+        if (d instanceof ExternalModuleDependency && d.group && d.name) {
+            def ga = "${d.group}:${d.name}"
+            def existing = depsByGA[ga]
+            if (existing == null || (!existing.version && d.version)) {
+                depsByGA[ga] = d
+            }
+        }
+    }
+    return depsByGA
+}
+
+def generateForProjectAndConfig(project, configName, Set<String> directAddedGAs) {
+    def cfg = project.configurations.findByName(configName)
+    if (cfg == null) return null
+    if (!cfg.canBeResolved) return null
+
+    // Get declared direct dependencies
+    def declaredDirectGAs = [] as Set
+    cfg.dependencies.each { d ->
+        if (d instanceof ExternalModuleDependency) {
+            if (d.group && d.name) {
+                declaredDirectGAs.add("${d.group}:${d.name}")
+            }
+        }
+    }
+
+    def declaredDirectDepsByGA = collectDeclaredDirectDependencies(cfg)
+
+    def dependencyMap = [:] as Map<String, Object>
+    def visited = [:] as Map<String, Boolean>
+
+    cfg.incoming.resolutionResult.root.dependencies.each { dep ->
+        if (dep instanceof ResolvedDependencyResult) {
+            def mv = dep.selected.moduleVersion
+            def topLevel = "${mv.group}:${mv.name}:${mv.version}"
+            buildFlatDependencyList(dep as ResolvedDependencyResult, null, topLevel, "", dependencyMap, visited, declaredDirectGAs, project.path)
+        }
+    }
+
+    // Add unresolved declared direct dependencies
+    cfg.dependencies.each { d ->
+        if (d instanceof ExternalModuleDependency) {
+            if (d.group && d.name) {
+                def version = d.version ?: "unknown"
+                def coordinates = "${d.group}:${d.name}:${version}"
+
+                if (!dependencyMap.containsKey(coordinates)) {
+                    def depEntry = [
+                            group                 : d.group,
+                            name                  : d.name,
+                            version               : version,
+                            coordinates           : coordinates,
+                            parents               : ([] as Set),
+                            topLevelParents       : ([] as Set),
+                            hierarchies           : (["DIRECT_DECLARATION"] as Set),
+                            declaredDirectProjects: ([project.path] as Set),
+                            isDirectDeclared      : true,
+                            resolved              : false
+                    ]
+                    dependencyMap[coordinates] = depEntry
+                }
+            }
+        }
+    }
+
+    // Add a synthetic entry for each direct declaration so it appears as its own reference.
+    def resolvedByGA = [:] as Map<String, List<Map>>
+    dependencyMap.values().each { entry ->
+        def e = entry as Map
+        def gaKey = "${e.group}:${e.name}"
+        if (!resolvedByGA.containsKey(gaKey)) {
+            resolvedByGA[gaKey] = []
+        }
+        resolvedByGA[gaKey].add(e)
+    }
+
+    def directEntries = []
+    if (directAddedGAs == null) {
+        directAddedGAs = [] as Set
+    }
+
+    declaredDirectDepsByGA.each { gaKey, d ->
+        if (directAddedGAs.contains(gaKey)) return
+
+        def candidates = resolvedByGA[gaKey] ?: []
+        def resolvedEntry = null
+        if (!candidates.isEmpty() && d.version) {
+            resolvedEntry = candidates.find { it.version == d.version }
+        }
+        if (resolvedEntry == null && !candidates.isEmpty()) {
+            resolvedEntry = candidates[0]
+        }
+
+        def version = resolvedEntry ? resolvedEntry.version : (d.version ?: "unknown")
+        def coordinates = "${d.group}:${d.name}:${version}"
+
+        directEntries.add([
+                group                 : d.group,
+                name                  : d.name,
+                version               : version,
+                coordinates           : coordinates,
+                parents               : [coordinates],
+                topLevelParents       : [coordinates],
+                hierarchies           : [coordinates],
+                declaredDirectProjects: [project.path],
+                declaredDirect        : true,
+                resolved              : (resolvedEntry != null)
+        ])
+
+        directAddedGAs.add(gaKey)
+    }
+
+    def depsList = dependencyMap.values().collect { entry ->
+        def e = entry as Map
+        [
+                group                 : e.group,
+                name                  : e.name,
+                version               : e.version,
+                coordinates           : e.coordinates,
+                parents               : (e.parents as Set).toList().sort(),
+                topLevelParents       : (e.topLevelParents as Set).toList().sort(),
+                hierarchies           : (e.hierarchies as Set).toList().sort(),
+                declaredDirectProjects: (e.declaredDirectProjects as Set)?.toList()?.sort() ?: [],
+                declaredDirect        : ((e.declaredDirectProjects as Set)?.size() ?: 0) > 0,
+                resolved              : (e.resolved != false)
+        ]
+    }
+    depsList.addAll(directEntries)
+    depsList = depsList.sort { a, b -> a.coordinates <=> b.coordinates }
+
+    return [
+            projectPath  : project.path,
+            configuration: configName,
+            dependencies : depsList
+    ]
+}
+
+// ----------------- task injection -----------------
+
+gradle.projectsEvaluated {
+    def root = gradle.rootProject
+
+    if (root.tasks.findByName("jsonDependencyReport") != null) {
+        println "[deps-report.init] Task jsonDependencyReport already exists; init script will not override it."
+        return
+    }
+
+    root.tasks.create("jsonDependencyReport") {
+        group = "Reporting"
+        description = "Generates a combined dependency JSON report across all projects (injected via init script)."
+
+        doLast {
+            // ---- naming convention ----
+            def rawName = (root.findProperty("depsGraphName") ?: System.getenv("DEPS_GRAPH_NAME") ?: root.name)?.toString()
+            def name = sanitizeName(rawName)
+
+            def outputFile = new File(root.buildDir, "reports/${name}.json")
+            outputFile.parentFile.mkdirs()
+
+            def projectsOut = []
+            root.allprojects.each { p ->
+                def directAddedGAs = [] as Set
+                ["runtimeClasspath", "compileClasspath"].each { cfgName ->
+                    try {
+                        def one = generateForProjectAndConfig(p, cfgName, directAddedGAs)
+                        if (one != null && one.dependencies != null && !one.dependencies.isEmpty()) {
+                            projectsOut.add(one)
+                        }
+                    } catch (Throwable t) {
+                        println "[deps-report.init] WARN: ${p.path} ${cfgName} failed: ${t.class.simpleName}: ${t.message}"
+                    }
+                }
+            }
+
+            // Group dependencies by library name
+            def depsByName = [:].withDefault { [] }
+            projectsOut.each { proj ->
+                proj.dependencies.each { d ->
+                    depsByName[d.name].add(d)
+                }
+            }
+
+            // Sort each name bucket by coordinates
+            depsByName.keySet().each { k ->
+                depsByName[k] = (depsByName[k] as List).sort { a, b -> a.coordinates <=> b.coordinates }
+            }
+
+            def pluginRepositorySources = collectBuildscriptRepositoryUrls(root)
+
+            def report = [
+                    rootProject    : root.name,
+                    generatedAt    : new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                    depsGraphName  : name,
+                    pluginRepositorySources: pluginRepositorySources,
+                    dependenciesByName: depsByName
+            ]
+
+            outputFile.text = JsonOutput.prettyPrint(JsonOutput.toJson(report))
+            println "[deps-report.init] Report generated at: ${outputFile.absolutePath}"
+
+            def uploadEndpoint = "http://10.89.94.78:5000/api/upload-dependency-graph"
+
+            // Optional: only upload in CI
+            // def ciFlag = (System.getenv("CI") ?: "").toString().toLowerCase()
+            // def isCI = (ciFlag == "true" || ciFlag == "1" || ciFlag == "yes")
+
+            if (!uploadEndpoint) {
+                println "[deps-report.init] Upload skipped: no upload endpoint configured."
+                return
+            }
+            // if (!isCI) {
+            //     println "[deps-report.init] Upload skipped: not running in CI (set CI=true to enable)."
+            //     return
+            // }
+
+            try {
+                println "[deps-report.init] Uploading file as form data to: ${uploadEndpoint}"
+                httpPostFormFile(uploadEndpoint, outputFile, "file")
+                println "[deps-report.init] Upload successful."
+            } catch (Throwable t) {
+                // Do not fail the build
+                println "[deps-report.init] WARN: upload failed: ${t.class.simpleName}: ${t.message}"
+            }
+        }
+    }
+}
