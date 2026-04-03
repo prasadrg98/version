@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-metrics-service",
-    "generatedAt": "2026-03-13T09:29:48+0530",
+    "generatedAt": "2026-04-03T18:30:43+0530",
     "depsGraphName": "wxc-di_metricsservice_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
