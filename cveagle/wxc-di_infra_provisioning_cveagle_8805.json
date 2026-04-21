@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-04-03T18:36:16+0530",
+    "generatedAt": "2026-04-21T19:27:06+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -83,6 +83,130 @@
                 ],
                 "hierarchies": [
                     "com.hubspot.jinjava:jinjava:2.7.2 -> ch.obermuhlner:big-math:2.0.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "logback-classic": [
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-classic",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "parents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-classic",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "parents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-infra-provisioning-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-classic",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "logback-core": [
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-core",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "parents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-core",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "parents": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-infra-provisioning-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-core",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-core:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17735,6 +17859,68 @@
                 "resolved": true
             }
         ],
+        "logger-library": [
+            {
+                "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
+                "name": "logger-library",
+                "version": "1.0.5",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
+                "name": "logger-library",
+                "version": "1.0.5",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "parents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-infra-provisioning-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
+                "name": "logger-library",
+                "version": "1.0.5",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "jackson-annotations": [
             {
                 "group": "com.fasterxml.jackson.core",
@@ -18339,6 +18525,28 @@
                 "resolved": true
             }
         ],
+        "zstd-jni": [
+            {
+                "group": "com.github.luben",
+                "name": "zstd-jni",
+                "version": "1.5.5-6",
+                "coordinates": "com.github.luben:zstd-jni:1.5.5-6",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.7.0 -> com.github.luben:zstd-jni:1.5.5-6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "jcip-annotations": [
             {
                 "group": "com.github.stephenc.jcip",
@@ -18512,13 +18720,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18532,13 +18740,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18554,13 +18762,13 @@
                 "version": "2.26.1",
                 "coordinates": "com.google.errorprone:error_prone_annotations:2.26.1",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18571,16 +18779,16 @@
             {
                 "group": "com.google.errorprone",
                 "name": "error_prone_annotations",
-                "version": "2.26.1",
-                "coordinates": "com.google.errorprone:error_prone_annotations:2.26.1",
+                "version": "2.38.0",
+                "coordinates": "com.google.errorprone:error_prone_annotations:2.38.0",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.38.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18596,13 +18804,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18616,13 +18824,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18635,8 +18843,8 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
@@ -18644,7 +18852,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18655,16 +18863,16 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "hierarchies": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -18675,8 +18883,8 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
@@ -18684,7 +18892,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18700,13 +18908,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18720,13 +18928,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20637,16 +20845,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-all:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-all:4.1.128.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20657,16 +20865,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-all:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-all:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -20677,16 +20885,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-all:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-all:4.1.128.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20699,16 +20907,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-buffer:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-buffer:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.122.Final"
+                    "io.netty:netty-transport:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final -> io.netty:netty-buffer:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final -> io.netty:netty-buffer:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20719,16 +20927,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-buffer:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-buffer:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.122.Final"
+                    "io.netty:netty-transport:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final -> io.netty:netty-buffer:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final -> io.netty:netty-buffer:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20741,16 +20949,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-dns",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-dns:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-dns:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns:4.1.122.Final"
+                    "io.netty:netty-resolver-dns:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-resolver-dns-native-macos:4.1.122.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.122.Final -> io.netty:netty-resolver-dns:4.1.122.Final -> io.netty:netty-codec-dns:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-resolver-dns-native-macos:4.1.128.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.128.Final -> io.netty:netty-resolver-dns:4.1.128.Final -> io.netty:netty-codec-dns:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20761,16 +20969,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-dns",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-dns:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-dns:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-dns:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-dns:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20783,16 +20991,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-haproxy",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-haproxy:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-haproxy:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-haproxy:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-haproxy:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20803,16 +21011,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-haproxy",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-haproxy:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-haproxy:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-haproxy:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-haproxy:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20825,16 +21033,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-http2:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-http2:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20845,16 +21053,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-http2:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-http2:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20867,16 +21075,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-http:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-http:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-codec-http2:4.1.122.Final"
+                    "io.netty:netty-codec-http2:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-http2:4.1.122.Final -> io.netty:netty-codec-http:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-http2:4.1.128.Final -> io.netty:netty-codec-http:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20887,16 +21095,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-http:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-http:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-http:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-http:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20909,16 +21117,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-memcache",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-memcache:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-memcache:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-memcache:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-memcache:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20929,16 +21137,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-memcache",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-memcache:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-memcache:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-memcache:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-memcache:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20951,16 +21159,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-mqtt",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-mqtt:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-mqtt:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-mqtt:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-mqtt:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20971,16 +21179,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-mqtt",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-mqtt:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-mqtt:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-mqtt:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-mqtt:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20993,16 +21201,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-redis",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-redis:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-redis:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-redis:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-redis:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21013,16 +21221,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-redis",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-redis:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-redis:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-redis:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-redis:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21035,16 +21243,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-smtp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-smtp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-smtp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-smtp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-smtp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21055,16 +21263,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-smtp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-smtp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-smtp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-smtp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-smtp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21077,16 +21285,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-socks:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-socks:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21097,16 +21305,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-socks:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-socks:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21119,16 +21327,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-stomp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-stomp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-stomp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-stomp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-stomp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21139,16 +21347,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-stomp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-stomp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-stomp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-stomp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-stomp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21161,16 +21369,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-xml",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-xml:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-xml:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-xml:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-xml:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21181,16 +21389,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-xml",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec-xml:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec-xml:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-codec-xml:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-codec-xml:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21203,16 +21411,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.1.122.Final"
+                    "io.netty:netty-handler:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.122.Final -> io.netty:netty-codec:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.128.Final -> io.netty:netty-codec:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21223,16 +21431,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-codec:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-codec:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.1.122.Final"
+                    "io.netty:netty-handler:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.122.Final -> io.netty:netty-codec:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.128.Final -> io.netty:netty-codec:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21245,16 +21453,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-common:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-common:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.1.122.Final"
+                    "io.netty:netty-resolver:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final -> io.netty:netty-resolver:4.1.122.Final -> io.netty:netty-common:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final -> io.netty:netty-resolver:4.1.128.Final -> io.netty:netty-common:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21265,16 +21473,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-common:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-common:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.1.122.Final"
+                    "io.netty:netty-resolver:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final -> io.netty:netty-resolver:4.1.122.Final -> io.netty:netty-common:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final -> io.netty:netty-resolver:4.1.128.Final -> io.netty:netty-common:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21287,16 +21495,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-handler-proxy:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-handler-proxy:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21307,16 +21515,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-handler-proxy:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-handler-proxy:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21329,16 +21537,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-ssl-ocsp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-handler-ssl-ocsp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-handler-ssl-ocsp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21349,16 +21557,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-ssl-ocsp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-handler-ssl-ocsp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-handler-ssl-ocsp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21371,8 +21579,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-handler:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-handler:4.1.128.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -21380,7 +21588,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21391,8 +21599,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-handler:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-handler:4.1.128.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -21400,7 +21608,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21413,16 +21621,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-classes-macos",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns-native-macos:4.1.122.Final"
+                    "io.netty:netty-resolver-dns-native-macos:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-resolver-dns-native-macos:4.1.122.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-resolver-dns-native-macos:4.1.128.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21433,16 +21641,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-classes-macos",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21455,16 +21663,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-native-macos",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver-dns-native-macos:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver-dns-native-macos:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-resolver-dns-native-macos:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-resolver-dns-native-macos:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21477,16 +21685,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver-dns:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver-dns:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns-classes-macos:4.1.122.Final"
+                    "io.netty:netty-resolver-dns-classes-macos:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-resolver-dns-native-macos:4.1.122.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.122.Final -> io.netty:netty-resolver-dns:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-resolver-dns-native-macos:4.1.128.Final -> io.netty:netty-resolver-dns-classes-macos:4.1.128.Final -> io.netty:netty-resolver-dns:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21497,16 +21705,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver-dns:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver-dns:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-resolver-dns:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-resolver-dns:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21519,16 +21727,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.122.Final"
+                    "io.netty:netty-transport:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final -> io.netty:netty-resolver:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final -> io.netty:netty-resolver:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21539,16 +21747,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-resolver:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-resolver:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.122.Final"
+                    "io.netty:netty-transport:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final -> io.netty:netty-resolver:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final -> io.netty:netty-resolver:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21561,16 +21769,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-epoll:4.1.122.Final"
+                    "io.netty:netty-transport-native-epoll:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-native-epoll:4.1.122.Final -> io.netty:netty-transport-classes-epoll:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-native-epoll:4.1.128.Final -> io.netty:netty-transport-classes-epoll:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21581,16 +21789,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-classes-epoll:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-classes-epoll:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21603,16 +21811,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-kqueue",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-classes-kqueue:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-classes-kqueue:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-kqueue:4.1.122.Final"
+                    "io.netty:netty-transport-native-kqueue:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-native-kqueue:4.1.122.Final -> io.netty:netty-transport-classes-kqueue:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-native-kqueue:4.1.128.Final -> io.netty:netty-transport-classes-kqueue:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21623,16 +21831,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-kqueue",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-classes-kqueue:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-classes-kqueue:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-classes-kqueue:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-classes-kqueue:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21645,16 +21853,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-epoll",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-native-epoll:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-native-epoll:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-native-epoll:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-native-epoll:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21667,16 +21875,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-kqueue",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-native-kqueue:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-native-kqueue:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-native-kqueue:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-native-kqueue:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21689,16 +21897,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.1.122.Final"
+                    "io.netty:netty-handler:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.122.Final -> io.netty:netty-transport-native-unix-common:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.128.Final -> io.netty:netty-transport-native-unix-common:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21709,16 +21917,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.1.122.Final"
+                    "io.netty:netty-handler:4.1.128.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.122.Final -> io.netty:netty-transport-native-unix-common:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.1.128.Final -> io.netty:netty-transport-native-unix-common:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21731,16 +21939,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-rxtx",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-rxtx:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-rxtx:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-rxtx:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-rxtx:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21751,16 +21959,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-rxtx",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-rxtx:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-rxtx:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-rxtx:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-rxtx:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21773,16 +21981,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-sctp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-sctp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-sctp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-sctp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-sctp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21793,16 +22001,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-sctp",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-sctp:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-sctp:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-sctp:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-sctp:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21815,16 +22023,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-udt",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-udt:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-udt:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-udt:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-udt:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21835,16 +22043,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-udt",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport-udt:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport-udt:4.1.128.Final",
                 "parents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.1.122.Final -> io.netty:netty-transport-udt:4.1.122.Final"
+                    "io.netty:netty-all:4.1.128.Final -> io.netty:netty-transport-udt:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21857,8 +22065,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport:4.1.128.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -21866,7 +22074,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21877,8 +22085,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.1.122.Final",
-                "coordinates": "io.netty:netty-transport:4.1.122.Final",
+                "version": "4.1.128.Final",
+                "coordinates": "io.netty:netty-transport:4.1.128.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -21886,7 +22094,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.122.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.1.128.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23191,20 +23399,82 @@
                 "resolved": true
             }
         ],
+        "kafka-clients": [
+            {
+                "group": "org.apache.kafka",
+                "name": "kafka-clients",
+                "version": "3.7.0",
+                "coordinates": "org.apache.kafka:kafka-clients:3.7.0",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.apache.kafka",
+                "name": "kafka-clients",
+                "version": "3.7.0",
+                "coordinates": "org.apache.kafka:kafka-clients:3.7.0",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-infra-provisioning-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "org.apache.kafka",
+                "name": "kafka-clients",
+                "version": "3.7.0",
+                "coordinates": "org.apache.kafka:kafka-clients:3.7.0",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "log4j-api": [
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-api",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-api:2.23.1",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-core:2.23.1"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-slf4j-impl:2.23.1 -> org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-api:2.23.1"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23215,16 +23485,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-api",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-api:2.23.1",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.23.1"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-api:2.23.1"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "hierarchies": [
-                    "org.apache.logging.log4j:log4j-api:2.23.1"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -23235,16 +23505,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-api",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-api:2.23.1",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-core:2.23.1"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.23.1 -> org.apache.logging.log4j:log4j-api:2.23.1"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23257,16 +23527,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-core",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-core:2.23.1",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
+                    "com.cisco.collab.aws-logging:aws-logging-core:1.1.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-slf4j-impl:2.23.1 -> org.apache.logging.log4j:log4j-core:2.23.1"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> com.cisco.collab.aws-logging:aws-logging-core:1.1.0 -> org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23277,16 +23547,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-core",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-core:2.23.1",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-core:2.23.1"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-core:2.23.1"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "hierarchies": [
-                    "org.apache.logging.log4j:log4j-core:2.23.1"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -23297,8 +23567,8 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-core",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-core:2.23.1",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.3",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
@@ -23306,69 +23576,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.23.1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "log4j-slf4j-impl": [
-            {
-                "group": "org.apache.logging.log4j",
-                "name": "log4j-slf4j-impl",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1",
-                "parents": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.apache.logging.log4j",
-                "name": "log4j-slf4j-impl",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1",
-                "parents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
-                ],
-                "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
-                ],
-                "hierarchies": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
-                ],
-                "declaredDirectProjects": [
-                    ":ucmgmt-infra-provisioning-webapp"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.apache.logging.log4j",
-                "name": "log4j-slf4j-impl",
-                "version": "2.23.1",
-                "coordinates": "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
-                ],
-                "hierarchies": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.23.1"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23592,13 +23800,13 @@
                 "version": "3.42.0",
                 "coordinates": "org.checkerframework:checker-qual:3.42.0",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> org.checkerframework:checker-qual:3.42.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23612,13 +23820,117 @@
                 "version": "3.49.3",
                 "coordinates": "org.checkerframework:checker-qual:3.49.3",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> org.checkerframework:checker-qual:3.49.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "commons-compiler": [
+            {
+                "group": "org.codehaus.janino",
+                "name": "commons-compiler",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:commons-compiler:3.1.6",
+                "parents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6 -> org.codehaus.janino:commons-compiler:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.codehaus.janino",
+                "name": "commons-compiler",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:commons-compiler:3.1.6",
+                "parents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6 -> org.codehaus.janino:commons-compiler:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "janino": [
+            {
+                "group": "org.codehaus.janino",
+                "name": "janino",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:janino:3.1.6",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.codehaus.janino",
+                "name": "janino",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:janino:3.1.6",
+                "parents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-infra-provisioning-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "org.codehaus.janino",
+                "name": "janino",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:janino:3.1.6",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25259,6 +25571,28 @@
                 "resolved": true
             }
         ],
+        "lz4-java": [
+            {
+                "group": "org.lz4",
+                "name": "lz4-java",
+                "version": "1.8.0",
+                "coordinates": "org.lz4:lz4-java:1.8.0",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.7.0 -> org.lz4:lz4-java:1.8.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "mockito-core": [
             {
                 "group": "org.mockito",
@@ -25683,8 +26017,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jcl-over-slf4j",
-                "version": "1.7.32",
-                "coordinates": "org.slf4j:jcl-over-slf4j:1.7.32",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:jcl-over-slf4j:1.7.36",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -25692,7 +26026,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.32"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25705,8 +26039,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jul-to-slf4j",
-                "version": "1.7.32",
-                "coordinates": "org.slf4j:jul-to-slf4j:1.7.32",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:jul-to-slf4j:1.7.36",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -25714,7 +26048,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:1.7.32"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25727,8 +26061,8 @@
             {
                 "group": "org.slf4j",
                 "name": "log4j-over-slf4j",
-                "version": "1.7.32",
-                "coordinates": "org.slf4j:log4j-over-slf4j:1.7.32",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:log4j-over-slf4j:1.7.36",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -25736,7 +26070,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:1.7.32"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25752,13 +26086,13 @@
                 "version": "1.7.36",
                 "coordinates": "org.slf4j:slf4j-api:1.7.36",
                 "parents": [
-                    "org.slf4j:jcl-over-slf4j:1.7.32"
+                    "org.slf4j:jcl-over-slf4j:1.7.36"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.32 -> org.slf4j:slf4j-api:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36 -> org.slf4j:slf4j-api:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26569,6 +26903,28 @@
                 ],
                 "hierarchies": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:5.3.34"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "snappy-java": [
+            {
+                "group": "org.xerial.snappy",
+                "name": "snappy-java",
+                "version": "1.1.10.5",
+                "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.7.0"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.7.0 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -28169,6 +28525,28 @@
                 "resolved": true
             }
         ],
+        "biz.aQute.bnd.annotation": [
+            {
+                "group": "biz.aQute.bnd",
+                "name": "biz.aQute.bnd.annotation",
+                "version": "7.1.0",
+                "coordinates": "biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0",
+                "parents": [
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "j2objc-annotations": [
             {
                 "group": "com.google.j2objc",
@@ -28176,13 +28554,123 @@
                 "version": "3.0.0",
                 "coordinates": "com.google.j2objc:j2objc-annotations:3.0.0",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "jspecify": [
+            {
+                "group": "org.jspecify",
+                "name": "jspecify",
+                "version": "1.0.0",
+                "coordinates": "org.jspecify:jspecify:1.0.0",
+                "parents": [
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> org.jspecify:jspecify:1.0.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "org.osgi.annotation.bundle": [
+            {
+                "group": "org.osgi",
+                "name": "org.osgi.annotation.bundle",
+                "version": "2.0.0",
+                "coordinates": "org.osgi:org.osgi.annotation.bundle:2.0.0",
+                "parents": [
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> org.osgi:org.osgi.annotation.bundle:2.0.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "org.osgi.annotation.versioning": [
+            {
+                "group": "org.osgi",
+                "name": "org.osgi.annotation.versioning",
+                "version": "1.1.2",
+                "coordinates": "org.osgi:org.osgi.annotation.versioning:1.1.2",
+                "parents": [
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> org.osgi:org.osgi.annotation.versioning:1.1.2"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "org.osgi.resource": [
+            {
+                "group": "org.osgi",
+                "name": "org.osgi.resource",
+                "version": "1.0.0",
+                "coordinates": "org.osgi:org.osgi.resource:1.0.0",
+                "parents": [
+                    "biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0 -> org.osgi:org.osgi.resource:1.0.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "org.osgi.service.serviceloader": [
+            {
+                "group": "org.osgi",
+                "name": "org.osgi.service.serviceloader",
+                "version": "1.0.0",
+                "coordinates": "org.osgi:org.osgi.service.serviceloader:1.0.0",
+                "parents": [
+                    "biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0 -> org.osgi:org.osgi.service.serviceloader:1.0.0"
                 ],
                 "declaredDirectProjects": [
                     
