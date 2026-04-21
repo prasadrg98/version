@@ -1,6 +1,6 @@
 {
     "rootProject": "manageability-service",
-    "generatedAt": "2026-04-03T18:32:48+0530",
+    "generatedAt": "2026-04-21T19:13:04+0000",
     "depsGraphName": "wxc-di_manageability_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -84,6 +84,130 @@
                 ],
                 "hierarchies": [
                     "com.hubspot.jinjava:jinjava:2.7.2 -> ch.obermuhlner:big-math:2.0.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "logback-classic": [
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-classic",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "parents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-classic",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "parents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    ":manageability-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-classic",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "logback-core": [
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-core",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "parents": [
+                    "ch.qos.logback:logback-classic:1.2.12"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-core",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "parents": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "declaredDirectProjects": [
+                    ":manageability-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "ch.qos.logback",
+                "name": "logback-core",
+                "version": "1.2.12",
+                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "ch.qos.logback:logback-core:1.2.12"
+                ],
+                "hierarchies": [
+                    "ch.qos.logback:logback-core:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17382,6 +17506,68 @@
                 "resolved": true
             }
         ],
+        "logger-library": [
+            {
+                "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
+                "name": "logger-library",
+                "version": "1.0.5",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
+                "name": "logger-library",
+                "version": "1.0.5",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "parents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "declaredDirectProjects": [
+                    ":manageability-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
+                "name": "logger-library",
+                "version": "1.0.5",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "audit-client": [
             {
                 "group": "com.cisco.collab.ucmgmt",
@@ -18052,16 +18238,16 @@
             {
                 "group": "com.github.luben",
                 "name": "zstd-jni",
-                "version": "1.5.2-1",
-                "coordinates": "com.github.luben:zstd-jni:1.5.2-1",
+                "version": "1.5.6-4",
+                "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.2.3"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.2.3 -> com.github.luben:zstd-jni:1.5.2-1"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18243,13 +18429,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18263,13 +18449,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.github.spotbugs:spotbugs-annotations:4.9.3"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.4.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> com.github.spotbugs:spotbugs-annotations:4.9.3 -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18285,13 +18471,13 @@
                 "version": "2.26.1",
                 "coordinates": "com.google.errorprone:error_prone_annotations:2.26.1",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18302,16 +18488,16 @@
             {
                 "group": "com.google.errorprone",
                 "name": "error_prone_annotations",
-                "version": "2.37.0",
-                "coordinates": "com.google.errorprone:error_prone_annotations:2.37.0",
+                "version": "2.38.0",
+                "coordinates": "com.google.errorprone:error_prone_annotations:2.38.0",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> com.google.errorprone:error_prone_annotations:2.37.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> com.google.errorprone:error_prone_annotations:2.38.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18327,13 +18513,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18347,13 +18533,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18366,8 +18552,8 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
@@ -18375,7 +18561,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18386,16 +18572,16 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "hierarchies": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -18406,8 +18592,8 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
@@ -18415,7 +18601,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18431,13 +18617,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18451,13 +18637,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21902,8 +22088,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.2.3",
-                "coordinates": "org.apache.kafka:kafka-clients:3.2.3",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
@@ -21911,7 +22097,7 @@
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.2.3"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21922,8 +22108,28 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.2.3",
-                "coordinates": "org.apache.kafka:kafka-clients:3.2.3",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "declaredDirectProjects": [
+                    ":manageability-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "org.apache.kafka",
+                "name": "kafka-clients",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
@@ -21931,7 +22137,7 @@
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.2.3"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21944,16 +22150,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-api",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.0",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-core:2.25.0"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-slf4j-impl:2.25.0 -> org.apache.logging.log4j:log4j-core:2.25.0 -> org.apache.logging.log4j:log4j-api:2.25.0"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21964,16 +22170,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-api",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.0",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "hierarchies": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -21984,8 +22190,8 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-api",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.0",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-api:2.25.3",
                 "parents": [
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
@@ -21993,7 +22199,7 @@
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22006,16 +22212,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-core",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.0",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
+                    "com.cisco.collab.aws-logging:aws-logging-core:1.1.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-slf4j-impl:2.25.0 -> org.apache.logging.log4j:log4j-core:2.25.0"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> com.cisco.collab.aws-logging:aws-logging-core:1.1.0 -> org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22026,16 +22232,16 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-core",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.0",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.3",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-core:2.25.0"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-core:2.25.0"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "hierarchies": [
-                    "org.apache.logging.log4j:log4j-core:2.25.0"
+                    "org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -22046,8 +22252,8 @@
             {
                 "group": "org.apache.logging.log4j",
                 "name": "log4j-core",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.0",
+                "version": "2.25.3",
+                "coordinates": "org.apache.logging.log4j:log4j-core:2.25.3",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
@@ -22055,69 +22261,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "log4j-slf4j-impl": [
-            {
-                "group": "org.apache.logging.log4j",
-                "name": "log4j-slf4j-impl",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0",
-                "parents": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.apache.logging.log4j",
-                "name": "log4j-slf4j-impl",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0",
-                "parents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
-                ],
-                "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
-                ],
-                "hierarchies": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
-                ],
-                "declaredDirectProjects": [
-                    ":manageability-service-webapp"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.apache.logging.log4j",
-                "name": "log4j-slf4j-impl",
-                "version": "2.25.0",
-                "coordinates": "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
-                ],
-                "hierarchies": [
-                    "org.apache.logging.log4j:log4j-slf4j-impl:2.25.0"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.logging.log4j:log4j-core:2.25.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22425,13 +22569,13 @@
                 "version": "3.42.0",
                 "coordinates": "org.checkerframework:checker-qual:3.42.0",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> org.checkerframework:checker-qual:3.42.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22445,13 +22589,117 @@
                 "version": "3.49.3",
                 "coordinates": "org.checkerframework:checker-qual:3.49.3",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> org.checkerframework:checker-qual:3.49.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "commons-compiler": [
+            {
+                "group": "org.codehaus.janino",
+                "name": "commons-compiler",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:commons-compiler:3.1.6",
+                "parents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6 -> org.codehaus.janino:commons-compiler:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.codehaus.janino",
+                "name": "commons-compiler",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:commons-compiler:3.1.6",
+                "parents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6 -> org.codehaus.janino:commons-compiler:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "janino": [
+            {
+                "group": "org.codehaus.janino",
+                "name": "janino",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:janino:3.1.6",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.codehaus.janino",
+                "name": "janino",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:janino:3.1.6",
+                "parents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "declaredDirectProjects": [
+                    ":manageability-service-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "org.codehaus.janino",
+                "name": "janino",
+                "version": "3.1.6",
+                "coordinates": "org.codehaus.janino:janino:3.1.6",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.codehaus.janino:janino:3.1.6"
+                ],
+                "hierarchies": [
+                    "org.codehaus.janino:janino:3.1.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24223,13 +24471,13 @@
                 "version": "1.8.0",
                 "coordinates": "org.lz4:lz4-java:1.8.0",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.2.3"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.2.3 -> org.lz4:lz4-java:1.8.0"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24556,8 +24804,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jcl-over-slf4j",
-                "version": "1.7.32",
-                "coordinates": "org.slf4j:jcl-over-slf4j:1.7.32",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:jcl-over-slf4j:1.7.36",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -24565,7 +24813,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.32"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24578,8 +24826,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jul-to-slf4j",
-                "version": "1.7.32",
-                "coordinates": "org.slf4j:jul-to-slf4j:1.7.32",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:jul-to-slf4j:1.7.36",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -24587,7 +24835,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:1.7.32"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24600,8 +24848,8 @@
             {
                 "group": "org.slf4j",
                 "name": "log4j-over-slf4j",
-                "version": "1.7.32",
-                "coordinates": "org.slf4j:log4j-over-slf4j:1.7.32",
+                "version": "1.7.36",
+                "coordinates": "org.slf4j:log4j-over-slf4j:1.7.36",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -24609,7 +24857,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:1.7.32"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24625,13 +24873,13 @@
                 "version": "1.7.36",
                 "coordinates": "org.slf4j:slf4j-api:1.7.36",
                 "parents": [
-                    "org.slf4j:jcl-over-slf4j:1.7.32"
+                    "org.slf4j:jcl-over-slf4j:1.7.36"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.32 -> org.slf4j:slf4j-api:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36 -> org.slf4j:slf4j-api:1.7.36"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25432,16 +25680,16 @@
             {
                 "group": "org.xerial.snappy",
                 "name": "snappy-java",
-                "version": "1.1.8.4",
-                "coordinates": "org.xerial.snappy:snappy-java:1.1.8.4",
+                "version": "1.1.10.5",
+                "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.2.3"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.2.3 -> org.xerial.snappy:snappy-java:1.1.8.4"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26927,57 +27175,13 @@
                 "version": "7.1.0",
                 "coordinates": "biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "spotbugs-annotations": [
-            {
-                "group": "com.github.spotbugs",
-                "name": "spotbugs-annotations",
-                "version": "4.9.3",
-                "coordinates": "com.github.spotbugs:spotbugs-annotations:4.9.3",
-                "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
-                ],
-                "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.4.0"
-                ],
-                "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> com.github.spotbugs:spotbugs-annotations:4.9.3"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "error_prone_type_annotations": [
-            {
-                "group": "com.google.errorprone",
-                "name": "error_prone_type_annotations",
-                "version": "2.37.0",
-                "coordinates": "com.google.errorprone:error_prone_type_annotations:2.37.0",
-                "parents": [
-                    "com.google.errorprone:error_prone_annotations:2.37.0"
-                ],
-                "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.4.0"
-                ],
-                "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> com.google.errorprone:error_prone_annotations:2.37.0 -> com.google.errorprone:error_prone_type_annotations:2.37.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26993,13 +27197,13 @@
                 "version": "3.0.0",
                 "coordinates": "com.google.j2objc:j2objc-annotations:3.0.0",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.1.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27015,13 +27219,13 @@
                 "version": "1.0.0",
                 "coordinates": "org.jspecify:jspecify:1.0.0",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> org.jspecify:jspecify:1.0.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> org.jspecify:jspecify:1.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27037,13 +27241,13 @@
                 "version": "2.0.0",
                 "coordinates": "org.osgi:org.osgi.annotation.bundle:2.0.0",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> org.osgi:org.osgi.annotation.bundle:2.0.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> org.osgi:org.osgi.annotation.bundle:2.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27059,13 +27263,13 @@
                 "version": "1.1.2",
                 "coordinates": "org.osgi:org.osgi.annotation.versioning:1.1.2",
                 "parents": [
-                    "org.apache.logging.log4j:log4j-api:2.25.0"
+                    "org.apache.logging.log4j:log4j-api:2.25.3"
                 ],
                 "topLevelParents": [
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> org.osgi:org.osgi.annotation.versioning:1.1.2"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> org.osgi:org.osgi.annotation.versioning:1.1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27087,7 +27291,7 @@
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0 -> org.osgi:org.osgi.resource:1.0.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0 -> org.osgi:org.osgi.resource:1.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27109,12 +27313,54 @@
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.0 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0 -> org.osgi:org.osgi.service.serviceloader:1.0.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0 -> org.osgi:org.osgi.service.serviceloader:1.0.0"
                 ],
                 "declaredDirectProjects": [
                     
                 ],
                 "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "lombok": [
+            {
+                "group": "org.projectlombok",
+                "name": "lombok",
+                "version": "1.18.36",
+                "coordinates": "org.projectlombok:lombok:1.18.36",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.projectlombok:lombok:1.18.36"
+                ],
+                "hierarchies": [
+                    "org.projectlombok:lombok:1.18.36"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.projectlombok",
+                "name": "lombok",
+                "version": "1.18.36",
+                "coordinates": "org.projectlombok:lombok:1.18.36",
+                "parents": [
+                    "org.projectlombok:lombok:1.18.36"
+                ],
+                "topLevelParents": [
+                    "org.projectlombok:lombok:1.18.36"
+                ],
+                "hierarchies": [
+                    "org.projectlombok:lombok:1.18.36"
+                ],
+                "declaredDirectProjects": [
+                    ":manageability-service-webapp"
+                ],
+                "declaredDirect": true,
                 "resolved": true
             }
         ]
