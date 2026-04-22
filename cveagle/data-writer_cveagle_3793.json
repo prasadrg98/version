@@ -1,6 +1,6 @@
 {
-    "rootProject": "data-writer",
-    "generatedAt": "2026-04-22T11:12:30+0530",
+    "rootProject": "workspace",
+    "generatedAt": "2026-04-22T06:23:57+0000",
     "depsGraphName": "data-writer_cveagle_3793",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -78,10 +78,10 @@
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -138,10 +138,10 @@
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -260,10 +260,10 @@
                     "ch.qos.logback:logback-classic:1.2.12"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -320,10 +320,10 @@
                     "ch.qos.logback:logback-classic:1.2.12"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -621,13 +621,13 @@
                 "version": "1.0.5",
                 "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -681,13 +681,13 @@
                 "version": "1.0.5",
                 "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3466,10 +3466,10 @@
                     "io.hypersistence:hypersistence-utils-hibernate-63:3.8.2"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2 -> io.hypersistence:hypersistence-tsid:2.1.1"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2 -> io.hypersistence:hypersistence-tsid:2.1.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3486,10 +3486,10 @@
                     "io.hypersistence:hypersistence-utils-hibernate-63:3.8.2"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2 -> io.hypersistence:hypersistence-tsid:2.1.1"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2 -> io.hypersistence:hypersistence-tsid:2.1.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3565,13 +3565,13 @@
                 "version": "3.8.2",
                 "coordinates": "io.hypersistence:hypersistence-utils-hibernate-63:3.8.2",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3585,13 +3585,13 @@
                 "version": "3.8.2",
                 "coordinates": "io.hypersistence:hypersistence-utils-hibernate-63:3.8.2",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> io.hypersistence:hypersistence-utils-hibernate-63:3.8.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8138,10 +8138,10 @@
                     "org.codehaus.janino:janino:3.1.12"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12 -> org.codehaus.janino:commons-compiler:3.1.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12 -> org.codehaus.janino:commons-compiler:3.1.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8178,10 +8178,10 @@
                     "org.codehaus.janino:janino:3.1.12"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12 -> org.codehaus.janino:commons-compiler:3.1.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12 -> org.codehaus.janino:commons-compiler:3.1.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8257,13 +8257,13 @@
                 "version": "3.1.12",
                 "coordinates": "org.codehaus.janino:janino:3.1.12",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8317,13 +8317,13 @@
                 "version": "3.1.12",
                 "coordinates": "org.codehaus.janino:janino:3.1.12",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> org.codehaus.janino:janino:3.1.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -14408,10 +14408,10 @@
                     "software.amazon.awssdk:ssm:2.30.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5 -> software.amazon.awssdk:aws-json-protocol:2.30.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5 -> software.amazon.awssdk:aws-json-protocol:2.30.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -14448,10 +14448,10 @@
                     "software.amazon.awssdk:ssm:2.30.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5 -> software.amazon.awssdk:aws-json-protocol:2.30.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5 -> software.amazon.awssdk:aws-json-protocol:2.30.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -14547,13 +14547,13 @@
                 "version": "2.30.5",
                 "coordinates": "software.amazon.awssdk:bom:2.30.5",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> software.amazon.awssdk:bom:2.30.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> software.amazon.awssdk:bom:2.30.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -14607,13 +14607,13 @@
                 "version": "2.30.5",
                 "coordinates": "software.amazon.awssdk:bom:2.30.5",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> software.amazon.awssdk:bom:2.30.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> software.amazon.awssdk:bom:2.30.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -16865,13 +16865,13 @@
                 "version": "2.30.5",
                 "coordinates": "software.amazon.awssdk:ssm:2.30.5",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -16925,13 +16925,13 @@
                 "version": "2.30.5",
                 "coordinates": "software.amazon.awssdk:ssm:2.30.5",
                 "parents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> software.amazon.awssdk:ssm:2.30.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19298,88 +19298,6 @@
                 "resolved": true
             }
         ],
-        "common-utils": [
-            {
-                "group": "com.cisco.collab.data-writer",
-                "name": "common-utils",
-                "version": "unspecified",
-                "coordinates": "com.cisco.collab.data-writer:common-utils:unspecified",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.cisco.collab.data-writer",
-                "name": "common-utils",
-                "version": "unspecified",
-                "coordinates": "com.cisco.collab.data-writer:common-utils:unspecified",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.cisco.collab.data-writer",
-                "name": "common-utils",
-                "version": "unspecified",
-                "coordinates": "com.cisco.collab.data-writer:common-utils:unspecified",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.cisco.collab.data-writer",
-                "name": "common-utils",
-                "version": "unspecified",
-                "coordinates": "com.cisco.collab.data-writer:common-utils:unspecified",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.data-writer:common-utils:unspecified"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "defaults4j": [
             {
                 "group": "com.cisco.collab.defaults4j",
@@ -19986,6 +19904,88 @@
                 ],
                 "hierarchies": [
                     "com.cisco.collab.token4j:token4j-machine:3.0.3"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "common-utils": [
+            {
+                "group": "com.cisco.collab.workspace",
+                "name": "common-utils",
+                "version": "unspecified",
+                "coordinates": "com.cisco.collab.workspace:common-utils:unspecified",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.workspace",
+                "name": "common-utils",
+                "version": "unspecified",
+                "coordinates": "com.cisco.collab.workspace:common-utils:unspecified",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.workspace",
+                "name": "common-utils",
+                "version": "unspecified",
+                "coordinates": "com.cisco.collab.workspace:common-utils:unspecified",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.cisco.collab.workspace",
+                "name": "common-utils",
+                "version": "unspecified",
+                "coordinates": "com.cisco.collab.workspace:common-utils:unspecified",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "declaredDirectProjects": [
                     
