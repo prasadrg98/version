@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-04-27T08:55:00+0000",
+    "generatedAt": "2026-04-27T10:00:34+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -25859,6 +25859,68 @@
                 ],
                 "hierarchies": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.cisco.collab.security:vault:1.38 -> org.json:json:20170516"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "jsoup": [
+            {
+                "group": "org.jsoup",
+                "name": "jsoup",
+                "version": "1.15.3",
+                "coordinates": "org.jsoup:jsoup:1.15.3",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.jsoup:jsoup:1.15.3"
+                ],
+                "hierarchies": [
+                    "org.jsoup:jsoup:1.15.3"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.jsoup",
+                "name": "jsoup",
+                "version": "1.15.3",
+                "coordinates": "org.jsoup:jsoup:1.15.3",
+                "parents": [
+                    "org.jsoup:jsoup:1.15.3"
+                ],
+                "topLevelParents": [
+                    "org.jsoup:jsoup:1.15.3"
+                ],
+                "hierarchies": [
+                    "org.jsoup:jsoup:1.15.3"
+                ],
+                "declaredDirectProjects": [
+                    ":ucmgmt-infra-provisioning-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "org.jsoup",
+                "name": "jsoup",
+                "version": "1.15.3",
+                "coordinates": "org.jsoup:jsoup:1.15.3",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "org.jsoup:jsoup:1.15.3"
+                ],
+                "hierarchies": [
+                    "org.jsoup:jsoup:1.15.3"
                 ],
                 "declaredDirectProjects": [
                     
