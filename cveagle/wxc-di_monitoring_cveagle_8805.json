@@ -1,6 +1,6 @@
 {
     "rootProject": "monitoring",
-    "generatedAt": "2026-04-30T06:31:13+0000",
+    "generatedAt": "2026-04-30T11:01:17+0000",
     "depsGraphName": "wxc-di_monitoring_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
