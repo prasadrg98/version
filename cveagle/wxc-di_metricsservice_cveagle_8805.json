@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-metrics-service",
-    "generatedAt": "2026-05-04T12:59:49+0000",
+    "generatedAt": "2026-05-04T15:54:18+0000",
     "depsGraphName": "wxc-di_metricsservice_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -25030,16 +25030,16 @@
             {
                 "group": "net.snowflake",
                 "name": "snowflake-jdbc",
-                "version": "4.0.1",
-                "coordinates": "net.snowflake:snowflake-jdbc:4.0.1",
+                "version": "3.20.0",
+                "coordinates": "net.snowflake:snowflake-jdbc:3.20.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "hierarchies": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25050,16 +25050,16 @@
             {
                 "group": "net.snowflake",
                 "name": "snowflake-jdbc",
-                "version": "4.0.1",
-                "coordinates": "net.snowflake:snowflake-jdbc:4.0.1",
+                "version": "3.20.0",
+                "coordinates": "net.snowflake:snowflake-jdbc:3.20.0",
                 "parents": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "topLevelParents": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "hierarchies": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-metrics-service-webapp"
@@ -25070,16 +25070,16 @@
             {
                 "group": "net.snowflake",
                 "name": "snowflake-jdbc",
-                "version": "4.0.1",
-                "coordinates": "net.snowflake:snowflake-jdbc:4.0.1",
+                "version": "3.20.0",
+                "coordinates": "net.snowflake:snowflake-jdbc:3.20.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "hierarchies": [
-                    "net.snowflake:snowflake-jdbc:4.0.1"
+                    "net.snowflake:snowflake-jdbc:3.20.0"
                 ],
                 "declaredDirectProjects": [
                     
