@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-05-05T05:50:13+0000",
+    "generatedAt": "2026-05-05T06:13:39+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -98,13 +98,13 @@
                 "version": "1.2.12",
                 "coordinates": "ch.qos.logback:logback-classic:1.2.12",
                 "parents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6 -> ch.qos.logback:logback-classic:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -163,10 +163,10 @@
                     "ch.qos.logback:logback-classic:1.2.12"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17863,16 +17863,16 @@
             {
                 "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
                 "name": "logger-library",
-                "version": "1.0.5",
-                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "version": "1.0.6",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17883,16 +17883,16 @@
             {
                 "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
                 "name": "logger-library",
-                "version": "1.0.5",
-                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "version": "1.0.6",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6",
                 "parents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -17903,16 +17903,16 @@
             {
                 "group": "com.cisco.collab.ucmgmt.ucmgmt-logger",
                 "name": "logger-library",
-                "version": "1.0.5",
-                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5",
+                "version": "1.0.6",
+                "coordinates": "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.6"
                 ],
                 "declaredDirectProjects": [
                     
