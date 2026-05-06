@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-05-06T05:44:09+0000",
+    "generatedAt": "2026-05-06T15:26:28+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -41,6 +41,28 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> antlr:antlr:2.7.7"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "lz4-java": [
+            {
+                "group": "at.yawk.lz4",
+                "name": "lz4-java",
+                "version": "1.10.1",
+                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18571,16 +18593,16 @@
             {
                 "group": "com.github.luben",
                 "name": "zstd-jni",
-                "version": "1.5.5-6",
-                "coordinates": "com.github.luben:zstd-jni:1.5.5-6",
+                "version": "1.5.6-4",
+                "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.7.0 -> com.github.luben:zstd-jni:1.5.5-6"
+                    "org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23825,16 +23847,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.7.0",
-                "coordinates": "org.apache.kafka:kafka-clients:3.7.0",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23845,16 +23867,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.7.0",
-                "coordinates": "org.apache.kafka:kafka-clients:3.7.0",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -23865,16 +23887,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.7.0",
-                "coordinates": "org.apache.kafka:kafka-clients:3.7.0",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26035,28 +26057,6 @@
                 "resolved": true
             }
         ],
-        "lz4-java": [
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.8.0",
-                "coordinates": "org.lz4:lz4-java:1.8.0",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
-                ],
-                "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
-                ],
-                "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.7.0 -> org.lz4:lz4-java:1.8.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "mockito-core": [
             {
                 "group": "org.mockito",
@@ -27382,13 +27382,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.7.0"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.7.0 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
