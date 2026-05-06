@@ -1,6 +1,6 @@
 {
     "rootProject": "manageability-service",
-    "generatedAt": "2026-05-06T14:50:56+0000",
+    "generatedAt": "2026-05-06T15:35:55+0000",
     "depsGraphName": "wxc-di_manageability_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -57,13 +57,13 @@
                 "version": "2.0.0",
                 "coordinates": "ch.obermuhlner:big-math:2.0.0",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> ch.obermuhlner:big-math:2.0.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> ch.obermuhlner:big-math:2.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -77,13 +77,13 @@
                 "version": "2.0.0",
                 "coordinates": "ch.obermuhlner:big-math:2.0.0",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> ch.obermuhlner:big-math:2.0.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> ch.obermuhlner:big-math:2.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17637,13 +17637,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17677,13 +17677,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17699,13 +17699,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-core:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-core:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17719,13 +17719,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-core:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-core:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17741,13 +17741,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
                 "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17781,13 +17781,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
                 "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17806,10 +17806,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17826,10 +17826,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17845,13 +17845,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17865,13 +17865,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17890,10 +17890,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17930,52 +17930,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "jackson-datatype-jdk8": [
-            {
-                "group": "com.fasterxml.jackson.datatype",
-                "name": "jackson-datatype-jdk8",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0",
-                "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.fasterxml.jackson.datatype",
-                "name": "jackson-datatype-jdk8",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0",
-                "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17994,10 +17952,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18034,10 +17992,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18056,10 +18014,10 @@
                     "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18076,10 +18034,10 @@
                     "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18098,10 +18056,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18138,10 +18096,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18160,10 +18118,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18180,10 +18138,10 @@
                     "com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18199,13 +18157,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18219,13 +18177,13 @@
                 "version": "2.19.0",
                 "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.0",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18389,13 +18347,13 @@
                 "version": "3.0.1",
                 "coordinates": "com.google.code.findbugs:annotations:3.0.1",
                 "parents": [
-                    "com.hubspot.immutables:immutables-exceptions:1.9"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutables-exceptions:1.9 -> com.google.code.findbugs:annotations:3.0.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.code.findbugs:annotations:3.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18409,13 +18367,13 @@
                 "version": "3.0.1",
                 "coordinates": "com.google.code.findbugs:annotations:3.0.1",
                 "parents": [
-                    "com.hubspot.immutables:immutables-exceptions:1.9"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutables-exceptions:1.9 -> com.google.code.findbugs:annotations:3.0.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.code.findbugs:annotations:3.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18471,13 +18429,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18491,13 +18449,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18510,16 +18468,16 @@
             {
                 "group": "com.google.errorprone",
                 "name": "error_prone_annotations",
-                "version": "2.28.0",
-                "coordinates": "com.google.errorprone:error_prone_annotations:2.28.0",
+                "version": "2.26.1",
+                "coordinates": "com.google.errorprone:error_prone_annotations:2.26.1",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.errorprone:error_prone_annotations:2.28.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18555,13 +18513,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18575,13 +18533,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18594,16 +18552,16 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.3.1-jre",
-                "coordinates": "com.google.guava:guava:33.3.1-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18614,16 +18572,16 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.3.1-jre",
-                "coordinates": "com.google.guava:guava:33.3.1-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "hierarchies": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -18634,16 +18592,16 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.3.1-jre",
-                "coordinates": "com.google.guava:guava:33.3.1-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18659,13 +18617,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18679,55 +18637,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "j2objc-annotations": [
-            {
-                "group": "com.google.j2objc",
-                "name": "j2objc-annotations",
-                "version": "3.0.0",
-                "coordinates": "com.google.j2objc:j2objc-annotations:3.0.0",
-                "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.google.j2objc",
-                "name": "j2objc-annotations",
-                "version": "3.0.0",
-                "coordinates": "com.google.j2objc:j2objc-annotations:3.0.0",
-                "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18743,13 +18659,13 @@
                 "version": "1.2",
                 "coordinates": "com.google.re2j:re2j:1.2",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.google.re2j:re2j:1.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.re2j:re2j:1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18763,13 +18679,13 @@
                 "version": "1.2",
                 "coordinates": "com.google.re2j:re2j:1.2",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.google.re2j:re2j:1.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.re2j:re2j:1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18785,13 +18701,13 @@
                 "version": "0.17",
                 "coordinates": "com.googlecode.java-ipv6:java-ipv6:0.17",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.googlecode.java-ipv6:java-ipv6:0.17"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.googlecode.java-ipv6:java-ipv6:0.17"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18805,139 +18721,13 @@
                 "version": "0.17",
                 "coordinates": "com.googlecode.java-ipv6:java-ipv6:0.17",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.googlecode.java-ipv6:java-ipv6:0.17"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "hubspot-style": [
-            {
-                "group": "com.hubspot.immutables",
-                "name": "hubspot-style",
-                "version": "1.4",
-                "coordinates": "com.hubspot.immutables:hubspot-style:1.4",
-                "parents": [
-                    "com.hubspot:algebra:1.5"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.hubspot.immutables",
-                "name": "hubspot-style",
-                "version": "1.4",
-                "coordinates": "com.hubspot.immutables:hubspot-style:1.4",
-                "parents": [
-                    "com.hubspot:algebra:1.5"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "immutable-collection-encodings": [
-            {
-                "group": "com.hubspot.immutables",
-                "name": "immutable-collection-encodings",
-                "version": "1.4",
-                "coordinates": "com.hubspot.immutables:immutable-collection-encodings:1.4",
-                "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutable-collection-encodings:1.4"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.hubspot.immutables",
-                "name": "immutable-collection-encodings",
-                "version": "1.4",
-                "coordinates": "com.hubspot.immutables:immutable-collection-encodings:1.4",
-                "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutable-collection-encodings:1.4"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "immutables-exceptions": [
-            {
-                "group": "com.hubspot.immutables",
-                "name": "immutables-exceptions",
-                "version": "1.9",
-                "coordinates": "com.hubspot.immutables:immutables-exceptions:1.9",
-                "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutables-exceptions:1.9"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.hubspot.immutables",
-                "name": "immutables-exceptions",
-                "version": "1.9",
-                "coordinates": "com.hubspot.immutables:immutables-exceptions:1.9",
-                "parents": [
-                    "com.hubspot.immutables:hubspot-style:1.4"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutables-exceptions:1.9"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.googlecode.java-ipv6:java-ipv6:0.17"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18950,16 +18740,16 @@
             {
                 "group": "com.hubspot.jinjava",
                 "name": "jinjava",
-                "version": "2.8.1",
-                "coordinates": "com.hubspot.jinjava:jinjava:2.8.1",
+                "version": "2.7.2",
+                "coordinates": "com.hubspot.jinjava:jinjava:2.7.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18970,16 +18760,16 @@
             {
                 "group": "com.hubspot.jinjava",
                 "name": "jinjava",
-                "version": "2.8.1",
-                "coordinates": "com.hubspot.jinjava:jinjava:2.8.1",
+                "version": "2.7.2",
+                "coordinates": "com.hubspot.jinjava:jinjava:2.7.2",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -18990,58 +18780,16 @@
             {
                 "group": "com.hubspot.jinjava",
                 "name": "jinjava",
-                "version": "2.8.1",
-                "coordinates": "com.hubspot.jinjava:jinjava:2.8.1",
+                "version": "2.7.2",
+                "coordinates": "com.hubspot.jinjava:jinjava:2.7.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "algebra": [
-            {
-                "group": "com.hubspot",
-                "name": "algebra",
-                "version": "1.5",
-                "coordinates": "com.hubspot:algebra:1.5",
-                "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.hubspot",
-                "name": "algebra",
-                "version": "1.5",
-                "coordinates": "com.hubspot:algebra:1.5",
-                "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20413,13 +20161,13 @@
                 "version": "3.9.0",
                 "coordinates": "commons-net:commons-net:3.9.0",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> commons-net:commons-net:3.9.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> commons-net:commons-net:3.9.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20433,13 +20181,13 @@
                 "version": "3.9.0",
                 "coordinates": "commons-net:commons-net:3.9.0",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> commons-net:commons-net:3.9.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> commons-net:commons-net:3.9.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21048,10 +20796,10 @@
                     "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21068,10 +20816,10 @@
                     "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21258,10 +21006,10 @@
                     "javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21278,10 +21026,10 @@
                     "javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21466,10 +21214,10 @@
                     "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21486,10 +21234,10 @@
                     "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21550,10 +21298,10 @@
                     "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21570,10 +21318,10 @@
                     "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22818,16 +22566,16 @@
             {
                 "group": "org.checkerframework",
                 "name": "checker-qual",
-                "version": "3.43.0",
-                "coordinates": "org.checkerframework:checker-qual:3.43.0",
+                "version": "3.42.0",
+                "coordinates": "org.checkerframework:checker-qual:3.42.0",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> org.checkerframework:checker-qual:3.43.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22841,13 +22589,13 @@
                 "version": "3.49.3",
                 "coordinates": "org.checkerframework:checker-qual:3.49.3",
                 "parents": [
-                    "com.google.guava:guava:33.3.1-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.google.guava:guava:33.3.1-jre -> org.checkerframework:checker-qual:3.49.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22952,48 +22700,6 @@
                 ],
                 "hierarchies": [
                     "org.codehaus.janino:janino:3.1.6"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "derive4j-annotation": [
-            {
-                "group": "org.derive4j",
-                "name": "derive4j-annotation",
-                "version": "1.1.0",
-                "coordinates": "org.derive4j:derive4j-annotation:1.1.0",
-                "parents": [
-                    "com.hubspot:algebra:1.5"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> org.derive4j:derive4j-annotation:1.1.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.derive4j",
-                "name": "derive4j-annotation",
-                "version": "1.1.0",
-                "coordinates": "org.derive4j:derive4j-annotation:1.1.0",
-                "parents": [
-                    "com.hubspot:algebra:1.5"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> org.derive4j:derive4j-annotation:1.1.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24402,48 +24108,6 @@
                 "resolved": true
             }
         ],
-        "encode": [
-            {
-                "group": "org.immutables",
-                "name": "encode",
-                "version": "2.5.6",
-                "coordinates": "org.immutables:encode:2.5.6",
-                "parents": [
-                    "com.hubspot.immutables:immutable-collection-encodings:1.4"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutable-collection-encodings:1.4 -> org.immutables:encode:2.5.6"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.immutables",
-                "name": "encode",
-                "version": "2.5.6",
-                "coordinates": "org.immutables:encode:2.5.6",
-                "parents": [
-                    "com.hubspot.immutables:immutable-collection-encodings:1.4"
-                ],
-                "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
-                ],
-                "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.hubspot.immutables:immutable-collection-encodings:1.4 -> org.immutables:encode:2.5.6"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "javassist": [
             {
                 "group": "org.javassist",
@@ -24451,13 +24115,13 @@
                 "version": "3.30.2-GA",
                 "coordinates": "org.javassist:javassist:3.30.2-GA",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> org.javassist:javassist:3.30.2-GA"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> org.javassist:javassist:3.30.2-GA"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24471,13 +24135,13 @@
                 "version": "3.30.2-GA",
                 "coordinates": "org.javassist:javassist:3.30.2-GA",
                 "parents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> org.javassist:javassist:3.30.2-GA"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> org.javassist:javassist:3.30.2-GA"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26044,10 +25708,10 @@
                     "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> org.yaml:snakeyaml:2.4"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> org.yaml:snakeyaml:2.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26064,10 +25728,10 @@
                     "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
                 ],
                 "topLevelParents": [
-                    "com.hubspot.jinjava:jinjava:2.8.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.8.1 -> com.hubspot:algebra:1.5 -> com.hubspot.immutables:hubspot-style:1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> org.yaml:snakeyaml:2.4"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> org.yaml:snakeyaml:2.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27518,6 +27182,28 @@
                 ],
                 "hierarchies": [
                     "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.logging.log4j:log4j-api:2.25.3 -> biz.aQute.bnd:biz.aQute.bnd.annotation:7.1.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "j2objc-annotations": [
+            {
+                "group": "com.google.j2objc",
+                "name": "j2objc-annotations",
+                "version": "3.0.0",
+                "coordinates": "com.google.j2objc:j2objc-annotations:3.0.0",
+                "parents": [
+                    "com.google.guava:guava:33.2.0-jre"
+                ],
+                "topLevelParents": [
+                    "com.hubspot.jinjava:jinjava:2.7.2"
+                ],
+                "hierarchies": [
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.google.guava:guava:33.2.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
                 ],
                 "declaredDirectProjects": [
                     
