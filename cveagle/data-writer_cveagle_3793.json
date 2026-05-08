@@ -1,6 +1,6 @@
 {
     "rootProject": "workspace",
-    "generatedAt": "2026-05-07T11:45:29+0000",
+    "generatedAt": "2026-05-08T02:05:32+0000",
     "depsGraphName": "data-writer_cveagle_3793",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -12,8 +12,8 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
@@ -21,7 +21,7 @@
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -32,16 +32,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -52,16 +52,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -72,8 +72,8 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
@@ -81,7 +81,7 @@
                     "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -92,16 +92,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -112,16 +112,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -132,8 +132,8 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
@@ -141,7 +141,7 @@
                     "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -152,16 +152,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -172,16 +172,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-classic",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-classic:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-classic:1.5.25",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -194,16 +194,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.5.25 -> ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -214,16 +214,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -234,16 +234,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -254,16 +254,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.5.25 -> ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -274,16 +274,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -294,16 +294,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -314,16 +314,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-classic:1.2.12"
+                    "ch.qos.logback:logback-classic:1.5.25"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.workspace:common-utils:unspecified"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.2.12 -> ch.qos.logback:logback-core:1.2.12"
+                    "com.cisco.collab.workspace:common-utils:unspecified -> com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> ch.qos.logback:logback-classic:1.5.25 -> ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -334,16 +334,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -354,16 +354,16 @@
             {
                 "group": "ch.qos.logback",
                 "name": "logback-core",
-                "version": "1.2.12",
-                "coordinates": "ch.qos.logback:logback-core:1.2.12",
+                "version": "1.5.25",
+                "coordinates": "ch.qos.logback:logback-core:1.5.25",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "hierarchies": [
-                    "ch.qos.logback:logback-core:1.2.12"
+                    "ch.qos.logback:logback-core:1.5.25"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11502,8 +11502,8 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
                     "org.springframework.data:spring-data-redis:3.4.1"
                 ],
@@ -11511,7 +11511,7 @@
                     "org.springframework.data:spring-data-redis:3.4.1"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-redis:3.4.1 -> org.slf4j:slf4j-api:1.7.36"
+                    "org.springframework.data:spring-data-redis:3.4.1 -> org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11522,16 +11522,16 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -11542,8 +11542,8 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
                     "org.springframework.data:spring-data-redis:3.4.1"
                 ],
@@ -11551,7 +11551,7 @@
                     "org.springframework.data:spring-data-redis:3.4.1"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-redis:3.4.1 -> org.slf4j:slf4j-api:1.7.36"
+                    "org.springframework.data:spring-data-redis:3.4.1 -> org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11562,16 +11562,16 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
-                    "org.slf4j:jcl-over-slf4j:1.7.36"
+                    "org.slf4j:jcl-over-slf4j:2.0.16"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36 -> org.slf4j:slf4j-api:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:2.0.16 -> org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11582,16 +11582,16 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -11602,8 +11602,8 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
                     "software.amazon.awssdk:utils:2.30.5"
                 ],
@@ -11611,7 +11611,7 @@
                     "software.amazon.awssdk:sts:2.30.5"
                 ],
                 "hierarchies": [
-                    "software.amazon.awssdk:sts:2.30.5 -> software.amazon.awssdk:retries-spi:2.30.5 -> software.amazon.awssdk:utils:2.30.5 -> org.slf4j:slf4j-api:1.7.36"
+                    "software.amazon.awssdk:sts:2.30.5 -> software.amazon.awssdk:retries-spi:2.30.5 -> software.amazon.awssdk:utils:2.30.5 -> org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11622,16 +11622,16 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
-                    "org.slf4j:jcl-over-slf4j:1.7.36"
+                    "org.slf4j:jcl-over-slf4j:2.0.16"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36 -> org.slf4j:slf4j-api:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:2.0.16 -> org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11642,16 +11642,16 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "topLevelParents": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "hierarchies": [
-                    "org.slf4j:slf4j-api:1.7.36"
+                    "org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -11662,8 +11662,8 @@
             {
                 "group": "org.slf4j",
                 "name": "slf4j-api",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:slf4j-api:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:slf4j-api:2.0.16",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.33.0"
                 ],
@@ -11671,7 +11671,7 @@
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.33.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.33.0 -> org.slf4j:slf4j-api:1.7.36"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.33.0 -> org.slf4j:slf4j-api:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30854,8 +30854,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jcl-over-slf4j",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:jcl-over-slf4j:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:jcl-over-slf4j:2.0.16",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -30863,7 +30863,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30874,8 +30874,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jcl-over-slf4j",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:jcl-over-slf4j:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:jcl-over-slf4j:2.0.16",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -30883,7 +30883,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jcl-over-slf4j:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30896,8 +30896,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jul-to-slf4j",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:jul-to-slf4j:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:jul-to-slf4j:2.0.16",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -30905,7 +30905,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30916,8 +30916,8 @@
             {
                 "group": "org.slf4j",
                 "name": "jul-to-slf4j",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:jul-to-slf4j:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:jul-to-slf4j:2.0.16",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -30925,7 +30925,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:jul-to-slf4j:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30938,8 +30938,8 @@
             {
                 "group": "org.slf4j",
                 "name": "log4j-over-slf4j",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:log4j-over-slf4j:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:log4j-over-slf4j:2.0.16",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -30947,7 +30947,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30958,8 +30958,8 @@
             {
                 "group": "org.slf4j",
                 "name": "log4j-over-slf4j",
-                "version": "1.7.36",
-                "coordinates": "org.slf4j:log4j-over-slf4j:1.7.36",
+                "version": "2.0.16",
+                "coordinates": "org.slf4j:log4j-over-slf4j:2.0.16",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
@@ -30967,7 +30967,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:1.7.36"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> org.slf4j:log4j-over-slf4j:2.0.16"
                 ],
                 "declaredDirectProjects": [
                     
