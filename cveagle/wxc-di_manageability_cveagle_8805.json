@@ -1,6 +1,6 @@
 {
     "rootProject": "manageability-service",
-    "generatedAt": "2026-05-11T06:26:20+0000",
+    "generatedAt": "2026-05-11T06:28:39+0000",
     "depsGraphName": "wxc-di_manageability_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
