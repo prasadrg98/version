@@ -1,6 +1,6 @@
 {
     "rootProject": "workspace",
-    "generatedAt": "2026-05-13T15:32:39+0000",
+    "generatedAt": "2026-05-13T17:30:45+0000",
     "depsGraphName": "data-writer_cveagle_3793",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -2143,13 +2143,13 @@
                 "version": "2.26.1",
                 "coordinates": "com.google.errorprone:error_prone_annotations:2.26.1",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2163,13 +2163,13 @@
                 "version": "2.26.1",
                 "coordinates": "com.google.errorprone:error_prone_annotations:2.26.1",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8093,13 +8093,13 @@
                 "version": "3.42.0",
                 "coordinates": "org.checkerframework:checker-qual:3.42.0",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> org.checkerframework:checker-qual:3.42.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8113,13 +8113,13 @@
                 "version": "3.49.3",
                 "coordinates": "org.checkerframework:checker-qual:3.49.3",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> org.checkerframework:checker-qual:3.49.3"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21865,13 +21865,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21905,13 +21905,13 @@
                 "version": "3.0.2",
                 "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21987,13 +21987,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22007,13 +22007,13 @@
                 "version": "1.0.2",
                 "coordinates": "com.google.guava:failureaccess:1.0.2",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22066,8 +22066,8 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
@@ -22075,7 +22075,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22086,8 +22086,8 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
@@ -22095,7 +22095,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22106,16 +22106,16 @@
             {
                 "group": "com.google.guava",
                 "name": "guava",
-                "version": "33.1.0-jre",
-                "coordinates": "com.google.guava:guava:33.1.0-jre",
+                "version": "33.2.0-jre",
+                "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "hierarchies": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -22131,13 +22131,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22151,13 +22151,13 @@
                 "version": "9999.0-empty-to-avoid-conflict-with-guava",
                 "coordinates": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
                 "parents": [
-                    "com.google.guava:guava:33.1.0-jre"
+                    "com.google.guava:guava:33.2.0-jre"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.1.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
