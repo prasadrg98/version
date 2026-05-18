@@ -1,6 +1,6 @@
 {
     "rootProject": "manageability-service",
-    "generatedAt": "2026-05-15T12:42:39+0000",
+    "generatedAt": "2026-05-18T13:51:20+0000",
     "depsGraphName": "wxc-di_manageability_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -21838,8 +21838,8 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-lang3",
-                "version": "3.19.0",
-                "coordinates": "org.apache.commons:commons-lang3:3.19.0",
+                "version": "3.18.0",
+                "coordinates": "org.apache.commons:commons-lang3:3.18.0",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-core:1.1.0"
                 ],
@@ -21847,7 +21847,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> com.cisco.collab.aws-logging:aws-logging-core:1.1.0 -> org.apache.commons:commons-lang3:3.19.0"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> com.cisco.collab.aws-logging:aws-logging-core:1.1.0 -> org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21858,16 +21858,16 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-lang3",
-                "version": "3.19.0",
-                "coordinates": "org.apache.commons:commons-lang3:3.19.0",
+                "version": "3.18.0",
+                "coordinates": "org.apache.commons:commons-lang3:3.18.0",
                 "parents": [
-                    "org.apache.commons:commons-lang3:3.19.0"
+                    "org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.commons:commons-lang3:3.19.0"
+                    "org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "hierarchies": [
-                    "org.apache.commons:commons-lang3:3.19.0"
+                    "org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -21878,8 +21878,8 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-lang3",
-                "version": "3.19.0",
-                "coordinates": "org.apache.commons:commons-lang3:3.19.0",
+                "version": "3.18.0",
+                "coordinates": "org.apache.commons:commons-lang3:3.18.0",
                 "parents": [
                     "org.apache.commons:commons-compress:1.27.1"
                 ],
@@ -21887,7 +21887,7 @@
                     "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.commons:commons-compress:1.27.1 -> org.apache.commons:commons-lang3:3.19.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.commons:commons-compress:1.27.1 -> org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "declaredDirectProjects": [
                     
