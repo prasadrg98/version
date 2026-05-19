@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-05-18T08:31:45+0000",
+    "generatedAt": "2026-05-19T06:54:56+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -23575,8 +23575,8 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-lang3",
-                "version": "3.14.0",
-                "coordinates": "org.apache.commons:commons-lang3:3.14.0",
+                "version": "3.18.0",
+                "coordinates": "org.apache.commons:commons-lang3:3.18.0",
                 "parents": [
                     "com.cisco.collab.aws-logging:aws-logging-core:1.1.0"
                 ],
@@ -23584,7 +23584,7 @@
                     "com.cisco.collab.aws-logging:aws-logging-config:1.1.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> com.cisco.collab.aws-logging:aws-logging-core:1.1.0 -> org.apache.commons:commons-lang3:3.14.0"
+                    "com.cisco.collab.aws-logging:aws-logging-config:1.1.0 -> com.cisco.collab.aws-logging:aws-logging-core:1.1.0 -> org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23595,16 +23595,16 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-lang3",
-                "version": "3.14.0",
-                "coordinates": "org.apache.commons:commons-lang3:3.14.0",
+                "version": "3.18.0",
+                "coordinates": "org.apache.commons:commons-lang3:3.18.0",
                 "parents": [
-                    "org.apache.commons:commons-lang3:3.14.0"
+                    "org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.commons:commons-lang3:3.14.0"
+                    "org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "hierarchies": [
-                    "org.apache.commons:commons-lang3:3.14.0"
+                    "org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -23615,8 +23615,8 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-lang3",
-                "version": "3.14.0",
-                "coordinates": "org.apache.commons:commons-lang3:3.14.0",
+                "version": "3.18.0",
+                "coordinates": "org.apache.commons:commons-lang3:3.18.0",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
@@ -23624,7 +23624,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> org.apache.commons:commons-lang3:3.14.0"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> org.apache.commons:commons-lang3:3.18.0"
                 ],
                 "declaredDirectProjects": [
                     
