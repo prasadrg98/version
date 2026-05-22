@@ -1,6 +1,6 @@
 {
     "rootProject": "workspace",
-    "generatedAt": "2026-05-21T04:53:56+0000",
+    "generatedAt": "2026-05-22T06:11:56+0000",
     "depsGraphName": "data-writer_cveagle_3793",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -2555,7 +2555,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> com.sun.istack:istack-commons-runtime:4.1.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> com.sun.istack:istack-commons-runtime:4.1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2575,7 +2575,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> com.sun.istack:istack-commons-runtime:4.1.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> com.sun.istack:istack-commons-runtime:4.1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6435,7 +6435,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10 -> jakarta.validation:jakarta.validation-api:3.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10 -> jakarta.validation:jakarta.validation-api:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6475,7 +6475,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10 -> jakarta.validation:jakarta.validation-api:3.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10 -> jakarta.validation:jakarta.validation-api:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6841,7 +6841,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.11"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.11"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6861,7 +6861,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.11"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.11"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6939,13 +6939,13 @@
                 "version": "4.5.0",
                 "coordinates": "org.apache.commons:commons-collections4:4.5.0",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.apache.commons:commons-collections4:4.5.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.apache.commons:commons-collections4:4.5.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6979,13 +6979,13 @@
                 "version": "4.5.0",
                 "coordinates": "org.apache.commons:commons-collections4:4.5.0",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.apache.commons:commons-collections4:4.5.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.apache.commons:commons-collections4:4.5.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8465,7 +8465,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.eclipse.angus:angus-activation:2.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.eclipse.angus:angus-activation:2.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8485,7 +8485,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.eclipse.angus:angus-activation:2.0.2"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.eclipse.angus:angus-activation:2.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8547,7 +8547,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6 -> org.glassfish.hk2.external:aopalliance-repackaged:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6 -> org.glassfish.hk2.external:aopalliance-repackaged:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8587,7 +8587,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6 -> org.glassfish.hk2.external:aopalliance-repackaged:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6 -> org.glassfish.hk2.external:aopalliance-repackaged:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8669,7 +8669,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8709,7 +8709,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-api:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8791,7 +8791,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8831,7 +8831,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8913,7 +8913,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-utils:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-utils:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8953,7 +8953,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-utils:3.0.6"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.glassfish.hk2:hk2-locator:3.0.6 -> org.glassfish.hk2:hk2-utils:3.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9137,7 +9137,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9157,7 +9157,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9193,13 +9193,13 @@
                 "version": "4.0.5",
                 "coordinates": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9213,13 +9213,13 @@
                 "version": "4.0.5",
                 "coordinates": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9261,7 +9261,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.glassfish.jaxb:txw2:4.0.5"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.glassfish.jaxb:txw2:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9281,7 +9281,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.glassfish.jaxb:txw2:4.0.5"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jaxb:jaxb-runtime:4.0.5 -> org.glassfish.jaxb:jaxb-core:4.0.5 -> org.glassfish.jaxb:txw2:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9363,7 +9363,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9423,7 +9423,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.containers:jersey-container-servlet-core:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9539,13 +9539,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.containers:jersey-container-servlet:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9599,13 +9599,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.containers:jersey-container-servlet:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9701,13 +9701,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.core:jersey-client:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.core:jersey-client:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.core:jersey-client:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9741,13 +9741,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.core:jersey-client:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.core:jersey-client:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.core:jersey-client:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9951,7 +9951,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9991,7 +9991,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5 -> org.glassfish.jersey.containers:jersey-container-servlet:3.1.10 -> org.glassfish.jersey.core:jersey-server:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10087,13 +10087,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.inject:jersey-hk2:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10147,13 +10147,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.inject:jersey-hk2:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10921,7 +10921,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.javassist:javassist:3.30.2-GA"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.javassist:javassist:3.30.2-GA"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10961,7 +10961,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.javassist:javassist:3.30.2-GA"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.inject:jersey-hk2:3.1.10 -> org.javassist:javassist:3.30.2-GA"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17833,13 +17833,13 @@
                 "version": "3.0.1",
                 "coordinates": "com.cisco.collab.collab-events:collab-events-api:3.0.1",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.collab-events:collab-events-api:3.0.1"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.collab-events:collab-events-api:3.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17873,13 +17873,13 @@
                 "version": "3.0.1",
                 "coordinates": "com.cisco.collab.collab-events:collab-events-api:3.0.1",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.collab-events:collab-events-api:3.0.1"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.collab-events:collab-events-api:3.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19123,13 +19123,13 @@
                 "version": "1.2.54",
                 "coordinates": "com.cisco.collab.defaults4j:defaults4j:1.2.54",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.defaults4j:defaults4j:1.2.54"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.defaults4j:defaults4j:1.2.54"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19163,13 +19163,13 @@
                 "version": "1.2.54",
                 "coordinates": "com.cisco.collab.defaults4j:defaults4j:1.2.54",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.defaults4j:defaults4j:1.2.54"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.defaults4j:defaults4j:1.2.54"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19245,13 +19245,13 @@
                 "version": "1.4.0",
                 "coordinates": "com.cisco.collab.jaxrs-ext:jaxrs-ext-filter:1.4.0",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.jaxrs-ext:jaxrs-ext-filter:1.4.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.jaxrs-ext:jaxrs-ext-filter:1.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19265,13 +19265,13 @@
                 "version": "1.4.0",
                 "coordinates": "com.cisco.collab.jaxrs-ext:jaxrs-ext-filter:1.4.0",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.jaxrs-ext:jaxrs-ext-filter:1.4.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.jaxrs-ext:jaxrs-ext-filter:1.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19490,16 +19490,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-core",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19510,16 +19510,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-core",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -19530,16 +19530,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-core",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19550,16 +19550,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-core",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19570,16 +19570,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-core",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -19590,16 +19590,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-core",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-core:3.0.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-core:3.0.4"
+                    "com.cisco.collab.token4j:token4j-core:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19612,8 +19612,8 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-machine",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.5",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
@@ -19621,7 +19621,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19632,16 +19632,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-machine",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -19652,16 +19652,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-machine",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19672,8 +19672,8 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-machine",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.5",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
@@ -19681,7 +19681,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19692,16 +19692,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-machine",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.5",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -19712,16 +19712,16 @@
             {
                 "group": "com.cisco.collab.token4j",
                 "name": "token4j-machine",
-                "version": "3.0.4",
-                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.4",
+                "version": "3.0.5",
+                "coordinates": "com.cisco.collab.token4j:token4j-machine:3.0.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27729,7 +27729,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy-agent:1.14.1"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy-agent:1.14.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27749,7 +27749,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy-agent:1.14.1"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy-agent:1.14.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -29243,7 +29243,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10 -> org.glassfish.jersey.ext:jersey-entity-filtering:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10 -> org.glassfish.jersey.ext:jersey-entity-filtering:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -29283,7 +29283,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10 -> org.glassfish.jersey.ext:jersey-entity-filtering:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10 -> org.glassfish.jersey.ext:jersey-entity-filtering:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -29421,13 +29421,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -29481,13 +29481,13 @@
                 "version": "3.1.10",
                 "coordinates": "org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.glassfish.jersey.media:jersey-media-json-jackson:3.1.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30323,13 +30323,13 @@
                 "version": "5.2.0",
                 "coordinates": "org.mockito:mockito-core:5.2.0",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30343,13 +30343,13 @@
                 "version": "5.2.0",
                 "coordinates": "org.mockito:mockito-core:5.2.0",
                 "parents": [
-                    "com.cisco.collab.token4j:token4j-machine:3.0.4"
+                    "com.cisco.collab.token4j:token4j-machine:3.0.5"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30453,7 +30453,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0 -> org.objenesis:objenesis:3.3"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> org.objenesis:objenesis:3.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30473,7 +30473,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.4 -> org.mockito:mockito-core:5.2.0 -> org.objenesis:objenesis:3.3"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> org.objenesis:objenesis:3.3"
                 ],
                 "declaredDirectProjects": [
                     
