@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-05-29T02:50:38+0000",
+    "generatedAt": "2026-06-02T06:40:12+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
