@@ -1,6 +1,6 @@
 {
     "rootProject": "manageability-service",
-    "generatedAt": "2026-06-05T05:12:15+0000",
+    "generatedAt": "2026-06-08T05:15:35+0000",
     "depsGraphName": "wxc-di_manageability_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -42,6 +42,28 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> antlr:antlr:2.7.7"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "lz4-java": [
+            {
+                "group": "at.yawk.lz4",
+                "name": "lz4-java",
+                "version": "1.10.1",
+                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.kafka:spring-kafka:2.9.13"
+                ],
+                "hierarchies": [
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17634,16 +17656,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17654,16 +17676,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -17674,16 +17696,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17696,16 +17718,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-core:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17716,16 +17738,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0 -> com.fasterxml.jackson.core:jackson-core:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17738,16 +17760,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17758,16 +17780,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -17778,16 +17800,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> com.fasterxml.jackson.core:jackson-databind:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17800,16 +17822,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17820,16 +17842,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17842,8 +17864,8 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-yaml",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
@@ -17851,7 +17873,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17862,8 +17884,8 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-yaml",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4",
                 "parents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
@@ -17871,7 +17893,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17884,16 +17906,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17904,16 +17926,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -17924,16 +17946,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17946,16 +17968,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17966,16 +17988,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -17986,16 +18008,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18008,16 +18030,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18028,16 +18050,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18050,16 +18072,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18070,16 +18092,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -18090,16 +18112,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18112,16 +18134,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18132,16 +18154,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18154,16 +18176,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18174,16 +18196,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.0",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.0",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18241,13 +18263,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20793,13 +20815,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20813,13 +20835,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21009,7 +21031,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21029,7 +21051,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21211,13 +21233,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21231,13 +21253,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.0 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21295,13 +21317,13 @@
                 "version": "2.3.1",
                 "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21315,13 +21337,13 @@
                 "version": "2.3.1",
                 "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> com.fasterxml.jackson:jackson-bom:2.19.0 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.0 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22088,8 +22110,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
@@ -22097,7 +22119,7 @@
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22108,16 +22130,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -22128,8 +22150,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
@@ -22137,7 +22159,7 @@
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24464,28 +24486,6 @@
                 "resolved": true
             }
         ],
-        "lz4-java": [
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.8.0",
-                "coordinates": "org.lz4:lz4-java:1.8.0",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
-                ],
-                "topLevelParents": [
-                    "org.springframework.kafka:spring-kafka:2.9.13"
-                ],
-                "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.8.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "asm-analysis": [
             {
                 "group": "org.ow2.asm",
@@ -25683,13 +25683,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25705,13 +25705,13 @@
                 "version": "2.4",
                 "coordinates": "org.yaml:snakeyaml:2.4",
                 "parents": [
-                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> org.yaml:snakeyaml:2.4"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> org.yaml:snakeyaml:2.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25725,13 +25725,13 @@
                 "version": "2.4",
                 "coordinates": "org.yaml:snakeyaml:2.4",
                 "parents": [
-                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.2"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0 -> org.yaml:snakeyaml:2.4"
+                    "com.hubspot.jinjava:jinjava:2.7.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.4 -> org.yaml:snakeyaml:2.4"
                 ],
                 "declaredDirectProjects": [
                     
