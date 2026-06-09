@@ -1,6 +1,6 @@
 {
     "rootProject": "monitoring",
-    "generatedAt": "2026-06-02T13:23:50+0000",
+    "generatedAt": "2026-06-09T09:40:24+0000",
     "depsGraphName": "wxc-di_monitoring_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -41,6 +41,48 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> antlr:antlr:2.7.7"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "lz4-java": [
+            {
+                "group": "at.yawk.lz4",
+                "name": "lz4-java",
+                "version": "1.10.1",
+                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.lz4",
+                "name": "lz4-java",
+                "version": "1.9.4-rc1",
+                "coordinates": "org.lz4:lz4-java:1.9.4-rc1",
+                "parents": [
+                    "com.cisco.wx2:core-common:4.5.17"
+                ],
+                "topLevelParents": [
+                    "com.ciscospark:cisco-spark-logging:4.5.17"
+                ],
+                "hierarchies": [
+                    "com.ciscospark:cisco-spark-logging:4.5.17 -> com.cisco.wx2:service-health:4.5.17 -> com.cisco.wx2:core-common:4.5.17 -> org.lz4:lz4-java:1.9.4-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18759,16 +18801,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> com.fasterxml.jackson.core:jackson-annotations:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18779,16 +18821,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -18799,16 +18841,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> com.fasterxml.jackson.core:jackson-annotations:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18821,16 +18863,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> com.fasterxml.jackson.core:jackson-core:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18841,16 +18883,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> com.fasterxml.jackson.core:jackson-core:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18863,8 +18905,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
                     "com.amazonaws:jmespath-java:1.12.780"
                 ],
@@ -18872,7 +18914,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18883,16 +18925,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -18903,8 +18945,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
                     "com.amazonaws:jmespath-java:1.12.780"
                 ],
@@ -18912,7 +18954,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18925,16 +18967,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18945,16 +18987,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18967,16 +19009,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-guava",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18987,16 +19029,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-guava",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19009,16 +19051,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19029,16 +19071,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -19049,16 +19091,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19071,16 +19113,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jdk8",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19091,16 +19133,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jdk8",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19113,16 +19155,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19133,16 +19175,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -19153,16 +19195,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19175,16 +19217,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19195,16 +19237,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19217,16 +19259,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19237,16 +19279,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -19257,16 +19299,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19279,16 +19321,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19299,16 +19341,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19321,16 +19363,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19341,16 +19383,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.2",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.2",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.2"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19702,13 +19744,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19856,7 +19898,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19876,7 +19918,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.code.findbugs:jsr305:3.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19898,7 +19940,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19918,7 +19960,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.errorprone:error_prone_annotations:2.26.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19940,7 +19982,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19960,7 +20002,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:failureaccess:1.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19976,13 +20018,13 @@
                 "version": "33.2.0-jre",
                 "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20016,13 +20058,13 @@
                 "version": "33.2.0-jre",
                 "coordinates": "com.google.guava:guava:33.2.0-jre",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20044,7 +20086,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20064,7 +20106,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24232,13 +24274,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24252,13 +24294,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24532,7 +24574,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24552,7 +24594,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24734,13 +24776,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24754,13 +24796,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.2 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24838,13 +24880,13 @@
                 "version": "2.3.1",
                 "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24858,13 +24900,13 @@
                 "version": "2.3.1",
                 "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.2 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25903,16 +25945,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25923,16 +25965,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -25943,16 +25985,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26370,7 +26412,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26390,7 +26432,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -28533,48 +28575,6 @@
                 "resolved": true
             }
         ],
-        "lz4-java": [
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.9.4-rc1",
-                "coordinates": "org.lz4:lz4-java:1.9.4-rc1",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
-                ],
-                "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
-                ],
-                "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.9.4-rc1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.9.4-rc1",
-                "coordinates": "org.lz4:lz4-java:1.9.4-rc1",
-                "parents": [
-                    "com.cisco.wx2:core-common:4.5.17"
-                ],
-                "topLevelParents": [
-                    "com.ciscospark:cisco-spark-logging:4.5.17"
-                ],
-                "hierarchies": [
-                    "com.ciscospark:cisco-spark-logging:4.5.17 -> com.cisco.wx2:service-health:4.5.17 -> com.cisco.wx2:core-common:4.5.17 -> org.lz4:lz4-java:1.9.4-rc1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "mockito-core": [
             {
                 "group": "org.mockito",
@@ -30250,13 +30250,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -30912,7 +30912,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.2 -> com.fasterxml.jackson:jackson-bom:2.19.2 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.2 -> com.google.guava:guava:33.2.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-swf-libraries:1.11.22 -> com.amazonaws:aws-java-sdk-simpleworkflow:1.12.780 -> com.amazonaws:jmespath-java:1.12.780 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-guava:2.19.4 -> com.google.guava:guava:33.2.0-jre -> com.google.j2objc:j2objc-annotations:3.0.0"
                 ],
                 "declaredDirectProjects": [
                     
