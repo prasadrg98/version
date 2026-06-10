@@ -1,6 +1,6 @@
 {
     "rootProject": "manageability-service",
-    "generatedAt": "2026-06-10T07:13:53+0000",
+    "generatedAt": "2026-06-10T09:27:58+0000",
     "depsGraphName": "wxc-di_manageability_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -42,28 +42,6 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> antlr:antlr:2.7.7"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "lz4-java": [
-            {
-                "group": "at.yawk.lz4",
-                "name": "lz4-java",
-                "version": "1.10.1",
-                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
-                ],
-                "topLevelParents": [
-                    "org.springframework.kafka:spring-kafka:2.9.13"
-                ],
-                "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18263,13 +18241,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22110,8 +22088,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
@@ -22119,7 +22097,7 @@
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22130,16 +22108,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     ":manageability-service-webapp"
@@ -22150,8 +22128,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
@@ -22159,7 +22137,7 @@
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24486,6 +24464,28 @@
                 "resolved": true
             }
         ],
+        "lz4-java": [
+            {
+                "group": "org.lz4",
+                "name": "lz4-java",
+                "version": "1.8.0",
+                "coordinates": "org.lz4:lz4-java:1.8.0",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "topLevelParents": [
+                    "org.springframework.kafka:spring-kafka:2.9.13"
+                ],
+                "hierarchies": [
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.8.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "asm-analysis": [
             {
                 "group": "org.ow2.asm",
@@ -25683,13 +25683,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:2.9.13"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.springframework.kafka:spring-kafka:2.9.13 -> org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
