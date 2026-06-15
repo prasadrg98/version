@@ -1,6 +1,6 @@
 {
     "rootProject": "monitoring",
-    "generatedAt": "2026-06-10T09:38:38+0000",
+    "generatedAt": "2026-06-15T07:39:00+0000",
     "depsGraphName": "wxc-di_monitoring_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -41,48 +41,6 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> antlr:antlr:2.7.7"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "lz4-java": [
-            {
-                "group": "at.yawk.lz4",
-                "name": "lz4-java",
-                "version": "1.10.1",
-                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
-                ],
-                "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
-                ],
-                "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.9.4-rc1",
-                "coordinates": "org.lz4:lz4-java:1.9.4-rc1",
-                "parents": [
-                    "com.cisco.wx2:core-common:4.5.17"
-                ],
-                "topLevelParents": [
-                    "com.ciscospark:cisco-spark-logging:4.5.17"
-                ],
-                "hierarchies": [
-                    "com.ciscospark:cisco-spark-logging:4.5.17 -> com.cisco.wx2:service-health:4.5.17 -> com.cisco.wx2:core-common:4.5.17 -> org.lz4:lz4-java:1.9.4-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19744,13 +19702,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25945,16 +25903,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25965,16 +25923,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     ":monitoring-webapp"
@@ -25985,16 +25943,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -28575,6 +28533,48 @@
                 "resolved": true
             }
         ],
+        "lz4-java": [
+            {
+                "group": "org.lz4",
+                "name": "lz4-java",
+                "version": "1.9.4-rc1",
+                "coordinates": "org.lz4:lz4-java:1.9.4-rc1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.9.4-rc1"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.lz4",
+                "name": "lz4-java",
+                "version": "1.9.4-rc1",
+                "coordinates": "org.lz4:lz4-java:1.9.4-rc1",
+                "parents": [
+                    "com.cisco.wx2:core-common:4.5.17"
+                ],
+                "topLevelParents": [
+                    "com.ciscospark:cisco-spark-logging:4.5.17"
+                ],
+                "hierarchies": [
+                    "com.ciscospark:cisco-spark-logging:4.5.17 -> com.cisco.wx2:service-health:4.5.17 -> com.cisco.wx2:core-common:4.5.17 -> org.lz4:lz4-java:1.9.4-rc1"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "mockito-core": [
             {
                 "group": "org.mockito",
@@ -30250,13 +30250,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
