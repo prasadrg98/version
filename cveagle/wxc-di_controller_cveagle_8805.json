@@ -1,6 +1,6 @@
 {
     "rootProject": "hcs-agent-controller",
-    "generatedAt": "2026-06-19T07:11:55+0000",
+    "generatedAt": "2026-06-22T04:31:41+0000",
     "depsGraphName": "wxc-di_controller_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -8,28 +8,6 @@
         "https://plugins.gradle.org/m2/"
     ],
     "dependenciesByName": {
-        "lz4-java": [
-            {
-                "group": "at.yawk.lz4",
-                "name": "lz4-java",
-                "version": "1.10.1",
-                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
-                ],
-                "topLevelParents": [
-                    "org.springframework.kafka:spring-kafka:3.3.9"
-                ],
-                "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "logback-classic": [
             {
                 "group": "ch.qos.logback",
@@ -18028,16 +18006,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.21",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.21",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> com.fasterxml.jackson.core:jackson-annotations:2.21"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18048,16 +18026,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.21",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.21",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.21"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.21"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.21"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18068,16 +18046,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.21",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.21",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> com.fasterxml.jackson.core:jackson-annotations:2.21"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18090,16 +18068,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> com.fasterxml.jackson.core:jackson-core:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18110,16 +18088,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> com.fasterxml.jackson.core:jackson-core:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18132,8 +18110,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
                     "com.cisco.collab.collab-events:collab-events-api:3.0.1"
                 ],
@@ -18141,7 +18119,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18152,16 +18130,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18172,8 +18150,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
                 "parents": [
                     "com.cisco.collab.collab-events:collab-events-api:2.1.4"
                 ],
@@ -18181,7 +18159,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18194,16 +18172,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18214,16 +18192,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18236,16 +18214,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate6",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18256,16 +18234,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate6",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18276,16 +18254,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate6",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18298,16 +18276,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18318,16 +18296,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18338,16 +18316,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18360,16 +18338,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-base",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18380,16 +18358,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-base",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18402,16 +18380,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-json-provider",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18422,16 +18400,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-json-provider",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1"
+                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1"
+                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1"
+                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18442,16 +18420,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-json-provider",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18464,16 +18442,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jakarta-xmlbind-annotations",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18484,16 +18462,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jakarta-xmlbind-annotations",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18506,16 +18484,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18526,16 +18504,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.21.1",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.21.1",
+                "version": "2.19.4",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.21.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18635,13 +18613,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19860,8 +19838,8 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio-jvm",
-                "version": "3.15.0",
-                "coordinates": "com.squareup.okio:okio-jvm:3.15.0",
+                "version": "3.2.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.2.0",
                 "parents": [
                     "com.squareup.okio:okio:3.2.0"
                 ],
@@ -19869,7 +19847,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.15.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19880,8 +19858,8 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio-jvm",
-                "version": "3.15.0",
-                "coordinates": "com.squareup.okio:okio-jvm:3.15.0",
+                "version": "3.2.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.2.0",
                 "parents": [
                     "com.squareup.okio:okio:3.2.0"
                 ],
@@ -19889,7 +19867,7 @@
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.15.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20902,16 +20880,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-all:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-all:4.2.12.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20922,16 +20900,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-all:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-all:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -20942,16 +20920,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-all:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-all:4.2.12.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20964,16 +20942,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-buffer:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-buffer:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.13.Final"
+                    "io.netty:netty-transport:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final -> io.netty:netty-buffer:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-buffer:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20984,16 +20962,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-buffer:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-buffer:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.13.Final"
+                    "io.netty:netty-transport:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final -> io.netty:netty-buffer:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-buffer:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21006,16 +20984,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-base",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-base:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-base:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.13.Final"
+                    "io.netty:netty-handler:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.13.Final -> io.netty:netty-codec-base:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21026,16 +21004,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-base",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-base:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-base:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.13.Final"
+                    "io.netty:netty-handler:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.13.Final -> io.netty:netty-codec-base:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21048,16 +21026,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-classes-quic",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-classes-quic:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-classes-quic:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-codec-native-quic:4.2.13.Final"
+                    "io.netty:netty-codec-native-quic:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-native-quic:4.2.13.Final -> io.netty:netty-codec-classes-quic:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-native-quic:4.2.12.Final -> io.netty:netty-codec-classes-quic:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21068,16 +21046,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-classes-quic",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-classes-quic:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-classes-quic:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-classes-quic:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-classes-quic:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21090,16 +21068,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-compression",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-compression:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-compression:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-codec-http:4.2.13.Final"
+                    "io.netty:netty-codec-http:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.13.Final -> io.netty:netty-codec-compression:4.2.13.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.12.Final -> io.netty:netty-codec-compression:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21110,16 +21088,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-compression",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-compression:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-compression:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-codec-http:4.2.13.Final"
+                    "io.netty:netty-codec-http:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.13.Final -> io.netty:netty-codec-compression:4.2.13.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.12.Final -> io.netty:netty-codec-compression:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21132,16 +21110,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-dns",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-dns:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-dns:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns:4.2.13.Final"
+                    "io.netty:netty-resolver-dns:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-resolver-dns-native-macos:4.2.13.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.13.Final -> io.netty:netty-resolver-dns:4.2.13.Final -> io.netty:netty-codec-dns:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final -> io.netty:netty-resolver-dns:4.2.12.Final -> io.netty:netty-codec-dns:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21152,16 +21130,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-dns",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-dns:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-dns:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-dns:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-dns:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21174,16 +21152,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-haproxy",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-haproxy:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-haproxy:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-haproxy:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-haproxy:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21194,16 +21172,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-haproxy",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-haproxy:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-haproxy:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-haproxy:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-haproxy:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21216,16 +21194,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.12.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21236,16 +21214,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -21256,16 +21234,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.12.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-codec-http2:4.2.13.Final"
+                    "io.netty:netty-codec-http2:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21278,16 +21256,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http3",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http3:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http3:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-http3:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-http3:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21298,16 +21276,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http3",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http3:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http3:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-http3:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-http3:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21320,8 +21298,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http:4.2.12.Final",
                 "parents": [
                     "com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780"
                 ],
@@ -21329,7 +21307,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.13.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21340,8 +21318,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-http:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-http:4.2.12.Final",
                 "parents": [
                     "com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780"
                 ],
@@ -21349,7 +21327,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.780"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.13.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.780 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.780 -> io.netty:netty-codec-http:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21362,16 +21340,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-marshalling",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-marshalling:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-marshalling:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-marshalling:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-marshalling:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21382,16 +21360,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-marshalling",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-marshalling:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-marshalling:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-marshalling:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-marshalling:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21404,16 +21382,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-memcache",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-memcache:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-memcache:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-memcache:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-memcache:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21424,16 +21402,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-memcache",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-memcache:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-memcache:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-memcache:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-memcache:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21446,16 +21424,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-mqtt",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-mqtt:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-mqtt:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-mqtt:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-mqtt:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21466,16 +21444,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-mqtt",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-mqtt:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-mqtt:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-mqtt:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-mqtt:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21488,16 +21466,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-native-quic",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-native-quic:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-native-quic:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-native-quic:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-native-quic:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21510,16 +21488,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-protobuf",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-protobuf:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-protobuf:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-protobuf:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-protobuf:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21530,16 +21508,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-protobuf",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-protobuf:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-protobuf:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-protobuf:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-protobuf:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21552,16 +21530,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-redis",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-redis:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-redis:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-redis:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-redis:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21572,16 +21550,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-redis",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-redis:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-redis:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-redis:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-redis:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21594,16 +21572,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-smtp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-smtp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-smtp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-smtp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-smtp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21614,16 +21592,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-smtp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-smtp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-smtp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-smtp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-smtp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21636,16 +21614,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-socks:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-socks:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21656,16 +21634,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-socks:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-socks:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21678,16 +21656,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-stomp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-stomp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-stomp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-stomp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-stomp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21698,16 +21676,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-stomp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-stomp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-stomp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-stomp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-stomp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21720,16 +21698,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-xml",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-xml:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-xml:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-xml:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-xml:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21740,16 +21718,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-xml",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec-xml:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec-xml:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec-xml:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-xml:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21762,16 +21740,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21782,16 +21760,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-codec:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-codec:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-codec:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21804,16 +21782,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-common:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-common:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.2.13.Final"
+                    "io.netty:netty-resolver:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final -> io.netty:netty-resolver:4.2.13.Final -> io.netty:netty-common:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final -> io.netty:netty-common:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21824,16 +21802,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-common:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-common:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.2.13.Final"
+                    "io.netty:netty-resolver:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final -> io.netty:netty-resolver:4.2.13.Final -> io.netty:netty-common:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final -> io.netty:netty-common:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21846,16 +21824,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-handler-proxy:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-proxy:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21866,16 +21844,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-handler-proxy:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-proxy:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21888,16 +21866,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-ssl-ocsp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-handler-ssl-ocsp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-ssl-ocsp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21908,16 +21886,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-ssl-ocsp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-handler-ssl-ocsp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-ssl-ocsp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21930,8 +21908,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-handler:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-handler:4.2.12.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -21939,7 +21917,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21950,8 +21928,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-handler:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-handler:4.2.12.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -21959,7 +21937,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21972,16 +21950,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-classes-macos",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns-native-macos:4.2.13.Final"
+                    "io.netty:netty-resolver-dns-native-macos:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-resolver-dns-native-macos:4.2.13.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21992,16 +21970,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-classes-macos",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22014,16 +21992,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-native-macos",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver-dns-native-macos:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver-dns-native-macos:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-resolver-dns-native-macos:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22036,16 +22014,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver-dns:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver-dns:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns-classes-macos:4.2.13.Final"
+                    "io.netty:netty-resolver-dns-classes-macos:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-resolver-dns-native-macos:4.2.13.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.13.Final -> io.netty:netty-resolver-dns:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final -> io.netty:netty-resolver-dns:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22056,16 +22034,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver-dns:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver-dns:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-resolver-dns:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22078,16 +22056,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.13.Final"
+                    "io.netty:netty-transport:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final -> io.netty:netty-resolver:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22098,16 +22076,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-resolver:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-resolver:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.13.Final"
+                    "io.netty:netty-transport:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final -> io.netty:netty-resolver:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22120,16 +22098,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-epoll:4.2.13.Final"
+                    "io.netty:netty-transport-native-epoll:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-native-epoll:4.2.13.Final -> io.netty:netty-transport-classes-epoll:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-epoll:4.2.12.Final -> io.netty:netty-transport-classes-epoll:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22140,16 +22118,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-classes-epoll:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-classes-epoll:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22162,16 +22140,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-io_uring",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-io_uring:4.2.13.Final"
+                    "io.netty:netty-transport-native-io_uring:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-native-io_uring:4.2.13.Final -> io.netty:netty-transport-classes-io_uring:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-io_uring:4.2.12.Final -> io.netty:netty-transport-classes-io_uring:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22182,16 +22160,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-io_uring",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-classes-io_uring:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-classes-io_uring:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22204,16 +22182,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-kqueue",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-kqueue:4.2.13.Final"
+                    "io.netty:netty-transport-native-kqueue:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-native-kqueue:4.2.13.Final -> io.netty:netty-transport-classes-kqueue:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-kqueue:4.2.12.Final -> io.netty:netty-transport-classes-kqueue:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22224,16 +22202,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-kqueue",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-classes-kqueue:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-classes-kqueue:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22246,16 +22224,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-epoll",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-native-epoll:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-native-epoll:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-native-epoll:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-epoll:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22268,16 +22246,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-io_uring",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-native-io_uring:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-native-io_uring:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-native-io_uring:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-io_uring:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22290,16 +22268,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-kqueue",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-native-kqueue:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-native-kqueue:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-native-kqueue:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-kqueue:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22312,16 +22290,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.13.Final"
+                    "io.netty:netty-handler:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.13.Final -> io.netty:netty-transport-native-unix-common:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-transport-native-unix-common:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22332,16 +22310,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.13.Final"
+                    "io.netty:netty-handler:4.2.12.Final"
                 ],
                 "topLevelParents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.13.Final -> io.netty:netty-transport-native-unix-common:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-transport-native-unix-common:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22354,16 +22332,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-rxtx",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-rxtx:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-rxtx:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-rxtx:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-rxtx:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22374,16 +22352,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-rxtx",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-rxtx:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-rxtx:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-rxtx:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-rxtx:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22396,16 +22374,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-sctp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-sctp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-sctp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-sctp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-sctp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22416,16 +22394,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-sctp",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-sctp:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-sctp:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-sctp:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-sctp:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22438,16 +22416,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-udt",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-udt:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-udt:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-udt:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-udt:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22458,16 +22436,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-udt",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport-udt:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport-udt:4.2.12.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> io.netty:netty-transport-udt:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-udt:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22480,8 +22458,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport:4.2.12.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -22489,7 +22467,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22500,8 +22478,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.2.13.Final",
-                "coordinates": "io.netty:netty-transport:4.2.13.Final",
+                "version": "4.2.12.Final",
+                "coordinates": "io.netty:netty-transport:4.2.12.Final",
                 "parents": [
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
@@ -22509,7 +22487,7 @@
                     "io.lettuce:lettuce-core:6.5.3.RELEASE"
                 ],
                 "hierarchies": [
-                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.13.Final"
+                    "io.lettuce:lettuce-core:6.5.3.RELEASE -> io.netty:netty-transport:4.2.12.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22631,13 +22609,13 @@
                 "version": "2.1.4",
                 "coordinates": "jakarta.activation:jakarta.activation-api:2.1.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> jakarta.activation:jakarta.activation-api:2.1.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22651,13 +22629,13 @@
                 "version": "2.1.4",
                 "coordinates": "jakarta.activation:jakarta.activation-api:2.1.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> jakarta.activation:jakarta.activation-api:2.1.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23005,13 +22983,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23025,13 +23003,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.21.1 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23151,13 +23129,13 @@
                 "version": "4.0.4",
                 "coordinates": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23171,13 +23149,13 @@
                 "version": "4.0.4",
                 "coordinates": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.21.1 -> com.fasterxml.jackson:jackson-bom:2.21.1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.21.1 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24858,8 +24836,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
@@ -24867,7 +24845,7 @@
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24878,16 +24856,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -24898,8 +24876,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.2",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
+                "version": "3.9.1",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
@@ -24907,7 +24885,7 @@
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25044,16 +25022,16 @@
             {
                 "group": "org.apache.neethi",
                 "name": "neethi",
-                "version": "3.2.2",
-                "coordinates": "org.apache.neethi:neethi:3.2.2",
+                "version": "3.2.1",
+                "coordinates": "org.apache.neethi:neethi:3.2.1",
                 "parents": [
-                    
+                    "org.apache.cxf:cxf-rt-ws-policy:4.1.4"
                 ],
                 "topLevelParents": [
-                    "org.apache.neethi:neethi:3.2.2"
+                    "org.apache.cxf:cxf-rt-ws-policy:4.1.4"
                 ],
                 "hierarchies": [
-                    "org.apache.neethi:neethi:3.2.2"
+                    "org.apache.cxf:cxf-rt-ws-policy:4.1.4 -> org.apache.neethi:neethi:3.2.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25064,36 +25042,16 @@
             {
                 "group": "org.apache.neethi",
                 "name": "neethi",
-                "version": "3.2.2",
-                "coordinates": "org.apache.neethi:neethi:3.2.2",
+                "version": "3.2.1",
+                "coordinates": "org.apache.neethi:neethi:3.2.1",
                 "parents": [
-                    "org.apache.neethi:neethi:3.2.2"
+                    "org.apache.cxf:cxf-rt-ws-policy:4.1.4"
                 ],
                 "topLevelParents": [
-                    "org.apache.neethi:neethi:3.2.2"
+                    "org.apache.cxf:cxf-rt-ws-policy:4.1.4"
                 ],
                 "hierarchies": [
-                    "org.apache.neethi:neethi:3.2.2"
-                ],
-                "declaredDirectProjects": [
-                    ":"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.apache.neethi",
-                "name": "neethi",
-                "version": "3.2.2",
-                "coordinates": "org.apache.neethi:neethi:3.2.2",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.apache.neethi:neethi:3.2.2"
-                ],
-                "hierarchies": [
-                    "org.apache.neethi:neethi:3.2.2"
+                    "org.apache.cxf:cxf-rt-ws-policy:4.1.4 -> org.apache.neethi:neethi:3.2.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25157,7 +25115,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.collab-events:collab-events-log4j:3.0.1 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.collab-events:collab-events-log4j:2.1.4 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25168,8 +25126,8 @@
             {
                 "group": "org.checkerframework",
                 "name": "checker-qual",
-                "version": "3.42.0",
-                "coordinates": "org.checkerframework:checker-qual:3.42.0",
+                "version": "3.49.3",
+                "coordinates": "org.checkerframework:checker-qual:3.49.3",
                 "parents": [
                     "com.google.guava:guava:33.2.0-jre"
                 ],
@@ -25177,7 +25135,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.collab-events:collab-events-log4j:2.1.4 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.42.0"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.collab-events:collab-events-log4j:3.0.1 -> com.google.guava:guava:33.2.0-jre -> org.checkerframework:checker-qual:3.49.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26982,16 +26940,16 @@
             {
                 "group": "org.jctools",
                 "name": "jctools-core",
-                "version": "4.0.6",
-                "coordinates": "org.jctools:jctools-core:4.0.6",
+                "version": "4.0.5",
+                "coordinates": "org.jctools:jctools-core:4.0.5",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> org.jctools:jctools-core:4.0.6"
+                    "io.netty:netty-all:4.2.12.Final -> org.jctools:jctools-core:4.0.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27002,16 +26960,58 @@
             {
                 "group": "org.jctools",
                 "name": "jctools-core",
-                "version": "4.0.6",
-                "coordinates": "org.jctools:jctools-core:4.0.6",
+                "version": "4.0.5",
+                "coordinates": "org.jctools:jctools-core:4.0.5",
                 "parents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.13.Final"
+                    "io.netty:netty-all:4.2.12.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.13.Final -> org.jctools:jctools-core:4.0.6"
+                    "io.netty:netty-all:4.2.12.Final -> org.jctools:jctools-core:4.0.5"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "kotlin-stdlib-common": [
+            {
+                "group": "org.jetbrains.kotlin",
+                "name": "kotlin-stdlib-common",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
+                "parents": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.jetbrains.kotlin",
+                "name": "kotlin-stdlib-common",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
+                "parents": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+                ],
+                "topLevelParents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "hierarchies": [
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27024,16 +27024,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27044,16 +27044,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27066,8 +27066,8 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
@@ -27075,7 +27075,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27086,8 +27086,8 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
@@ -27095,7 +27095,7 @@
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27108,16 +27108,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "2.1.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27128,16 +27128,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "2.1.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+                "version": "1.6.20",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27153,13 +27153,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21 -> org.jetbrains:annotations:13.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27173,13 +27173,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21 -> org.jetbrains:annotations:13.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27232,8 +27232,8 @@
             {
                 "group": "org.json",
                 "name": "json",
-                "version": "20250107",
-                "coordinates": "org.json:json:20250107",
+                "version": "20170516",
+                "coordinates": "org.json:json:20170516",
                 "parents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
@@ -27241,7 +27241,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> org.json:json:20250107"
+                    "com.cisco.collab.security:vault:1.38 -> org.json:json:20170516"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27252,8 +27252,8 @@
             {
                 "group": "org.json",
                 "name": "json",
-                "version": "20250107",
-                "coordinates": "org.json:json:20250107",
+                "version": "20170516",
+                "coordinates": "org.json:json:20170516",
                 "parents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
@@ -27261,7 +27261,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> org.json:json:20250107"
+                    "com.cisco.collab.security:vault:1.38 -> org.json:json:20170516"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27304,6 +27304,28 @@
                 ],
                 "hierarchies": [
                     "org.glassfish.jersey.media:jersey-media-multipart:3.1.10 -> org.jvnet.mimepull:mimepull:1.9.15"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "lz4-java": [
+            {
+                "group": "org.lz4",
+                "name": "lz4-java",
+                "version": "1.8.0",
+                "coordinates": "org.lz4:lz4-java:1.8.0",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.1"
+                ],
+                "topLevelParents": [
+                    "org.springframework.kafka:spring-kafka:3.3.9"
+                ],
+                "hierarchies": [
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27546,16 +27568,16 @@
             {
                 "group": "org.postgresql",
                 "name": "postgresql",
-                "version": "42.7.11",
-                "coordinates": "org.postgresql:postgresql:42.7.11",
+                "version": "42.7.7",
+                "coordinates": "org.postgresql:postgresql:42.7.7",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "hierarchies": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27566,16 +27588,16 @@
             {
                 "group": "org.postgresql",
                 "name": "postgresql",
-                "version": "42.7.11",
-                "coordinates": "org.postgresql:postgresql:42.7.11",
+                "version": "42.7.7",
+                "coordinates": "org.postgresql:postgresql:42.7.7",
                 "parents": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "topLevelParents": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "hierarchies": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -27586,16 +27608,16 @@
             {
                 "group": "org.postgresql",
                 "name": "postgresql",
-                "version": "42.7.11",
-                "coordinates": "org.postgresql:postgresql:42.7.11",
+                "version": "42.7.7",
+                "coordinates": "org.postgresql:postgresql:42.7.7",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "hierarchies": [
-                    "org.postgresql:postgresql:42.7.11"
+                    "org.postgresql:postgresql:42.7.7"
                 ],
                 "declaredDirectProjects": [
                     
@@ -28761,13 +28783,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.2"
+                    "org.apache.kafka:kafka-clients:3.9.1"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
