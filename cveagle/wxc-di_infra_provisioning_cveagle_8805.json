@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-07-01T04:24:52+0000",
+    "generatedAt": "2026-07-03T09:43:13+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -17928,13 +17928,13 @@
                 "version": "2.20",
                 "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.1 -> com.fasterxml.jackson.core:jackson-annotations:2.20"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson.core:jackson-annotations:2.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17968,13 +17968,13 @@
                 "version": "2.20",
                 "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.1 -> com.fasterxml.jackson.core:jackson-annotations:2.20"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson.core:jackson-annotations:2.20"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17990,13 +17990,13 @@
                 "version": "2.20.1",
                 "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.1 -> com.fasterxml.jackson.core:jackson-core:2.20.1"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson.core:jackson-core:2.20.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18010,13 +18010,13 @@
                 "version": "2.20.1",
                 "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.1 -> com.fasterxml.jackson.core:jackson-core:2.20.1"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson.core:jackson-core:2.20.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18029,8 +18029,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.20.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.1",
+                "version": "2.16.0",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.16.0",
                 "parents": [
                     "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1"
                 ],
@@ -18038,7 +18038,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18049,16 +18049,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.20.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.1",
+                "version": "2.16.0",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.16.0",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -18069,8 +18069,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.20.1",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.1",
+                "version": "2.16.0",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.16.0",
                 "parents": [
                     "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1"
                 ],
@@ -18078,7 +18078,7 @@
                     "com.hubspot.jinjava:jinjava:2.7.6"
                 ],
                 "hierarchies": [
-                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.1"
+                    "com.hubspot.jinjava:jinjava:2.7.6 -> com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1 -> com.fasterxml.jackson:jackson-bom:2.20.1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "declaredDirectProjects": [
                     
