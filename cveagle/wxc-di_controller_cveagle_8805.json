@@ -1,6 +1,6 @@
 {
     "rootProject": "hcs-agent-controller",
-    "generatedAt": "2026-07-01T18:20:15+0000",
+    "generatedAt": "2026-07-03T09:44:31+0000",
     "depsGraphName": "wxc-di_controller_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -18015,7 +18015,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18055,7 +18055,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18077,7 +18077,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18097,7 +18097,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18110,8 +18110,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.16.0",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.16.0",
                 "parents": [
                     "com.cisco.collab.collab-events:collab-events-api:3.0.1"
                 ],
@@ -18119,7 +18119,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18130,16 +18130,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.16.0",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.16.0",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18150,8 +18150,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.16.0",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.16.0",
                 "parents": [
                     "com.cisco.collab.collab-events:collab-events-api:2.1.4"
                 ],
@@ -18159,7 +18159,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18181,7 +18181,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18201,7 +18201,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18223,7 +18223,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18263,7 +18263,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18285,7 +18285,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18325,7 +18325,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18347,7 +18347,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18367,7 +18367,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18389,7 +18389,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18429,7 +18429,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18451,7 +18451,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18471,7 +18471,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18487,13 +18487,13 @@
                 "version": "2.19.4",
                 "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18507,13 +18507,13 @@
                 "version": "2.19.4",
                 "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.16.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22615,7 +22615,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22635,7 +22635,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22989,7 +22989,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23009,7 +23009,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23135,7 +23135,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23155,7 +23155,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.16.0 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
                 ],
                 "declaredDirectProjects": [
                     
