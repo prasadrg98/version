@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-analyzer",
-    "generatedAt": "2026-07-11T09:21:44+0530",
+    "generatedAt": "2026-07-13T10:24:13+0000",
     "depsGraphName": "wxc-di_analyzer_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -27294,8 +27294,8 @@
             {
                 "group": "org.xerial.snappy",
                 "name": "snappy-java",
-                "version": "1.1.10.1",
-                "coordinates": "org.xerial.snappy:snappy-java:1.1.10.1",
+                "version": "1.1.10.4",
+                "coordinates": "org.xerial.snappy:snappy-java:1.1.10.4",
                 "parents": [
                     "org.apache.kafka:kafka-clients:3.5.1"
                 ],
@@ -27303,7 +27303,7 @@
                     "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> org.apache.kafka:kafka-clients:3.5.1 -> org.xerial.snappy:snappy-java:1.1.10.1"
+                    "com.cisco.collab.ucmgmt.ucmgmt-logger:logger-library:1.0.5 -> org.apache.kafka:kafka-clients:3.5.1 -> org.xerial.snappy:snappy-java:1.1.10.4"
                 ],
                 "declaredDirectProjects": [
                     
