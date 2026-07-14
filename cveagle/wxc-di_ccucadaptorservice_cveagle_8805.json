@@ -1,6 +1,6 @@
 {
     "rootProject": "ccuc-adapter",
-    "generatedAt": "2026-07-14T13:19:17+0000",
+    "generatedAt": "2026-07-14T15:25:05+0000",
     "depsGraphName": "wxc-di_ccucadaptorservice_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -18702,16 +18702,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.4.0",
-                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:mchange-commons-java:0.4.0"
+                    "org.hibernate:hibernate-c3p0:5.6.15.Final"
                 ],
                 "hierarchies": [
-                    "com.mchange:mchange-commons-java:0.4.0"
+                    "org.hibernate:hibernate-c3p0:5.6.15.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18722,36 +18722,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.4.0",
-                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:mchange-commons-java:0.4.0"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:mchange-commons-java:0.4.0"
+                    "org.hibernate:hibernate-c3p0:5.6.15.Final"
                 ],
                 "hierarchies": [
-                    "com.mchange:mchange-commons-java:0.4.0"
-                ],
-                "declaredDirectProjects": [
-                    ":ccuc-adapter-webapp"
-                ],
-                "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "com.mchange",
-                "name": "mchange-commons-java",
-                "version": "0.4.0",
-                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "com.mchange:mchange-commons-java:0.4.0"
-                ],
-                "hierarchies": [
-                    "com.mchange:mchange-commons-java:0.4.0"
+                    "org.hibernate:hibernate-c3p0:5.6.15.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
