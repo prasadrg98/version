@@ -1,6 +1,6 @@
 {
     "rootProject": "webapp",
-    "generatedAt": "2026-07-03T14:57:39+0000",
+    "generatedAt": "2026-07-16T15:41:39+0000",
     "depsGraphName": "wxc-di_migration-workflow_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -3669,16 +3669,16 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio-jvm",
-                "version": "3.2.0",
-                "coordinates": "com.squareup.okio:okio-jvm:3.2.0",
+                "version": "3.15.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.15.0",
                 "parents": [
-                    "com.squareup.okio:okio:3.2.0"
+                    "com.squareup.okio:okio:3.15.0"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.2.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0 -> com.squareup.okio:okio-jvm:3.15.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3689,16 +3689,16 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio-jvm",
-                "version": "3.2.0",
-                "coordinates": "com.squareup.okio:okio-jvm:3.2.0",
+                "version": "3.15.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.15.0",
                 "parents": [
-                    "com.squareup.okio:okio:3.2.0"
+                    "com.squareup.okio:okio:3.15.0"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.2.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0 -> com.squareup.okio:okio-jvm:3.15.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3711,8 +3711,8 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio",
-                "version": "3.2.0",
-                "coordinates": "com.squareup.okio:okio:3.2.0",
+                "version": "3.15.0",
+                "coordinates": "com.squareup.okio:okio:3.15.0",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
@@ -3720,7 +3720,7 @@
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3731,8 +3731,8 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio",
-                "version": "3.2.0",
-                "coordinates": "com.squareup.okio:okio:3.2.0",
+                "version": "3.15.0",
+                "coordinates": "com.squareup.okio:okio:3.15.0",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
@@ -3740,7 +3740,7 @@
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9937,62 +9937,20 @@
                 "resolved": true
             }
         ],
-        "kotlin-stdlib-common": [
-            {
-                "group": "org.jetbrains.kotlin",
-                "name": "kotlin-stdlib-common",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
-                "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
-                ],
-                "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
-                ],
-                "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.jetbrains.kotlin",
-                "name": "kotlin-stdlib-common",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
-                "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
-                ],
-                "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
-                ],
-                "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "kotlin-stdlib-jdk7": [
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+                "version": "1.8.0",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10003,16 +9961,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+                "version": "1.8.0",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10025,8 +9983,8 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
+                "version": "1.8.0",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
@@ -10034,7 +9992,7 @@
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10045,8 +10003,8 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
+                "version": "1.8.0",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
@@ -10054,7 +10012,7 @@
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10067,16 +10025,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+                "version": "2.1.21",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10087,16 +10045,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "1.6.20",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+                "version": "2.1.21",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10112,13 +10070,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+                    "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains:annotations:13.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10132,13 +10090,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+                    "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
                 ],
                 "topLevelParents": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20 -> org.jetbrains.kotlin:kotlin-stdlib:1.6.20 -> org.jetbrains:annotations:13.0"
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
