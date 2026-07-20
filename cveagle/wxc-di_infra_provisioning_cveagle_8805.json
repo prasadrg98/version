@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-07-15T13:50:51+0000",
+    "generatedAt": "2026-07-20T14:59:09+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -29125,16 +29125,16 @@
             {
                 "group": "org.projectlombok",
                 "name": "lombok",
-                "version": "1.18.36",
-                "coordinates": "org.projectlombok:lombok:1.18.36",
+                "version": "1.18.26",
+                "coordinates": "org.projectlombok:lombok:1.18.26",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.projectlombok:lombok:1.18.36"
+                    "org.projectlombok:lombok:1.18.26"
                 ],
                 "hierarchies": [
-                    "org.projectlombok:lombok:1.18.36"
+                    "org.projectlombok:lombok:1.18.26"
                 ],
                 "declaredDirectProjects": [
                     
@@ -29145,16 +29145,16 @@
             {
                 "group": "org.projectlombok",
                 "name": "lombok",
-                "version": "1.18.36",
-                "coordinates": "org.projectlombok:lombok:1.18.36",
+                "version": "1.18.26",
+                "coordinates": "org.projectlombok:lombok:1.18.26",
                 "parents": [
-                    "org.projectlombok:lombok:1.18.36"
+                    "org.projectlombok:lombok:1.18.26"
                 ],
                 "topLevelParents": [
-                    "org.projectlombok:lombok:1.18.36"
+                    "org.projectlombok:lombok:1.18.26"
                 ],
                 "hierarchies": [
-                    "org.projectlombok:lombok:1.18.36"
+                    "org.projectlombok:lombok:1.18.26"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
