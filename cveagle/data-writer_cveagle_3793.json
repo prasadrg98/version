@@ -1,6 +1,6 @@
 {
     "rootProject": "workspace",
-    "generatedAt": "2026-07-23T09:51:11+0000",
+    "generatedAt": "2026-07-23T09:55:59+0000",
     "depsGraphName": "data-writer_cveagle_3793",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -2222,8 +2222,8 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
                     "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
                 ],
@@ -2231,7 +2231,7 @@
                     "org.hibernate:hibernate-c3p0:6.4.4.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.9.5.5"
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2242,16 +2242,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -2262,16 +2262,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2282,8 +2282,8 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
                     "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
                 ],
@@ -2291,7 +2291,7 @@
                     "org.hibernate:hibernate-c3p0:6.4.4.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.9.5.5"
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2302,16 +2302,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -2322,16 +2322,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2342,8 +2342,8 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
                     "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
                 ],
@@ -2351,7 +2351,7 @@
                     "org.hibernate:hibernate-c3p0:6.4.4.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.9.5.5"
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2362,16 +2362,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -2382,16 +2382,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.9.5.5",
-                "coordinates": "com.mchange:c3p0:0.9.5.5",
+                "version": "0.12.0",
+                "coordinates": "com.mchange:c3p0:0.12.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2404,16 +2404,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.2.19",
-                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
+                "version": "0.4.0",
+                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
                     "org.hibernate:hibernate-c3p0:6.4.4.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.12.0 -> com.mchange:mchange-commons-java:0.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2424,16 +2424,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.2.19",
-                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
+                "version": "0.4.0",
+                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
+                    "com.mchange:c3p0:0.12.0 -> com.mchange:mchange-commons-java:0.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2444,56 +2444,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.2.19",
-                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
+                "version": "0.4.0",
+                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
-                ],
-                "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
-                ],
-                "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.mchange",
-                "name": "mchange-commons-java",
-                "version": "0.2.19",
-                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
-                "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
-                ],
-                "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
-                ],
-                "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "com.mchange",
-                "name": "mchange-commons-java",
-                "version": "0.2.19",
-                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
-                "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
                     "org.hibernate:hibernate-c3p0:6.4.4.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.12.0 -> com.mchange:mchange-commons-java:0.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2504,16 +2464,56 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.2.19",
-                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
+                "version": "0.4.0",
+                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
                 "parents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.9.5.5"
+                    "com.mchange:c3p0:0.12.0"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
+                    "com.mchange:c3p0:0.12.0 -> com.mchange:mchange-commons-java:0.4.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.mchange",
+                "name": "mchange-commons-java",
+                "version": "0.4.0",
+                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
+                "parents": [
+                    "com.mchange:c3p0:0.12.0"
+                ],
+                "topLevelParents": [
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                ],
+                "hierarchies": [
+                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.12.0 -> com.mchange:mchange-commons-java:0.4.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.mchange",
+                "name": "mchange-commons-java",
+                "version": "0.4.0",
+                "coordinates": "com.mchange:mchange-commons-java:0.4.0",
+                "parents": [
+                    "com.mchange:c3p0:0.12.0"
+                ],
+                "topLevelParents": [
+                    "com.mchange:c3p0:0.12.0"
+                ],
+                "hierarchies": [
+                    "com.mchange:c3p0:0.12.0 -> com.mchange:mchange-commons-java:0.4.0"
                 ],
                 "declaredDirectProjects": [
                     
