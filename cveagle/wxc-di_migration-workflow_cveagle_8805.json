@@ -1,6 +1,6 @@
 {
     "rootProject": "webapp",
-    "generatedAt": "2026-07-23T08:58:57+0000",
+    "generatedAt": "2026-07-23T10:10:31+0000",
     "depsGraphName": "wxc-di_migration-workflow_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -3657,6 +3657,90 @@
                 ],
                 "hierarchies": [
                     "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "okio-jvm": [
+            {
+                "group": "com.squareup.okio",
+                "name": "okio-jvm",
+                "version": "3.2.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.2.0",
+                "parents": [
+                    "com.squareup.okio:okio:3.2.0"
+                ],
+                "topLevelParents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "hierarchies": [
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.2.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.squareup.okio",
+                "name": "okio-jvm",
+                "version": "3.2.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.2.0",
+                "parents": [
+                    "com.squareup.okio:okio:3.2.0"
+                ],
+                "topLevelParents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "hierarchies": [
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0 -> com.squareup.okio:okio-jvm:3.2.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "okio": [
+            {
+                "group": "com.squareup.okio",
+                "name": "okio",
+                "version": "3.2.0",
+                "coordinates": "com.squareup.okio:okio:3.2.0",
+                "parents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "topLevelParents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "hierarchies": [
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.squareup.okio",
+                "name": "okio",
+                "version": "3.2.0",
+                "coordinates": "com.squareup.okio:okio:3.2.0",
+                "parents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "topLevelParents": [
+                    "com.squareup.okhttp3:okhttp:4.11.0"
+                ],
+                "hierarchies": [
+                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.2.0"
                 ],
                 "declaredDirectProjects": [
                     
