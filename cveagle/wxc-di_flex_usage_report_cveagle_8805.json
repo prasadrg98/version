@@ -1,6 +1,6 @@
 {
     "rootProject": "hcs-license-service",
-    "generatedAt": "2026-07-23T06:03:09+0000",
+    "generatedAt": "2026-07-27T03:11:12+0000",
     "depsGraphName": "wxc-di_flex_usage_report_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -42,6 +42,28 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> antlr:antlr:2.7.7"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "lz4-java": [
+            {
+                "group": "at.yawk.lz4",
+                "name": "lz4-java",
+                "version": "1.10.1",
+                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "topLevelParents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "hierarchies": [
+                    "org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17926,8 +17948,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
@@ -17935,7 +17957,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17946,16 +17968,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":hcs-license-service-webapp"
@@ -17966,8 +17988,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
@@ -17975,7 +17997,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17988,16 +18010,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-core:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18008,16 +18030,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-core:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18030,16 +18052,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18050,16 +18072,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":hcs-license-service-webapp"
@@ -18070,16 +18092,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18092,16 +18114,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18112,16 +18134,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18134,16 +18156,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18154,16 +18176,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":hcs-license-service-webapp"
@@ -18174,16 +18196,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18196,16 +18218,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18216,16 +18238,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":hcs-license-service-webapp"
@@ -18236,16 +18258,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18258,16 +18280,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18278,16 +18300,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18300,16 +18322,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18320,16 +18342,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":hcs-license-service-webapp"
@@ -18340,16 +18362,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18362,16 +18384,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18382,16 +18404,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18404,16 +18426,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18424,16 +18446,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18491,13 +18513,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22159,13 +22181,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22179,13 +22201,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22473,13 +22495,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22493,13 +22515,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.oauth:oauth-webauth:2.3.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
+                    "com.cisco.collab.oauth:oauth-webauth:2.3.0 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23454,16 +23476,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23474,16 +23496,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     ":hcs-license-service-webapp"
@@ -23494,16 +23516,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -25788,28 +25810,6 @@
                 "resolved": true
             }
         ],
-        "lz4-java": [
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.8.0",
-                "coordinates": "org.lz4:lz4-java:1.8.0",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
-                ],
-                "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
-                ],
-                "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.8.0"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "mockito-core": [
             {
                 "group": "org.mockito",
@@ -26885,13 +26885,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
