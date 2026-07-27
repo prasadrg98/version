@@ -1,6 +1,6 @@
 {
     "rootProject": "hcs-agent-controller",
-    "generatedAt": "2026-07-24T08:41:30+0000",
+    "generatedAt": "2026-07-27T03:06:27+0000",
     "depsGraphName": "wxc-di_controller_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -8,6 +8,28 @@
         "https://plugins.gradle.org/m2/"
     ],
     "dependenciesByName": {
+        "lz4-java": [
+            {
+                "group": "at.yawk.lz4",
+                "name": "lz4-java",
+                "version": "1.10.1",
+                "coordinates": "at.yawk.lz4:lz4-java:1.10.1",
+                "parents": [
+                    "org.apache.kafka:kafka-clients:3.9.2"
+                ],
+                "topLevelParents": [
+                    "org.springframework.kafka:spring-kafka:3.3.9"
+                ],
+                "hierarchies": [
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2 -> at.yawk.lz4:lz4-java:1.10.1"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
         "logback-classic": [
             {
                 "group": "ch.qos.logback",
@@ -18006,16 +18028,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18026,16 +18048,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18046,16 +18068,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18068,16 +18090,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-core:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18088,16 +18110,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-core:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18110,8 +18132,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
                     "com.cisco.collab.collab-events:collab-events-api:3.0.1"
                 ],
@@ -18119,7 +18141,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18130,16 +18152,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18150,8 +18172,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
                     "com.cisco.collab.collab-events:collab-events-api:2.1.4"
                 ],
@@ -18159,7 +18181,7 @@
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18172,16 +18194,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18192,16 +18214,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18214,16 +18236,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate6",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18234,16 +18256,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate6",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18254,16 +18276,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate6",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18276,16 +18298,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18296,16 +18318,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18316,16 +18338,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18338,16 +18360,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-base",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18358,16 +18380,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-base",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18380,16 +18402,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18400,16 +18422,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -18420,16 +18442,16 @@
             {
                 "group": "com.fasterxml.jackson.jakarta.rs",
                 "name": "jackson-jakarta-rs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18442,16 +18464,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jakarta-xmlbind-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18462,16 +18484,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jakarta-xmlbind-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18484,16 +18506,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18504,16 +18526,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -18613,13 +18635,13 @@
                 "version": "1.5.6-4",
                 "coordinates": "com.github.luben:zstd-jni:1.5.6-4",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1 -> com.github.luben:zstd-jni:1.5.6-4"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2 -> com.github.luben:zstd-jni:1.5.6-4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19776,8 +19798,8 @@
             {
                 "group": "com.squareup.okhttp3",
                 "name": "okhttp",
-                "version": "4.11.0",
-                "coordinates": "com.squareup.okhttp3:okhttp:4.11.0",
+                "version": "4.12.0",
+                "coordinates": "com.squareup.okhttp3:okhttp:4.12.0",
                 "parents": [
                     "io.github.openfeign:feign-okhttp:11.1"
                 ],
@@ -19785,7 +19807,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19796,16 +19818,16 @@
             {
                 "group": "com.squareup.okhttp3",
                 "name": "okhttp",
-                "version": "4.11.0",
-                "coordinates": "com.squareup.okhttp3:okhttp:4.11.0",
+                "version": "4.12.0",
+                "coordinates": "com.squareup.okhttp3:okhttp:4.12.0",
                 "parents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -19816,16 +19838,16 @@
             {
                 "group": "com.squareup.okhttp3",
                 "name": "okhttp",
-                "version": "4.11.0",
-                "coordinates": "com.squareup.okhttp3:okhttp:4.11.0",
+                "version": "4.12.0",
+                "coordinates": "com.squareup.okhttp3:okhttp:4.12.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19838,16 +19860,16 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio-jvm",
-                "version": "3.15.0",
-                "coordinates": "com.squareup.okio:okio-jvm:3.15.0",
+                "version": "3.6.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.6.0",
                 "parents": [
-                    "com.squareup.okio:okio:3.15.0"
+                    "com.squareup.okio:okio:3.6.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0 -> com.squareup.okio:okio-jvm:3.15.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> com.squareup.okio:okio:3.6.0 -> com.squareup.okio:okio-jvm:3.6.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19858,16 +19880,16 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio-jvm",
-                "version": "3.15.0",
-                "coordinates": "com.squareup.okio:okio-jvm:3.15.0",
+                "version": "3.6.0",
+                "coordinates": "com.squareup.okio:okio-jvm:3.6.0",
                 "parents": [
-                    "com.squareup.okio:okio:3.15.0"
+                    "com.squareup.okio:okio:3.6.0"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0 -> com.squareup.okio:okio-jvm:3.15.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> com.squareup.okio:okio:3.6.0 -> com.squareup.okio:okio-jvm:3.6.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19880,16 +19902,16 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio",
-                "version": "3.15.0",
-                "coordinates": "com.squareup.okio:okio:3.15.0",
+                "version": "3.6.0",
+                "coordinates": "com.squareup.okio:okio:3.6.0",
                 "parents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> com.squareup.okio:okio:3.6.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -19900,16 +19922,16 @@
             {
                 "group": "com.squareup.okio",
                 "name": "okio",
-                "version": "3.15.0",
-                "coordinates": "com.squareup.okio:okio:3.15.0",
+                "version": "3.6.0",
+                "coordinates": "com.squareup.okio:okio:3.6.0",
                 "parents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> com.squareup.okio:okio:3.15.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> com.squareup.okio:okio:3.6.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22609,13 +22631,13 @@
                 "version": "2.1.4",
                 "coordinates": "jakarta.activation:jakarta.activation-api:2.1.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> jakarta.activation:jakarta.activation-api:2.1.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22629,13 +22651,13 @@
                 "version": "2.1.4",
                 "coordinates": "jakarta.activation:jakarta.activation-api:2.1.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:2.1.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> jakarta.activation:jakarta.activation-api:2.1.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22983,13 +23005,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23003,13 +23025,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.19.4 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.0-rc1 -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23129,13 +23151,13 @@
                 "version": "4.0.4",
                 "coordinates": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.3 -> com.cisco.collab.collab-events:collab-events-api:3.0.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -23149,13 +23171,13 @@
                 "version": "4.0.4",
                 "coordinates": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.security:vault:1.38"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.19.4 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
+                    "com.cisco.collab.security:vault:1.38 -> com.cisco.collab.security-events:security-events:1.5.0 -> com.cisco.collab.collab-events:collab-events-api:2.1.4 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.0-rc1 -> jakarta.xml.bind:jakarta.xml.bind-api:4.0.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24836,8 +24858,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
@@ -24845,7 +24867,7 @@
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24856,16 +24878,16 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "hierarchies": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -24876,8 +24898,8 @@
             {
                 "group": "org.apache.kafka",
                 "name": "kafka-clients",
-                "version": "3.9.1",
-                "coordinates": "org.apache.kafka:kafka-clients:3.9.1",
+                "version": "3.9.2",
+                "coordinates": "org.apache.kafka:kafka-clients:3.9.2",
                 "parents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
@@ -24885,7 +24907,7 @@
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26978,20 +27000,62 @@
                 "resolved": true
             }
         ],
-        "kotlin-stdlib-jdk7": [
+        "kotlin-stdlib-common": [
             {
                 "group": "org.jetbrains.kotlin",
-                "name": "kotlin-stdlib-jdk7",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
+                "name": "kotlin-stdlib-common",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "org.jetbrains.kotlin",
+                "name": "kotlin-stdlib-common",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+                "parents": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
+                ],
+                "topLevelParents": [
+                    "com.squareup.okhttp3:okhttp:4.12.0"
+                ],
+                "hierarchies": [
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "kotlin-stdlib-jdk7": [
+            {
+                "group": "org.jetbrains.kotlin",
+                "name": "kotlin-stdlib-jdk7",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
+                "parents": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+                ],
+                "topLevelParents": [
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
+                ],
+                "hierarchies": [
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27002,16 +27066,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27024,16 +27088,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
                 "parents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27044,16 +27108,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "1.8.0",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
                 "parents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27066,16 +27130,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "2.1.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27086,16 +27150,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "2.1.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27111,13 +27175,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21 -> org.jetbrains:annotations:13.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:2.0.2 -> com.cisco.collab.ci-client:ci-client-services:4.0.2 -> io.github.openfeign:feign-okhttp:11.1 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27131,13 +27195,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
-                    "com.squareup.okhttp3:okhttp:4.11.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
                 "hierarchies": [
-                    "com.squareup.okhttp3:okhttp:4.11.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> org.jetbrains.kotlin:kotlin-stdlib:2.1.21 -> org.jetbrains:annotations:13.0"
+                    "com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27262,28 +27326,6 @@
                 ],
                 "hierarchies": [
                     "org.glassfish.jersey.media:jersey-media-multipart:3.1.10 -> org.jvnet.mimepull:mimepull:1.9.15"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "lz4-java": [
-            {
-                "group": "org.lz4",
-                "name": "lz4-java",
-                "version": "1.8.0",
-                "coordinates": "org.lz4:lz4-java:1.8.0",
-                "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
-                ],
-                "topLevelParents": [
-                    "org.springframework.kafka:spring-kafka:3.3.9"
-                ],
-                "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1 -> org.lz4:lz4-java:1.8.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -28741,13 +28783,13 @@
                 "version": "1.1.10.5",
                 "coordinates": "org.xerial.snappy:snappy-java:1.1.10.5",
                 "parents": [
-                    "org.apache.kafka:kafka-clients:3.9.1"
+                    "org.apache.kafka:kafka-clients:3.9.2"
                 ],
                 "topLevelParents": [
                     "org.springframework.kafka:spring-kafka:3.3.9"
                 ],
                 "hierarchies": [
-                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.1 -> org.xerial.snappy:snappy-java:1.1.10.5"
+                    "org.springframework.kafka:spring-kafka:3.3.9 -> org.apache.kafka:kafka-clients:3.9.2 -> org.xerial.snappy:snappy-java:1.1.10.5"
                 ],
                 "declaredDirectProjects": [
                     
