@@ -1,6 +1,6 @@
 {
     "rootProject": "workspace",
-    "generatedAt": "2026-07-27T15:13:31+0000",
+    "generatedAt": "2026-07-28T03:07:32+0000",
     "depsGraphName": "data-writer_cveagle_3793",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -1757,13 +1757,13 @@
                 "version": "1.5.1",
                 "coordinates": "com.fasterxml:classmate:1.5.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> com.fasterxml:classmate:1.5.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> com.fasterxml:classmate:1.5.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -1777,13 +1777,13 @@
                 "version": "1.5.1",
                 "coordinates": "com.fasterxml:classmate:1.5.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> com.fasterxml:classmate:1.5.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> com.fasterxml:classmate:1.5.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -1817,13 +1817,13 @@
                 "version": "1.5.1",
                 "coordinates": "com.fasterxml:classmate:1.5.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> com.fasterxml:classmate:1.5.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> com.fasterxml:classmate:1.5.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2222,16 +2222,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
-                    "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.10.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2242,16 +2242,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -2262,16 +2262,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2282,16 +2282,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
-                    "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.10.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2302,16 +2302,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -2322,16 +2322,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2342,16 +2342,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
-                    "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.10.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2362,16 +2362,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -2382,16 +2382,16 @@
             {
                 "group": "com.mchange",
                 "name": "c3p0",
-                "version": "0.10.2",
-                "coordinates": "com.mchange:c3p0:0.10.2",
+                "version": "0.9.5.5",
+                "coordinates": "com.mchange:c3p0:0.9.5.5",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2404,16 +2404,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.3.1",
-                "coordinates": "com.mchange:mchange-commons-java:0.3.1",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.10.2 -> com.mchange:mchange-commons-java:0.3.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2424,16 +2424,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.3.1",
-                "coordinates": "com.mchange:mchange-commons-java:0.3.1",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2 -> com.mchange:mchange-commons-java:0.3.1"
+                    "com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2444,16 +2444,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.3.1",
-                "coordinates": "com.mchange:mchange-commons-java:0.3.1",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.10.2 -> com.mchange:mchange-commons-java:0.3.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2464,16 +2464,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.3.1",
-                "coordinates": "com.mchange:mchange-commons-java:0.3.1",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2 -> com.mchange:mchange-commons-java:0.3.1"
+                    "com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2484,16 +2484,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.3.1",
-                "coordinates": "com.mchange:mchange-commons-java:0.3.1",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> com.mchange:c3p0:0.10.2 -> com.mchange:mchange-commons-java:0.3.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2504,16 +2504,16 @@
             {
                 "group": "com.mchange",
                 "name": "mchange-commons-java",
-                "version": "0.3.1",
-                "coordinates": "com.mchange:mchange-commons-java:0.3.1",
+                "version": "0.2.19",
+                "coordinates": "com.mchange:mchange-commons-java:0.2.19",
                 "parents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "topLevelParents": [
-                    "com.mchange:c3p0:0.10.2"
+                    "com.mchange:c3p0:0.9.5.5"
                 ],
                 "hierarchies": [
-                    "com.mchange:c3p0:0.10.2 -> com.mchange:mchange-commons-java:0.3.1"
+                    "com.mchange:c3p0:0.9.5.5 -> com.mchange:mchange-commons-java:0.2.19"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2532,10 +2532,10 @@
                     "org.glassfish.jaxb:jaxb-core:4.0.2"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2 -> com.sun.istack:istack-commons-runtime:4.1.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2 -> com.sun.istack:istack-commons-runtime:4.1.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5355,13 +5355,13 @@
                 "version": "3.1.2",
                 "coordinates": "io.smallrye:jandex:3.1.2",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> io.smallrye:jandex:3.1.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> io.smallrye:jandex:3.1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5375,13 +5375,13 @@
                 "version": "3.1.2",
                 "coordinates": "io.smallrye:jandex:3.1.2",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> io.smallrye:jandex:3.1.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> io.smallrye:jandex:3.1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5395,13 +5395,13 @@
                 "version": "3.1.2",
                 "coordinates": "io.smallrye:jandex:3.1.2",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> io.smallrye:jandex:3.1.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> io.smallrye:jandex:3.1.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5721,13 +5721,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.inject:jakarta.inject-api:2.0.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.inject:jakarta.inject-api:2.0.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.inject:jakarta.inject-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5903,13 +5903,13 @@
                 "version": "3.1.0",
                 "coordinates": "jakarta.persistence:jakarta.persistence-api:3.1.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5943,13 +5943,13 @@
                 "version": "3.1.0",
                 "coordinates": "jakarta.persistence:jakarta.persistence-api:3.1.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -5963,13 +5963,13 @@
                 "version": "3.1.0",
                 "coordinates": "jakarta.persistence:jakarta.persistence-api:3.1.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6003,13 +6003,13 @@
                 "version": "3.1.0",
                 "coordinates": "jakarta.persistence:jakarta.persistence-api:3.1.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.persistence:jakarta.persistence-api:3.1.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6023,13 +6023,13 @@
                 "version": "3.2.0",
                 "coordinates": "jakarta.persistence:jakarta.persistence-api:3.2.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.persistence:jakarta.persistence-api:3.2.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.persistence:jakarta.persistence-api:3.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6063,13 +6063,13 @@
                 "version": "3.2.0",
                 "coordinates": "jakarta.persistence:jakarta.persistence-api:3.2.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.persistence:jakarta.persistence-api:3.2.0"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.persistence:jakarta.persistence-api:3.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6267,13 +6267,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6287,13 +6287,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6327,13 +6327,13 @@
                 "version": "2.0.1",
                 "coordinates": "jakarta.transaction:jakarta.transaction-api:2.0.1",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> jakarta.transaction:jakarta.transaction-api:2.0.1"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> jakarta.transaction:jakarta.transaction-api:2.0.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6812,16 +6812,16 @@
             {
                 "group": "net.bytebuddy",
                 "name": "byte-buddy",
-                "version": "1.14.11",
-                "coordinates": "net.bytebuddy:byte-buddy:1.14.11",
+                "version": "1.14.15",
+                "coordinates": "net.bytebuddy:byte-buddy:1.14.15",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> net.bytebuddy:byte-buddy:1.14.11"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> net.bytebuddy:byte-buddy:1.14.15"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6832,8 +6832,8 @@
             {
                 "group": "net.bytebuddy",
                 "name": "byte-buddy",
-                "version": "1.14.11",
-                "coordinates": "net.bytebuddy:byte-buddy:1.14.11",
+                "version": "1.14.15",
+                "coordinates": "net.bytebuddy:byte-buddy:1.14.15",
                 "parents": [
                     "org.mockito:mockito-core:5.2.0"
                 ],
@@ -6841,7 +6841,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.11"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.15"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6852,8 +6852,8 @@
             {
                 "group": "net.bytebuddy",
                 "name": "byte-buddy",
-                "version": "1.14.11",
-                "coordinates": "net.bytebuddy:byte-buddy:1.14.11",
+                "version": "1.14.15",
+                "coordinates": "net.bytebuddy:byte-buddy:1.14.15",
                 "parents": [
                     "org.mockito:mockito-core:5.2.0"
                 ],
@@ -6861,7 +6861,7 @@
                     "com.cisco.collab.oauth:oauth-webauth:3.0.1"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.11"
+                    "com.cisco.collab.oauth:oauth-webauth:3.0.1 -> com.cisco.collab.token4j:token4j-machine:3.0.5 -> org.mockito:mockito-core:5.2.0 -> net.bytebuddy:byte-buddy:1.14.15"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6877,13 +6877,13 @@
                 "version": "4.13.0",
                 "coordinates": "org.antlr:antlr4-runtime:4.13.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.antlr:antlr4-runtime:4.13.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.antlr:antlr4-runtime:4.13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6897,13 +6897,13 @@
                 "version": "4.13.0",
                 "coordinates": "org.antlr:antlr4-runtime:4.13.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.antlr:antlr4-runtime:4.13.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.antlr:antlr4-runtime:4.13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -6917,13 +6917,13 @@
                 "version": "4.13.0",
                 "coordinates": "org.antlr:antlr4-runtime:4.13.0",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.antlr:antlr4-runtime:4.13.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.antlr:antlr4-runtime:4.13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8442,10 +8442,10 @@
                     "org.glassfish.jaxb:jaxb-core:4.0.2"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2 -> org.eclipse.angus:angus-activation:2.0.0"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2 -> org.eclipse.angus:angus-activation:2.0.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9114,10 +9114,10 @@
                     "org.glassfish.jaxb:jaxb-runtime:4.0.2"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9173,13 +9173,13 @@
                 "version": "4.0.2",
                 "coordinates": "org.glassfish.jaxb:jaxb-runtime:4.0.2",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -9238,10 +9238,10 @@
                     "org.glassfish.jaxb:jaxb-core:4.0.2"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2 -> org.glassfish.jaxb:txw2:4.0.2"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.glassfish.jaxb:jaxb-runtime:4.0.2 -> org.glassfish.jaxb:jaxb-core:4.0.2 -> org.glassfish.jaxb:txw2:4.0.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10209,13 +10209,13 @@
                 "version": "6.0.6.Final",
                 "coordinates": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10229,13 +10229,13 @@
                 "version": "6.0.6.Final",
                 "coordinates": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10249,13 +10249,13 @@
                 "version": "6.0.6.Final",
                 "coordinates": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.hibernate.common:hibernate-commons-annotations:6.0.6.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10268,16 +10268,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10288,16 +10288,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10308,16 +10308,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10328,16 +10328,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10348,16 +10348,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10368,16 +10368,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10388,16 +10388,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10408,16 +10408,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -10428,16 +10428,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10448,16 +10448,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10468,16 +10468,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -10488,16 +10488,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10508,16 +10508,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10528,16 +10528,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -10548,16 +10548,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-c3p0",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-c3p0:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-c3p0:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10570,16 +10570,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10590,16 +10590,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10610,16 +10610,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10630,16 +10630,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10650,16 +10650,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-c3p0:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10670,16 +10670,16 @@
             {
                 "group": "org.hibernate.orm",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate.orm:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10690,16 +10690,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10710,16 +10710,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     ":common-utils"
@@ -10730,16 +10730,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10750,16 +10750,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10770,16 +10770,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     ":datareader-webapp"
@@ -10790,16 +10790,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10810,16 +10810,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10830,16 +10830,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     ":datawriter-webapp"
@@ -10850,16 +10850,16 @@
             {
                 "group": "org.hibernate",
                 "name": "hibernate-core",
-                "version": "6.4.4.Final",
-                "coordinates": "org.hibernate:hibernate-core:6.4.4.Final",
+                "version": "6.5.2.Final",
+                "coordinates": "org.hibernate:hibernate-core:6.5.2.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-core:6.4.4.Final"
+                    "org.hibernate:hibernate-core:6.5.2.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -10997,13 +10997,13 @@
                 "version": "3.5.0.Final",
                 "coordinates": "org.jboss.logging:jboss-logging:3.5.0.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.jboss.logging:jboss-logging:3.5.0.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.jboss.logging:jboss-logging:3.5.0.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11017,13 +11017,13 @@
                 "version": "3.6.0.Final",
                 "coordinates": "org.jboss.logging:jboss-logging:3.6.0.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.jboss.logging:jboss-logging:3.6.0.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.jboss.logging:jboss-logging:3.6.0.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11057,13 +11057,13 @@
                 "version": "3.6.0.Final",
                 "coordinates": "org.jboss.logging:jboss-logging:3.6.0.Final",
                 "parents": [
-                    "org.hibernate.orm:hibernate-core:6.4.4.Final"
+                    "org.hibernate.orm:hibernate-core:6.5.2.Final"
                 ],
                 "topLevelParents": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final"
                 ],
                 "hierarchies": [
-                    "org.hibernate:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-c3p0:6.4.4.Final -> org.hibernate.orm:hibernate-core:6.4.4.Final -> org.jboss.logging:jboss-logging:3.6.0.Final"
+                    "org.hibernate:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-c3p0:6.5.2.Final -> org.hibernate.orm:hibernate-core:6.5.2.Final -> org.jboss.logging:jboss-logging:3.6.0.Final"
                 ],
                 "declaredDirectProjects": [
                     
