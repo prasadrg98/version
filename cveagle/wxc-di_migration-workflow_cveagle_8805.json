@@ -1,6 +1,6 @@
 {
     "rootProject": "webapp",
-    "generatedAt": "2026-08-03T07:44:09+0000",
+    "generatedAt": "2026-08-03T14:33:57+0000",
     "depsGraphName": "wxc-di_migration-workflow_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -2650,13 +2650,13 @@
                 "version": "1.08",
                 "coordinates": "com.github.virtuald:curvesapi:1.08",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> com.github.virtuald:curvesapi:1.08"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> com.github.virtuald:curvesapi:1.08"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2670,13 +2670,13 @@
                 "version": "1.08",
                 "coordinates": "com.github.virtuald:curvesapi:1.08",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> com.github.virtuald:curvesapi:1.08"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> com.github.virtuald:curvesapi:1.08"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3902,13 +3902,13 @@
                 "version": "1.3",
                 "coordinates": "com.zaxxer:SparseBitSet:1.3",
                 "parents": [
-                    "org.apache.poi:poi:5.3.0"
+                    "org.apache.poi:poi:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi:5.3.0 -> com.zaxxer:SparseBitSet:1.3"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi:5.4.0 -> com.zaxxer:SparseBitSet:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3922,13 +3922,13 @@
                 "version": "1.3",
                 "coordinates": "com.zaxxer:SparseBitSet:1.3",
                 "parents": [
-                    "org.apache.poi:poi:5.3.0"
+                    "org.apache.poi:poi:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi:5.3.0 -> com.zaxxer:SparseBitSet:1.3"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi:5.4.0 -> com.zaxxer:SparseBitSet:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -3983,8 +3983,8 @@
             {
                 "group": "commons-codec",
                 "name": "commons-codec",
-                "version": "1.17.0",
-                "coordinates": "commons-codec:commons-codec:1.17.0",
+                "version": "1.17.1",
+                "coordinates": "commons-codec:commons-codec:1.17.1",
                 "parents": [
                     "org.apache.httpcomponents:httpclient:4.5.14"
                 ],
@@ -3992,7 +3992,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-security-audit:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-security-audit:1.30.0 -> com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.httpcomponents:httpclient:4.5.14 -> commons-codec:commons-codec:1.17.0"
+                    "com.cisco.collab.collab-filters:collab-filters-security-audit:1.30.0 -> com.cisco.collab.oauth:oauth-webauth:2.3.0 -> org.apache.httpcomponents:httpclient:4.5.14 -> commons-codec:commons-codec:1.17.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7381,16 +7381,16 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-compress",
-                "version": "1.26.2",
-                "coordinates": "org.apache.commons:commons-compress:1.26.2",
+                "version": "1.27.1",
+                "coordinates": "org.apache.commons:commons-compress:1.27.1",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.commons:commons-compress:1.26.2"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.commons:commons-compress:1.27.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7401,16 +7401,16 @@
             {
                 "group": "org.apache.commons",
                 "name": "commons-compress",
-                "version": "1.26.2",
-                "coordinates": "org.apache.commons:commons-compress:1.26.2",
+                "version": "1.27.1",
+                "coordinates": "org.apache.commons:commons-compress:1.27.1",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.commons:commons-compress:1.26.2"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.commons:commons-compress:1.27.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7488,13 +7488,13 @@
                 "version": "3.6.1",
                 "coordinates": "org.apache.commons:commons-math3:3.6.1",
                 "parents": [
-                    "org.apache.poi:poi:5.3.0"
+                    "org.apache.poi:poi:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi:5.3.0 -> org.apache.commons:commons-math3:3.6.1"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi:5.4.0 -> org.apache.commons:commons-math3:3.6.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7508,13 +7508,13 @@
                 "version": "3.6.1",
                 "coordinates": "org.apache.commons:commons-math3:3.6.1",
                 "parents": [
-                    "org.apache.poi:poi:5.3.0"
+                    "org.apache.poi:poi:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi:5.3.0 -> org.apache.commons:commons-math3:3.6.1"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi:5.4.0 -> org.apache.commons:commons-math3:3.6.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8101,16 +8101,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi-ooxml-lite",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi-ooxml-lite:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi-ooxml-lite:5.4.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi-ooxml-lite:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi-ooxml-lite:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8121,16 +8121,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi-ooxml-lite",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi-ooxml-lite:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi-ooxml-lite:5.4.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi-ooxml-lite:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi-ooxml-lite:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8143,16 +8143,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi-ooxml",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi-ooxml:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi-ooxml:5.4.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8163,16 +8163,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi-ooxml",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi-ooxml:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi-ooxml:5.4.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -8183,16 +8183,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi-ooxml",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi-ooxml:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi-ooxml:5.4.0",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8205,16 +8205,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi:5.4.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8225,16 +8225,16 @@
             {
                 "group": "org.apache.poi",
                 "name": "poi",
-                "version": "5.3.0",
-                "coordinates": "org.apache.poi:poi:5.3.0",
+                "version": "5.4.0",
+                "coordinates": "org.apache.poi:poi:5.4.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.poi:poi:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.poi:poi:5.4.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8247,16 +8247,16 @@
             {
                 "group": "org.apache.xmlbeans",
                 "name": "xmlbeans",
-                "version": "5.2.1",
-                "coordinates": "org.apache.xmlbeans:xmlbeans:5.2.1",
+                "version": "5.3.0",
+                "coordinates": "org.apache.xmlbeans:xmlbeans:5.3.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.xmlbeans:xmlbeans:5.2.1"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.xmlbeans:xmlbeans:5.3.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -8267,16 +8267,16 @@
             {
                 "group": "org.apache.xmlbeans",
                 "name": "xmlbeans",
-                "version": "5.2.1",
-                "coordinates": "org.apache.xmlbeans:xmlbeans:5.2.1",
+                "version": "5.3.0",
+                "coordinates": "org.apache.xmlbeans:xmlbeans:5.3.0",
                 "parents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "topLevelParents": [
-                    "org.apache.poi:poi-ooxml:5.3.0"
+                    "org.apache.poi:poi-ooxml:5.4.0"
                 ],
                 "hierarchies": [
-                    "org.apache.poi:poi-ooxml:5.3.0 -> org.apache.xmlbeans:xmlbeans:5.2.1"
+                    "org.apache.poi:poi-ooxml:5.4.0 -> org.apache.xmlbeans:xmlbeans:5.3.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11237,124 +11237,44 @@
             {
                 "group": "org.springframework",
                 "name": "spring-aop",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-aop:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-aop:6.2.17",
                 "parents": [
-                    "org.springframework:spring-context:5.3.34"
+                    "org.springframework:spring-aop:6.2.17"
                 ],
                 "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
+                    "org.springframework:spring-aop:6.2.17"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-aop:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-aop",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-aop:5.3.34",
-                "parents": [
-                    "org.springframework:spring-aop:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-aop:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-aop:5.3.34"
+                    "org.springframework:spring-aop:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-aop",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-aop:5.3.34",
-                "parents": [
-                    "org.springframework:spring-context:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-aop:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "spring-beans": [
             {
                 "group": "org.springframework",
                 "name": "spring-beans",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-beans:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-beans:6.2.17",
                 "parents": [
-                    "org.springframework:spring-tx:5.3.34"
+                    "org.springframework:spring-beans:6.2.17"
                 ],
                 "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
+                    "org.springframework:spring-beans:6.2.17"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-beans:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-beans",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-beans:5.3.34",
-                "parents": [
-                    "org.springframework:spring-beans:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-beans:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-beans:5.3.34"
+                    "org.springframework:spring-beans:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-beans",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-beans:5.3.34",
-                "parents": [
-                    "org.springframework:spring-tx:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-beans:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "spring-context-support": [
@@ -11403,216 +11323,52 @@
             {
                 "group": "org.springframework",
                 "name": "spring-context",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-context:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-context:6.2.17",
                 "parents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
+                    "org.springframework:spring-context:6.2.17"
                 ],
                 "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
+                    "org.springframework:spring-context:6.2.17"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-context",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-context:5.3.34",
-                "parents": [
-                    "org.springframework:spring-context:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-context:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-context:5.3.34"
+                    "org.springframework:spring-context:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-context",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-context:5.3.34",
-                "parents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "spring-core": [
             {
                 "group": "org.springframework",
                 "name": "spring-core",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-core:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-core:6.2.17",
                 "parents": [
-                    "org.springframework:spring-tx:5.3.34"
+                    "org.springframework:spring-core:6.2.17"
                 ],
                 "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
+                    "org.springframework:spring-core:6.2.17"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-core",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-core:5.3.34",
-                "parents": [
-                    "org.springframework:spring-core:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-core:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-core:5.3.34"
+                    "org.springframework:spring-core:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-core",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-core:5.3.34",
-                "parents": [
-                    "org.springframework:spring-tx:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "spring-expression": [
-            {
-                "group": "org.springframework",
-                "name": "spring-expression",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-expression:5.3.34",
-                "parents": [
-                    "org.springframework:spring-context:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-expression:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-expression",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-expression:5.3.34",
-                "parents": [
-                    "org.springframework:spring-context:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-expression:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "spring-jcl": [
-            {
-                "group": "org.springframework",
-                "name": "spring-jcl",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-jcl:5.3.34",
-                "parents": [
-                    "org.springframework:spring-core:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34 -> org.springframework:spring-jcl:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-jcl",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-jcl:5.3.34",
-                "parents": [
-                    "org.springframework:spring-core:5.3.34"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34 -> org.springframework:spring-jcl:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "spring-jdbc": [
             {
                 "group": "org.springframework",
                 "name": "spring-jdbc",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-jdbc:5.3.34",
+                "version": "5.2.7.RELEASE",
+                "coordinates": "org.springframework:spring-jdbc:5.2.7.RELEASE",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
@@ -11620,7 +11376,7 @@
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.2.7.RELEASE"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11631,8 +11387,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-jdbc",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-jdbc:5.3.34",
+                "version": "5.2.7.RELEASE",
+                "coordinates": "org.springframework:spring-jdbc:5.2.7.RELEASE",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
@@ -11640,7 +11396,7 @@
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.2.7.RELEASE"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11695,62 +11451,22 @@
             {
                 "group": "org.springframework",
                 "name": "spring-orm",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-orm:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-orm:6.2.17",
                 "parents": [
-                    
+                    "org.springframework:spring-orm:6.2.17"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-orm:5.3.34"
+                    "org.springframework:spring-orm:6.2.17"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-orm:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-orm",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-orm:5.3.34",
-                "parents": [
-                    "org.springframework:spring-orm:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-orm:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-orm:5.3.34"
+                    "org.springframework:spring-orm:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-orm",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-orm:5.3.34",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-orm:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-orm:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "spring-oxm": [
@@ -11799,16 +11515,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-tx",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-tx:5.3.34",
+                "version": "5.3.29",
+                "coordinates": "org.springframework:spring-tx:5.3.29",
                 "parents": [
-                    "org.springframework:spring-jdbc:5.3.34"
+                    "org.springframework:spring-jdbc:5.2.7.RELEASE"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.2.7.RELEASE -> org.springframework:spring-tx:5.3.29"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11819,16 +11535,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-tx",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-tx:5.3.34",
+                "version": "5.3.29",
+                "coordinates": "org.springframework:spring-tx:5.3.29",
                 "parents": [
-                    "org.springframework:spring-jdbc:5.3.34"
+                    "org.springframework:spring-jdbc:5.2.7.RELEASE"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.2.7.RELEASE -> org.springframework:spring-tx:5.3.29"
                 ],
                 "declaredDirectProjects": [
                     
@@ -11841,124 +11557,44 @@
             {
                 "group": "org.springframework",
                 "name": "spring-web",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-web:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-web:6.2.17",
                 "parents": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
+                    "org.springframework:spring-web:6.2.17"
                 ],
                 "topLevelParents": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
+                    "org.springframework:spring-web:6.2.17"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-web",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-web:5.3.34",
-                "parents": [
-                    "org.springframework:spring-web:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-web:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-web:5.3.34"
+                    "org.springframework:spring-web:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-web",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-web:5.3.34",
-                "parents": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
-                ],
-                "topLevelParents": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
-                ],
-                "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "spring-webmvc": [
             {
                 "group": "org.springframework",
                 "name": "spring-webmvc",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-webmvc:5.3.34",
+                "version": "6.2.17",
+                "coordinates": "org.springframework:spring-webmvc:6.2.17",
                 "parents": [
-                    
+                    "org.springframework:spring-webmvc:6.2.17"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-webmvc:5.3.34"
+                    "org.springframework:spring-webmvc:6.2.17"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-webmvc:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-webmvc",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-webmvc:5.3.34",
-                "parents": [
-                    "org.springframework:spring-webmvc:5.3.34"
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-webmvc:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-webmvc:5.3.34"
+                    "org.springframework:spring-webmvc:6.2.17"
                 ],
                 "declaredDirectProjects": [
                     ":"
                 ],
                 "declaredDirect": true,
-                "resolved": true
-            },
-            {
-                "group": "org.springframework",
-                "name": "spring-webmvc",
-                "version": "5.3.34",
-                "coordinates": "org.springframework:spring-webmvc:5.3.34",
-                "parents": [
-                    
-                ],
-                "topLevelParents": [
-                    "org.springframework:spring-webmvc:5.3.34"
-                ],
-                "hierarchies": [
-                    "org.springframework:spring-webmvc:5.3.34"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
+                "resolved": false
             }
         ],
         "snakeyaml": [
