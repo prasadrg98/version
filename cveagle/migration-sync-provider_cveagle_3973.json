@@ -1,6 +1,6 @@
 {
     "rootProject": "migration-sync-provider",
-    "generatedAt": "2026-08-03T13:41:19+0000",
+    "generatedAt": "2026-08-03T15:49:55+0000",
     "depsGraphName": "migration-sync-provider_cveagle_3973",
     "pluginRepositorySources": [
         "https://plugins.gradle.org/m2"
@@ -1637,13 +1637,13 @@
                 "version": "1.0-1",
                 "coordinates": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
                 "parents": [
-                    "com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.2 -> com.github.stephenc.jcip:jcip-annotations:1.0-1"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.4 -> com.github.stephenc.jcip:jcip-annotations:1.0-1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -1657,13 +1657,13 @@
                 "version": "1.0-1",
                 "coordinates": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
                 "parents": [
-                    "com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.2 -> com.github.stephenc.jcip:jcip-annotations:1.0-1"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.4 -> com.github.stephenc.jcip:jcip-annotations:1.0-1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2136,8 +2136,8 @@
             {
                 "group": "com.nimbusds",
                 "name": "nimbus-jose-jwt",
-                "version": "9.37.2",
-                "coordinates": "com.nimbusds:nimbus-jose-jwt:9.37.2",
+                "version": "9.37.4",
+                "coordinates": "com.nimbusds:nimbus-jose-jwt:9.37.4",
                 "parents": [
                     "io.micronaut.security:micronaut-security-bom:4.0.1"
                 ],
@@ -2145,7 +2145,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "declaredDirectProjects": [
                     
@@ -2156,16 +2156,16 @@
             {
                 "group": "com.nimbusds",
                 "name": "nimbus-jose-jwt",
-                "version": "9.37.2",
-                "coordinates": "com.nimbusds:nimbus-jose-jwt:9.37.2",
+                "version": "9.37.4",
+                "coordinates": "com.nimbusds:nimbus-jose-jwt:9.37.4",
                 "parents": [
-                    "com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "topLevelParents": [
-                    "com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "hierarchies": [
-                    "com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "declaredDirectProjects": [
                     ":"
@@ -2176,8 +2176,8 @@
             {
                 "group": "com.nimbusds",
                 "name": "nimbus-jose-jwt",
-                "version": "9.37.2",
-                "coordinates": "com.nimbusds:nimbus-jose-jwt:9.37.2",
+                "version": "9.37.4",
+                "coordinates": "com.nimbusds:nimbus-jose-jwt:9.37.4",
                 "parents": [
                     "io.micronaut.security:micronaut-security-bom:4.0.1"
                 ],
@@ -2185,7 +2185,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.2"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.security:micronaut-security-bom:4.0.1 -> com.nimbusds:nimbus-jose-jwt:9.37.4"
                 ],
                 "declaredDirectProjects": [
                     
