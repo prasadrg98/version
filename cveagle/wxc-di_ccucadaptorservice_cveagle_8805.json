@@ -1,6 +1,6 @@
 {
     "rootProject": "ccuc-adapter",
-    "generatedAt": "2026-07-23T04:30:30+0000",
+    "generatedAt": "2026-08-04T05:47:53+0000",
     "depsGraphName": "wxc-di_ccucadaptorservice_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -17490,16 +17490,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17510,16 +17510,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":ccuc-adapter-webapp"
@@ -17530,16 +17530,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.19.4",
+                "version": "2.20-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-annotations:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-annotations:2.20-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17552,16 +17552,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-core:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17572,16 +17572,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-core",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> com.fasterxml.jackson.core:jackson-core:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> com.fasterxml.jackson.core:jackson-core:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17594,8 +17594,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
                     "com.datastax.oss:java-driver-core:4.14.1"
                 ],
@@ -17603,7 +17603,7 @@
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17614,16 +17614,16 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":ccuc-adapter-webapp"
@@ -17634,8 +17634,8 @@
             {
                 "group": "com.fasterxml.jackson.core",
                 "name": "jackson-databind",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1",
                 "parents": [
                     "com.datastax.oss:java-driver-core:4.14.1"
                 ],
@@ -17643,7 +17643,7 @@
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17656,16 +17656,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17676,16 +17676,16 @@
             {
                 "group": "com.fasterxml.jackson.dataformat",
                 "name": "jackson-dataformat-cbor",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17698,16 +17698,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17718,16 +17718,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":ccuc-adapter-webapp"
@@ -17738,16 +17738,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-hibernate5",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17760,16 +17760,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17780,16 +17780,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":ccuc-adapter-webapp"
@@ -17800,16 +17800,16 @@
             {
                 "group": "com.fasterxml.jackson.datatype",
                 "name": "jackson-datatype-jsr310",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17822,16 +17822,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17842,16 +17842,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-base",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17864,16 +17864,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17884,16 +17884,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "topLevelParents": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "hierarchies": [
-                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     ":ccuc-adapter-webapp"
@@ -17904,16 +17904,16 @@
             {
                 "group": "com.fasterxml.jackson.jaxrs",
                 "name": "jackson-jaxrs-json-provider",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17926,16 +17926,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17946,16 +17946,16 @@
             {
                 "group": "com.fasterxml.jackson.module",
                 "name": "jackson-module-jaxb-annotations",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17968,16 +17968,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -17988,16 +17988,16 @@
             {
                 "group": "com.fasterxml.jackson",
                 "name": "jackson-bom",
-                "version": "2.19.4",
-                "coordinates": "com.fasterxml.jackson:jackson-bom:2.19.4",
+                "version": "2.20.0-rc1",
+                "coordinates": "com.fasterxml.jackson:jackson-bom:2.20.0-rc1",
                 "parents": [
-                    "com.fasterxml.jackson.core:jackson-databind:2.19.4"
+                    "com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20184,16 +20184,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-all:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-all:4.2.16.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20204,16 +20204,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-all:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-all:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     ":ccuc-adapter-webapp"
@@ -20224,16 +20224,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-all",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-all:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-all:4.2.16.Final",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20246,16 +20246,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-buffer:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-buffer:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.12.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-buffer:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-buffer:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20266,16 +20266,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-buffer:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-buffer:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.12.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-buffer:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-buffer:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20288,16 +20288,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-base",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-base:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-base:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.12.Final"
+                    "io.netty:netty-handler:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20308,16 +20308,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-base",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-base:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-base:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.12.Final"
+                    "io.netty:netty-handler:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20330,16 +20330,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-classes-quic",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-classes-quic:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-classes-quic:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-native-quic:4.2.12.Final"
+                    "io.netty:netty-codec-native-quic:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-native-quic:4.2.12.Final -> io.netty:netty-codec-classes-quic:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-native-quic:4.2.16.Final -> io.netty:netty-codec-classes-quic:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20350,16 +20350,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-classes-quic",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-classes-quic:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-classes-quic:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-classes-quic:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-classes-quic:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20372,16 +20372,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-compression",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-compression:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-compression:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-http:4.2.12.Final"
+                    "io.netty:netty-codec-http:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.781"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.12.Final -> io.netty:netty-codec-compression:4.2.12.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.16.Final -> io.netty:netty-codec-compression:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20392,16 +20392,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-compression",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-compression:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-compression:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-http:4.2.12.Final"
+                    "io.netty:netty-codec-http:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "com.amazonaws:aws-java-sdk:1.12.781"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.12.Final -> io.netty:netty-codec-compression:4.2.12.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.16.Final -> io.netty:netty-codec-compression:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20414,16 +20414,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-dns",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-dns:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-dns:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns:4.2.12.Final"
+                    "io.netty:netty-resolver-dns:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final -> io.netty:netty-resolver-dns:4.2.12.Final -> io.netty:netty-codec-dns:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-resolver-dns-native-macos:4.2.16.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.16.Final -> io.netty:netty-resolver-dns:4.2.16.Final -> io.netty:netty-codec-dns:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20434,16 +20434,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-dns",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-dns:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-dns:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-dns:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-dns:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20456,16 +20456,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-haproxy",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-haproxy:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-haproxy:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-haproxy:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-haproxy:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20476,16 +20476,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-haproxy",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-haproxy:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-haproxy:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-haproxy:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-haproxy:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20498,16 +20498,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-http2:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-http2:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20518,16 +20518,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-http2:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-http2:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20540,16 +20540,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http3",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-http3:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http3:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-http3:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-http3:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20560,16 +20560,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http3",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-http3:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http3:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-http3:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-http3:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20582,8 +20582,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-http:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http:4.2.16.Final",
                 "parents": [
                     "com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781"
                 ],
@@ -20591,7 +20591,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.781"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.12.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20602,8 +20602,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-http:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http:4.2.16.Final",
                 "parents": [
                     "com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781"
                 ],
@@ -20611,7 +20611,7 @@
                     "com.amazonaws:aws-java-sdk:1.12.781"
                 ],
                 "hierarchies": [
-                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.12.Final"
+                    "com.amazonaws:aws-java-sdk:1.12.781 -> com.amazonaws:aws-java-sdk-kinesisvideo:1.12.781 -> io.netty:netty-codec-http:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20624,16 +20624,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-marshalling",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-marshalling:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-marshalling:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-marshalling:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-marshalling:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20644,16 +20644,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-marshalling",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-marshalling:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-marshalling:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-marshalling:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-marshalling:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20666,16 +20666,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-memcache",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-memcache:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-memcache:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-memcache:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-memcache:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20686,16 +20686,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-memcache",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-memcache:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-memcache:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-memcache:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-memcache:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20708,16 +20708,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-mqtt",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-mqtt:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-mqtt:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-mqtt:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-mqtt:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20728,16 +20728,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-mqtt",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-mqtt:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-mqtt:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-mqtt:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-mqtt:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20750,16 +20750,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-native-quic",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-native-quic:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-native-quic:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-native-quic:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-native-quic:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20772,16 +20772,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-protobuf",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-protobuf:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-protobuf:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-protobuf:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-protobuf:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20792,16 +20792,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-protobuf",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-protobuf:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-protobuf:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-protobuf:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-protobuf:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20814,16 +20814,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-redis",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-redis:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-redis:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-redis:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-redis:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20834,16 +20834,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-redis",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-redis:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-redis:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-redis:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-redis:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20856,16 +20856,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-smtp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-smtp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-smtp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-smtp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-smtp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20876,16 +20876,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-smtp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-smtp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-smtp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-smtp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-smtp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20898,16 +20898,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-socks:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-socks:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20918,16 +20918,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-socks:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-socks:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20940,16 +20940,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-stomp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-stomp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-stomp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-stomp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-stomp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20960,16 +20960,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-stomp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-stomp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-stomp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-stomp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-stomp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -20982,16 +20982,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-xml",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-xml:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-xml:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-xml:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-xml:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21002,16 +21002,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-xml",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec-xml:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-xml:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec-xml:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec-xml:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21024,16 +21024,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21044,16 +21044,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-codec:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-codec:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-codec:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21066,16 +21066,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-common:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.2.12.Final"
+                    "io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final -> io.netty:netty-common:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final -> io.netty:netty-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21086,16 +21086,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-common:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.2.12.Final"
+                    "io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final -> io.netty:netty-common:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final -> io.netty:netty-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21108,16 +21108,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-proxy:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21128,16 +21128,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-proxy:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21150,16 +21150,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-ssl-ocsp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-ssl-ocsp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-handler-ssl-ocsp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21170,16 +21170,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-ssl-ocsp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler-ssl-ocsp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-handler-ssl-ocsp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-handler-ssl-ocsp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21192,8 +21192,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-handler:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler:4.2.16.Final",
                 "parents": [
                     "com.datastax.oss:java-driver-core:4.14.1"
                 ],
@@ -21201,7 +21201,7 @@
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21212,8 +21212,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-handler:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler:4.2.16.Final",
                 "parents": [
                     "com.datastax.oss:java-driver-core:4.14.1"
                 ],
@@ -21221,7 +21221,7 @@
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21234,16 +21234,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-classes-macos",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns-native-macos:4.2.12.Final"
+                    "io.netty:netty-resolver-dns-native-macos:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-resolver-dns-native-macos:4.2.16.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21254,16 +21254,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-classes-macos",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver-dns-classes-macos:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21276,16 +21276,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns-native-macos",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver-dns-native-macos:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver-dns-native-macos:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-resolver-dns-native-macos:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21298,16 +21298,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver-dns:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver-dns:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-resolver-dns-classes-macos:4.2.12.Final"
+                    "io.netty:netty-resolver-dns-classes-macos:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns-native-macos:4.2.12.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.12.Final -> io.netty:netty-resolver-dns:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-resolver-dns-native-macos:4.2.16.Final -> io.netty:netty-resolver-dns-classes-macos:4.2.16.Final -> io.netty:netty-resolver-dns:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21318,16 +21318,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver-dns",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver-dns:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver-dns:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-resolver-dns:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-resolver-dns:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21340,16 +21340,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.12.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21360,16 +21360,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-resolver:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.2.12.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final -> io.netty:netty-resolver:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21382,16 +21382,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-epoll:4.2.12.Final"
+                    "io.netty:netty-transport-native-epoll:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-epoll:4.2.12.Final -> io.netty:netty-transport-classes-epoll:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-native-epoll:4.2.16.Final -> io.netty:netty-transport-classes-epoll:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21402,16 +21402,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-classes-epoll:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-classes-epoll:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21424,16 +21424,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-io_uring",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-io_uring:4.2.12.Final"
+                    "io.netty:netty-transport-native-io_uring:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-io_uring:4.2.12.Final -> io.netty:netty-transport-classes-io_uring:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-native-io_uring:4.2.16.Final -> io.netty:netty-transport-classes-io_uring:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21444,16 +21444,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-io_uring",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-io_uring:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-classes-io_uring:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-classes-io_uring:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21466,16 +21466,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-kqueue",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-kqueue:4.2.12.Final"
+                    "io.netty:netty-transport-native-kqueue:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-kqueue:4.2.12.Final -> io.netty:netty-transport-classes-kqueue:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-native-kqueue:4.2.16.Final -> io.netty:netty-transport-classes-kqueue:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21486,16 +21486,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-kqueue",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-kqueue:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-classes-kqueue:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-classes-kqueue:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21508,16 +21508,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-epoll",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-native-epoll:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-epoll:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-epoll:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-native-epoll:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21530,16 +21530,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-io_uring",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-native-io_uring:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-io_uring:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-io_uring:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-native-io_uring:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21552,16 +21552,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-kqueue",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-native-kqueue:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-kqueue:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-native-kqueue:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-native-kqueue:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21574,16 +21574,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.12.Final"
+                    "io.netty:netty-handler:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-transport-native-unix-common:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-transport-native-unix-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21594,16 +21594,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.2.12.Final"
+                    "io.netty:netty-handler:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-transport-native-unix-common:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-transport-native-unix-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21616,16 +21616,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-rxtx",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-rxtx:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-rxtx:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-rxtx:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-rxtx:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21636,16 +21636,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-rxtx",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-rxtx:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-rxtx:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-rxtx:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-rxtx:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21658,16 +21658,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-sctp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-sctp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-sctp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-sctp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-sctp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21678,16 +21678,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-sctp",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-sctp:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-sctp:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-sctp:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-sctp:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21700,16 +21700,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-udt",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-udt:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-udt:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-udt:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-udt:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21720,16 +21720,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-udt",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport-udt:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-udt:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> io.netty:netty-transport-udt:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final -> io.netty:netty-transport-udt:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21742,16 +21742,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-base:4.2.12.Final"
+                    "io.netty:netty-codec-base:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21762,16 +21762,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.2.12.Final",
-                "coordinates": "io.netty:netty-transport:4.2.12.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-base:4.2.12.Final"
+                    "io.netty:netty-codec-base:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.12.Final -> io.netty:netty-codec-base:4.2.12.Final -> io.netty:netty-transport:4.2.12.Final"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21829,13 +21829,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -21849,13 +21849,13 @@
                 "version": "1.2.2",
                 "coordinates": "jakarta.activation:jakarta.activation-api:1.2.2",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> jakarta.activation:jakarta.activation-api:1.2.2"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> jakarta.activation:jakarta.activation-api:1.2.2"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22045,7 +22045,7 @@
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22065,7 +22065,7 @@
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> javax.xml.bind:jaxb-api:2.3.1 -> javax.activation:javax.activation-api:1.2.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22185,13 +22185,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22205,13 +22205,13 @@
                 "version": "1.3",
                 "coordinates": "javax.transaction:javax.transaction-api:1.3",
                 "parents": [
-                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4"
+                    "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.19.4 -> javax.transaction:javax.transaction-api:1.3"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.0-rc1 -> javax.transaction:javax.transaction-api:1.3"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22289,13 +22289,13 @@
                 "version": "2.3.1",
                 "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -22309,13 +22309,13 @@
                 "version": "2.3.1",
                 "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
                 "parents": [
-                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4"
+                    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1"
                 ],
                 "topLevelParents": [
                     "org.springframework.data:spring-data-cassandra:3.4.6"
                 ],
                 "hierarchies": [
-                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.19.4 -> com.fasterxml.jackson:jackson-bom:2.19.4 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.19.4 -> javax.xml.bind:jaxb-api:2.3.1"
+                    "org.springframework.data:spring-data-cassandra:3.4.6 -> com.datastax.oss:java-driver-query-builder:4.14.1 -> com.datastax.oss:java-driver-core:4.14.1 -> com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1 -> com.fasterxml.jackson:jackson-bom:2.20.0-rc1 -> com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.0-rc1 -> javax.xml.bind:jaxb-api:2.3.1"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24670,16 +24670,16 @@
             {
                 "group": "org.jctools",
                 "name": "jctools-core",
-                "version": "4.0.5",
-                "coordinates": "org.jctools:jctools-core:4.0.5",
+                "version": "4.0.6",
+                "coordinates": "org.jctools:jctools-core:4.0.6",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> org.jctools:jctools-core:4.0.5"
+                    "io.netty:netty-all:4.2.16.Final -> org.jctools:jctools-core:4.0.6"
                 ],
                 "declaredDirectProjects": [
                     
@@ -24690,16 +24690,16 @@
             {
                 "group": "org.jctools",
                 "name": "jctools-core",
-                "version": "4.0.5",
-                "coordinates": "org.jctools:jctools-core:4.0.5",
+                "version": "4.0.6",
+                "coordinates": "org.jctools:jctools-core:4.0.6",
                 "parents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "topLevelParents": [
-                    "io.netty:netty-all:4.2.12.Final"
+                    "io.netty:netty-all:4.2.16.Final"
                 ],
                 "hierarchies": [
-                    "io.netty:netty-all:4.2.12.Final -> org.jctools:jctools-core:4.0.5"
+                    "io.netty:netty-all:4.2.16.Final -> org.jctools:jctools-core:4.0.6"
                 ],
                 "declaredDirectProjects": [
                     
