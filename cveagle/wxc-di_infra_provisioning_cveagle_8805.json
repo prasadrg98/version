@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-infra-provisioning",
-    "generatedAt": "2026-08-03T15:13:44+0000",
+    "generatedAt": "2026-08-04T04:09:47+0000",
     "depsGraphName": "wxc-di_infra_provisioning_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -20967,90 +20967,6 @@
                 "resolved": true
             }
         ],
-        "micrometer-commons": [
-            {
-                "group": "io.micrometer",
-                "name": "micrometer-commons",
-                "version": "1.15.10",
-                "coordinates": "io.micrometer:micrometer-commons:1.15.10",
-                "parents": [
-                    "io.micrometer:micrometer-observation:1.15.10"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> io.micrometer:micrometer-observation:1.15.10 -> io.micrometer:micrometer-commons:1.15.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "io.micrometer",
-                "name": "micrometer-commons",
-                "version": "1.15.10",
-                "coordinates": "io.micrometer:micrometer-commons:1.15.10",
-                "parents": [
-                    "io.micrometer:micrometer-observation:1.15.10"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> io.micrometer:micrometer-observation:1.15.10 -> io.micrometer:micrometer-commons:1.15.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
-        "micrometer-observation": [
-            {
-                "group": "io.micrometer",
-                "name": "micrometer-observation",
-                "version": "1.15.10",
-                "coordinates": "io.micrometer:micrometer-observation:1.15.10",
-                "parents": [
-                    "org.springframework:spring-context:6.2.17"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> io.micrometer:micrometer-observation:1.15.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "io.micrometer",
-                "name": "micrometer-observation",
-                "version": "1.15.10",
-                "coordinates": "io.micrometer:micrometer-observation:1.15.10",
-                "parents": [
-                    "org.springframework:spring-context:6.2.17"
-                ],
-                "topLevelParents": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
-                ],
-                "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> io.micrometer:micrometer-observation:1.15.10"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            }
-        ],
         "netty-all": [
             {
                 "group": "io.netty",
@@ -26839,16 +26755,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-aop",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-aop:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-aop:5.3.34",
                 "parents": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> org.springframework:spring-aop:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-aop:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26859,16 +26775,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-aop",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-aop:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-aop:5.3.34",
                 "parents": [
-                    "org.springframework:spring-aop:6.2.17"
+                    "org.springframework:spring-aop:5.3.34"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-aop:6.2.17"
+                    "org.springframework:spring-aop:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-aop:6.2.17"
+                    "org.springframework:spring-aop:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -26879,16 +26795,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-aop",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-aop:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-aop:5.3.34",
                 "parents": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> org.springframework:spring-aop:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-aop:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26901,16 +26817,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-beans",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-beans:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-beans:5.3.34",
                 "parents": [
-                    "org.springframework:spring-tx:6.2.17"
+                    "org.springframework:spring-tx:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17 -> org.springframework:spring-beans:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-beans:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -26921,16 +26837,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-beans",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-beans:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-beans:5.3.34",
                 "parents": [
-                    "org.springframework:spring-beans:6.2.17"
+                    "org.springframework:spring-beans:5.3.34"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-beans:6.2.17"
+                    "org.springframework:spring-beans:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-beans:6.2.17"
+                    "org.springframework:spring-beans:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -26941,16 +26857,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-beans",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-beans:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-beans:5.3.34",
                 "parents": [
-                    "org.springframework:spring-tx:6.2.17"
+                    "org.springframework:spring-tx:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17 -> org.springframework:spring-beans:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-beans:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27005,8 +26921,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-context",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-context:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-context:5.3.34",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
@@ -27014,7 +26930,7 @@
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27025,16 +26941,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-context",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-context:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-context:5.3.34",
                 "parents": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -27045,8 +26961,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-context",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-context:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-context:5.3.34",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
@@ -27054,7 +26970,7 @@
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27067,16 +26983,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-core",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-core:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-core:5.3.34",
                 "parents": [
-                    "org.springframework:spring-tx:6.2.17"
+                    "org.springframework:spring-tx:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17 -> org.springframework:spring-core:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27087,16 +27003,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-core",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-core:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-core:5.3.34",
                 "parents": [
-                    "org.springframework:spring-core:6.2.17"
+                    "org.springframework:spring-core:5.3.34"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-core:6.2.17"
+                    "org.springframework:spring-core:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-core:6.2.17"
+                    "org.springframework:spring-core:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -27107,16 +27023,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-core",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-core:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-core:5.3.34",
                 "parents": [
-                    "org.springframework:spring-tx:6.2.17"
+                    "org.springframework:spring-tx:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17 -> org.springframework:spring-core:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27129,16 +27045,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-expression",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-expression:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-expression:5.3.34",
                 "parents": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> org.springframework:spring-expression:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-expression:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27149,16 +27065,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-expression",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-expression:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-expression:5.3.34",
                 "parents": [
-                    "org.springframework:spring-context:6.2.17"
+                    "org.springframework:spring-context:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-spring:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:6.2.17 -> org.springframework:spring-expression:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-spring:4.20.0 -> org.springframework:spring-context:5.3.34 -> org.springframework:spring-expression:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27171,16 +27087,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-jcl",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-jcl:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-jcl:5.3.34",
                 "parents": [
-                    "org.springframework:spring-core:6.2.17"
+                    "org.springframework:spring-core:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17 -> org.springframework:spring-core:6.2.17 -> org.springframework:spring-jcl:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34 -> org.springframework:spring-jcl:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27191,16 +27107,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-jcl",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-jcl:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-jcl:5.3.34",
                 "parents": [
-                    "org.springframework:spring-core:6.2.17"
+                    "org.springframework:spring-core:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17 -> org.springframework:spring-core:6.2.17 -> org.springframework:spring-jcl:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34 -> org.springframework:spring-core:5.3.34 -> org.springframework:spring-jcl:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27213,8 +27129,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-jdbc",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-jdbc:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-jdbc:5.3.34",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
@@ -27222,7 +27138,7 @@
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27233,8 +27149,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-jdbc",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-jdbc:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-jdbc:5.3.34",
                 "parents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
@@ -27242,7 +27158,7 @@
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27255,16 +27171,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-orm",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-orm:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-orm:5.3.34",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27275,16 +27191,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-orm",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-orm:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-orm:5.3.34",
                 "parents": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -27295,16 +27211,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-orm",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-orm:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-orm:5.3.34",
                 "parents": [
                     
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-orm:6.2.17"
+                    "org.springframework:spring-orm:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27359,16 +27275,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-tx",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-tx:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-tx:5.3.34",
                 "parents": [
-                    "org.springframework:spring-jdbc:6.2.17"
+                    "org.springframework:spring-jdbc:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27379,16 +27295,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-tx",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-tx:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-tx:5.3.34",
                 "parents": [
-                    "org.springframework:spring-jdbc:6.2.17"
+                    "org.springframework:spring-jdbc:5.3.34"
                 ],
                 "topLevelParents": [
                     "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0"
                 ],
                 "hierarchies": [
-                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:6.2.17 -> org.springframework:spring-tx:6.2.17"
+                    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:4.20.0 -> org.springframework:spring-jdbc:5.3.34 -> org.springframework:spring-tx:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27401,8 +27317,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-web",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-web:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-web:5.3.34",
                 "parents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
@@ -27410,7 +27326,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:6.2.17"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27421,16 +27337,16 @@
             {
                 "group": "org.springframework",
                 "name": "spring-web",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-web:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-web:5.3.34",
                 "parents": [
-                    "org.springframework:spring-web:6.2.17"
+                    "org.springframework:spring-web:5.3.34"
                 ],
                 "topLevelParents": [
-                    "org.springframework:spring-web:6.2.17"
+                    "org.springframework:spring-web:5.3.34"
                 ],
                 "hierarchies": [
-                    "org.springframework:spring-web:6.2.17"
+                    "org.springframework:spring-web:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-infra-provisioning-webapp"
@@ -27441,8 +27357,8 @@
             {
                 "group": "org.springframework",
                 "name": "spring-web",
-                "version": "6.2.17",
-                "coordinates": "org.springframework:spring-web:6.2.17",
+                "version": "5.3.34",
+                "coordinates": "org.springframework:spring-web:5.3.34",
                 "parents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
@@ -27450,7 +27366,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:6.2.17"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> org.springframework:spring-web:5.3.34"
                 ],
                 "declaredDirectProjects": [
                     
