@@ -1,6 +1,6 @@
 {
     "rootProject": "migration-sync-provider",
-    "generatedAt": "2026-08-03T15:49:55+0000",
+    "generatedAt": "2026-08-05T09:09:19+0000",
     "depsGraphName": "migration-sync-provider_cveagle_3973",
     "pluginRepositorySources": [
         "https://plugins.gradle.org/m2"
@@ -7432,8 +7432,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-bom",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-bom:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-bom:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-core-bom:4.0.1"
                 ],
@@ -7441,7 +7441,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7452,8 +7452,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-bom",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-bom:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-bom:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-core-bom:4.0.1"
                 ],
@@ -7461,7 +7461,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7474,8 +7474,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-buffer:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-buffer:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-buffer-netty:4.0.1"
                 ],
@@ -7483,7 +7483,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.micronaut:micronaut-buffer-netty:4.0.1 -> io.netty:netty-buffer:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.micronaut:micronaut-buffer-netty:4.0.1 -> io.netty:netty-buffer:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7494,16 +7494,100 @@
             {
                 "group": "io.netty",
                 "name": "netty-buffer",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-buffer:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-buffer:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.94.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-codec:4.1.94.Final -> io.netty:netty-transport:4.1.94.Final -> io.netty:netty-buffer:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-buffer:4.2.16.Final"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "netty-codec-base": [
+            {
+                "group": "io.netty",
+                "name": "netty-codec-base",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-base:4.2.16.Final",
+                "parents": [
+                    "io.netty:netty-handler:4.2.16.Final"
+                ],
+                "topLevelParents": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1"
+                ],
+                "hierarchies": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "io.netty",
+                "name": "netty-codec-base",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-base:4.2.16.Final",
+                "parents": [
+                    "io.netty:netty-handler:4.2.16.Final"
+                ],
+                "topLevelParents": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1"
+                ],
+                "hierarchies": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "netty-codec-compression": [
+            {
+                "group": "io.netty",
+                "name": "netty-codec-compression",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-compression:4.2.16.Final",
+                "parents": [
+                    "io.netty:netty-codec-http:4.2.16.Final"
+                ],
+                "topLevelParents": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1"
+                ],
+                "hierarchies": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-codec-http:4.2.16.Final -> io.netty:netty-codec-compression:4.2.16.Final"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "io.netty",
+                "name": "netty-codec-compression",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-compression:4.2.16.Final",
+                "parents": [
+                    "io.netty:netty-codec-http:4.2.16.Final"
+                ],
+                "topLevelParents": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1"
+                ],
+                "hierarchies": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-codec-http:4.2.16.Final -> io.netty:netty-codec-compression:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7516,8 +7600,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-http-netty:4.0.1"
                 ],
@@ -7525,7 +7609,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.micronaut:micronaut-http-netty:4.0.1 -> io.netty:netty-codec-http2:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.micronaut:micronaut-http-netty:4.0.1 -> io.netty:netty-codec-http2:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7536,8 +7620,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http2",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec-http2:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http2:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-http-netty:4.0.1"
                 ],
@@ -7545,7 +7629,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.micronaut:micronaut-http-netty:4.0.1 -> io.netty:netty-codec-http2:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.micronaut:micronaut-http-netty:4.0.1 -> io.netty:netty-codec-http2:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7558,16 +7642,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec-http:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler-proxy:4.1.94.Final"
+                    "io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-codec-http:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7578,16 +7662,60 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-http",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec-http:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-http:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler-proxy:4.1.94.Final"
+                    "io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-codec-http:4.2.16.Final"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "netty-codec-marshalling": [
+            {
+                "group": "io.netty",
+                "name": "netty-codec-marshalling",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-marshalling:4.2.16.Final",
+                "parents": [
+                    "io.netty:netty-bom:4.2.16.Final"
+                ],
+                "topLevelParents": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1"
+                ],
+                "hierarchies": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.2.16.Final -> io.netty:netty-codec-marshalling:4.2.16.Final"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "netty-codec-protobuf": [
+            {
+                "group": "io.netty",
+                "name": "netty-codec-protobuf",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-protobuf:4.2.16.Final",
+                "parents": [
+                    "io.netty:netty-bom:4.2.16.Final"
+                ],
+                "topLevelParents": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1"
+                ],
+                "hierarchies": [
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.2.16.Final -> io.netty:netty-codec-protobuf:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7600,16 +7728,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler-proxy:4.1.94.Final"
+                    "io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-socks:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-codec-socks:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7620,16 +7748,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec-socks",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec-socks:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec-socks:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler-proxy:4.1.94.Final"
+                    "io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-socks:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-codec-socks:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7642,36 +7770,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-codec",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-codec:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.1.94.Final"
+                    "io.netty:netty-bom:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-codec:4.1.94.Final"
-                ],
-                "declaredDirectProjects": [
-                    
-                ],
-                "declaredDirect": false,
-                "resolved": true
-            },
-            {
-                "group": "io.netty",
-                "name": "netty-codec",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-codec:4.1.94.Final",
-                "parents": [
-                    "io.netty:netty-handler:4.1.94.Final"
-                ],
-                "topLevelParents": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1"
-                ],
-                "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-codec:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-bom:4.2.16.Final -> io.netty:netty-codec:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7684,16 +7792,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-common:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-buffer:4.1.94.Final"
+                    "io.netty:netty-buffer:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.micronaut:micronaut-buffer-netty:4.0.1 -> io.netty:netty-buffer:4.1.94.Final -> io.netty:netty-common:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.micronaut:micronaut-buffer-netty:4.0.1 -> io.netty:netty-buffer:4.2.16.Final -> io.netty:netty-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7704,16 +7812,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-common",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-common:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-resolver:4.1.94.Final"
+                    "io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-codec:4.1.94.Final -> io.netty:netty-transport:4.1.94.Final -> io.netty:netty-resolver:4.1.94.Final -> io.netty:netty-common:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final -> io.netty:netty-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7726,8 +7834,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-core-bom:4.0.1"
                 ],
@@ -7735,7 +7843,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7746,8 +7854,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler-proxy",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-handler-proxy:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler-proxy:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-http-client:4.0.1"
                 ],
@@ -7755,7 +7863,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7768,16 +7876,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-handler:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-http:4.1.94.Final"
+                    "io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7788,16 +7896,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-handler",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-handler:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-handler:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec-http:4.1.94.Final"
+                    "io.netty:netty-handler-proxy:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7810,16 +7918,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-resolver:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.94.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.1.94.Final -> io.netty:netty-transport-classes-epoll:4.1.94.Final -> io.netty:netty-transport-native-unix-common:4.1.94.Final -> io.netty:netty-transport:4.1.94.Final -> io.netty:netty-resolver:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.2.16.Final -> io.netty:netty-transport-classes-epoll:4.2.16.Final -> io.netty:netty-transport-native-unix-common:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7830,16 +7938,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-resolver",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-resolver:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-resolver:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport:4.1.94.Final"
+                    "io.netty:netty-transport:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-codec:4.1.94.Final -> io.netty:netty-transport:4.1.94.Final -> io.netty:netty-resolver:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final -> io.netty:netty-resolver:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7852,16 +7960,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-classes-epoll",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-transport-classes-epoll:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-classes-epoll:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-epoll:4.1.94.Final"
+                    "io.netty:netty-transport-native-epoll:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.1.94.Final -> io.netty:netty-transport-classes-epoll:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.2.16.Final -> io.netty:netty-transport-classes-epoll:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7874,8 +7982,8 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-epoll",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-transport-native-epoll:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-epoll:4.2.16.Final",
                 "parents": [
                     "io.micronaut:micronaut-core-bom:4.0.1"
                 ],
@@ -7883,7 +7991,7 @@
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7896,16 +8004,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport-classes-epoll:4.1.94.Final"
+                    "io.netty:netty-transport-classes-epoll:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.1.94.Final -> io.netty:netty-transport-classes-epoll:4.1.94.Final -> io.netty:netty-transport-native-unix-common:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.2.16.Final -> io.netty:netty-transport-classes-epoll:4.2.16.Final -> io.netty:netty-transport-native-unix-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7916,16 +8024,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport-native-unix-common",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-transport-native-unix-common:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport-native-unix-common:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-handler:4.1.94.Final"
+                    "io.netty:netty-handler:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-transport-native-unix-common:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-transport-native-unix-common:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7938,16 +8046,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-transport:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-transport-native-unix-common:4.1.94.Final"
+                    "io.netty:netty-transport-native-unix-common:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.1.94.Final -> io.netty:netty-transport-classes-epoll:4.1.94.Final -> io.netty:netty-transport-native-unix-common:4.1.94.Final -> io.netty:netty-transport:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.validation:micronaut-validation-bom:4.0.1 -> io.micronaut.validation:micronaut-validation:4.0.1 -> io.micronaut:micronaut-core-bom:4.0.1 -> io.netty:netty-transport-native-epoll:4.2.16.Final -> io.netty:netty-transport-classes-epoll:4.2.16.Final -> io.netty:netty-transport-native-unix-common:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
@@ -7958,16 +8066,16 @@
             {
                 "group": "io.netty",
                 "name": "netty-transport",
-                "version": "4.1.94.Final",
-                "coordinates": "io.netty:netty-transport:4.1.94.Final",
+                "version": "4.2.16.Final",
+                "coordinates": "io.netty:netty-transport:4.2.16.Final",
                 "parents": [
-                    "io.netty:netty-codec:4.1.94.Final"
+                    "io.netty:netty-codec-base:4.2.16.Final"
                 ],
                 "topLevelParents": [
                     "io.micronaut.platform:micronaut-platform:4.0.1"
                 ],
                 "hierarchies": [
-                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.1.94.Final -> io.netty:netty-codec-http:4.1.94.Final -> io.netty:netty-handler:4.1.94.Final -> io.netty:netty-codec:4.1.94.Final -> io.netty:netty-transport:4.1.94.Final"
+                    "io.micronaut.platform:micronaut-platform:4.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-bom:2.0.1 -> io.micronaut.rxjava2:micronaut-rxjava2-http-client:2.0.1 -> io.micronaut:micronaut-http-client:4.0.1 -> io.netty:netty-handler-proxy:4.2.16.Final -> io.netty:netty-handler:4.2.16.Final -> io.netty:netty-codec-base:4.2.16.Final -> io.netty:netty-transport:4.2.16.Final"
                 ],
                 "declaredDirectProjects": [
                     
