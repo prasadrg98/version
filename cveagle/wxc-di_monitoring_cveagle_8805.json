@@ -1,6 +1,6 @@
 {
     "rootProject": "monitoring",
-    "generatedAt": "2026-08-05T15:00:10+0000",
+    "generatedAt": "2026-08-05T16:08:30+0000",
     "depsGraphName": "wxc-di_monitoring_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -21381,6 +21381,68 @@
                 ],
                 "hierarchies": [
                     "com.webcohesion.enunciate:enunciate-core-annotations:2.14.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "HikariCP": [
+            {
+                "group": "com.zaxxer",
+                "name": "HikariCP",
+                "version": "5.1.0",
+                "coordinates": "com.zaxxer:HikariCP:5.1.0",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.zaxxer:HikariCP:5.1.0"
+                ],
+                "hierarchies": [
+                    "com.zaxxer:HikariCP:5.1.0"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.zaxxer",
+                "name": "HikariCP",
+                "version": "5.1.0",
+                "coordinates": "com.zaxxer:HikariCP:5.1.0",
+                "parents": [
+                    "com.zaxxer:HikariCP:5.1.0"
+                ],
+                "topLevelParents": [
+                    "com.zaxxer:HikariCP:5.1.0"
+                ],
+                "hierarchies": [
+                    "com.zaxxer:HikariCP:5.1.0"
+                ],
+                "declaredDirectProjects": [
+                    ":monitoring-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.zaxxer",
+                "name": "HikariCP",
+                "version": "5.1.0",
+                "coordinates": "com.zaxxer:HikariCP:5.1.0",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.zaxxer:HikariCP:5.1.0"
+                ],
+                "hierarchies": [
+                    "com.zaxxer:HikariCP:5.1.0"
                 ],
                 "declaredDirectProjects": [
                     
