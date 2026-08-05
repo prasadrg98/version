@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-analyzer",
-    "generatedAt": "2026-08-05T17:11:40+0000",
+    "generatedAt": "2026-08-05T18:18:15+0000",
     "depsGraphName": "wxc-di_analyzer_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
