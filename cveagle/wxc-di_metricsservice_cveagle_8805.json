@@ -1,6 +1,6 @@
 {
     "rootProject": "ucmgmt-metrics-service",
-    "generatedAt": "2026-08-06T13:09:06+0000",
+    "generatedAt": "2026-08-06T15:37:42+0000",
     "depsGraphName": "wxc-di_metricsservice_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -27598,16 +27598,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-common",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-common:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27618,16 +27618,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-common",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-common:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27640,16 +27640,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27660,16 +27660,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk7",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27682,8 +27682,8 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
@@ -27691,7 +27691,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27702,16 +27702,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "topLevelParents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "hierarchies": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     ":ucmgmt-metrics-service-webapp"
@@ -27722,8 +27722,8 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib-jdk8",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
                 "parents": [
                     "com.squareup.okhttp3:okhttp:4.12.0"
                 ],
@@ -27731,7 +27731,7 @@
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27744,16 +27744,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27764,16 +27764,16 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "name": "kotlin-stdlib",
-                "version": "2.2.21",
-                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+                "version": "1.9.10",
+                "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27789,13 +27789,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib:2.2.21 -> org.jetbrains:annotations:13.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
@@ -27809,13 +27809,13 @@
                 "version": "13.0",
                 "coordinates": "org.jetbrains:annotations:13.0",
                 "parents": [
-                    "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
                 ],
                 "topLevelParents": [
                     "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0"
                 ],
                 "hierarchies": [
-                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.21 -> org.jetbrains.kotlin:kotlin-stdlib:2.2.21 -> org.jetbrains:annotations:13.0"
+                    "com.cisco.collab.collab-filters:collab-filters-spring-webauth:1.30.0 -> com.cisco.collab.ci-client:ci-client-services:3.0.3 -> io.github.openfeign:feign-okhttp:10.2.0 -> com.squareup.okhttp3:okhttp:4.12.0 -> org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10 -> org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> org.jetbrains:annotations:13.0"
                 ],
                 "declaredDirectProjects": [
                     
