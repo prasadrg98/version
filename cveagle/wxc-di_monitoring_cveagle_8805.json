@@ -1,6 +1,6 @@
 {
     "rootProject": "monitoring",
-    "generatedAt": "2026-08-06T13:31:41+0000",
+    "generatedAt": "2026-08-06T14:06:50+0000",
     "depsGraphName": "wxc-di_monitoring_cveagle_8805",
     "pluginRepositorySources": [
         "https://engci-maven.cisco.com/artifactory/ncs-ctg-libs-group",
@@ -19477,6 +19477,68 @@
                 ],
                 "hierarchies": [
                     "org.hibernate:hibernate-c3p0:5.6.15.Final -> org.hibernate:hibernate-core:5.6.15.Final -> com.fasterxml:classmate:1.5.1"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            }
+        ],
+        "caffeine": [
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "name": "caffeine",
+                "version": "2.9.3",
+                "coordinates": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
+                ],
+                "hierarchies": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
+                ],
+                "declaredDirectProjects": [
+                    
+                ],
+                "declaredDirect": false,
+                "resolved": true
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "name": "caffeine",
+                "version": "2.9.3",
+                "coordinates": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+                "parents": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
+                ],
+                "topLevelParents": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
+                ],
+                "hierarchies": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
+                ],
+                "declaredDirectProjects": [
+                    ":monitoring-webapp"
+                ],
+                "declaredDirect": true,
+                "resolved": true
+            },
+            {
+                "group": "com.github.ben-manes.caffeine",
+                "name": "caffeine",
+                "version": "2.9.3",
+                "coordinates": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+                "parents": [
+                    
+                ],
+                "topLevelParents": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
+                ],
+                "hierarchies": [
+                    "com.github.ben-manes.caffeine:caffeine:2.9.3"
                 ],
                 "declaredDirectProjects": [
                     
